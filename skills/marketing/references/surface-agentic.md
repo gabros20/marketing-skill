@@ -40,9 +40,10 @@ table was applied to the agent's output, not silently skipped because no human d
 
 ## Scaled content is purpose-tested, not authorship-tested
 
-Google's spam policies (developers.google.com/search/docs/essentials/spam-policies, last updated
-**2026-05-15**) classify **scaled-content abuse by its purpose, not by whether AI wrote it** —
-"Google penalises AI content" is false as stated, and this pack does not ship it. The durable rule
+Google's spam policies classify **scaled-content abuse by its purpose, not by whether AI wrote
+it** — "Google penalises AI content" is false as stated, and this pack does not ship it. Exact
+quote, date, and re-verify pointer:
+[seo-strategy.md](seo-strategy.md#four-myths-googles-own-docs-kill--with-dates). The durable rule
 that survives the platform-behavior detail is **information gain**: content generated at scale that
 adds no signal a reader couldn't already get elsewhere is the target, regardless of whether a human
 or a model produced it; content that adds real information gain is not penalized for its authorship.

@@ -31,8 +31,9 @@ be reported as the same fact.
 | `utm_term` | | Keyword, paid search only |
 
 Rather than inventing a channel taxonomy, start from one already implemented and documented —
-Plausible's acquisition module classifies every visit into 17 channels via a first-match-wins
-precedence cascade, and adds an **AI Assistants** channel that GA4 lacks.
+Plausible's acquisition module classifies every visit into 19 channels (as-of 2026-08-01 —
+re-verify against lib/plausible/ingestion/acquisition.ex before citing an exact count) via a
+first-match-wins precedence cascade, and adds an **AI Assistants** channel that GA4 lacks.
 
 Two disambiguation rules worth copying: detect a paid medium by pattern (anything containing "cp",
 "ppc", or starting with "paid"), not an exact-match list, because campaigns are routinely

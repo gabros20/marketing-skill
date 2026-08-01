@@ -63,7 +63,7 @@ use:
 | `coreyhaines31/marketingskills` | MIT | ORB model, five-phase rollout; attribution file as acknowledged benchmark |
 | `google/meridian` | Apache-2.0 | MMM data-history floors, causal-not-predictive scope, calibration-prior mechanism, cited to file:line |
 | `facebookexperimental/Robyn` | MIT | MMM data floors, adstock/saturation transform, lift-calibration penalty, cited to file:line |
-| `plausible/analytics` | AGPLv3 | The 17-channel acquisition taxonomy, cited to its source file. Concepts and file citations only — no code vendoring |
+| `plausible/analytics` | AGPLv3 | The 19-channel acquisition taxonomy (as-of 2026-08-01 — re-verify against lib/plausible/ingestion/acquisition.ex before citing an exact count), cited to its source file. Concepts and file citations only — no code vendoring |
 | `orbit-love/orbit-model` | MIT | The gravity/reach/love community framework |
 | `ai-robots-txt/ai.robots.txt` | MIT | The maintained AI-crawler user-agent list |
 | `github/awesome-copilot` (`gtm-positioning-strategy`, Smit Patel) | MIT | Crawl-Walk-Run repositioning rollout; defensibility hierarchy |

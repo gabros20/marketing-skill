@@ -36,6 +36,8 @@ automated campaign's black box.
 - 4. A channel taxonomy by what each format actually does
 - 5. Creative is the targeting — with a caveat
 - 6. The death-spiral rule
+- Validation
+- Failure modes and handoff
 
 ---
 

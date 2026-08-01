@@ -15,34 +15,33 @@ description: >-
 ## Mission and boundary
 
 **Position the product, then create, capture, and attribute demand for it.** What the product is
-and who it's for, said in words a buyer believes. The launch. Being found — in search, in AI
-answers, in an app store, in someone else's newsletter. The page that has to convert the visit. The
-email that has to arrive. The ad budget, and whether it did anything.
+and who it's for, in words a buyer believes. The launch. Being found — in search, AI answers, an
+app store, someone else's newsletter. The page that converts the visit. The email that arrives. The
+ad budget, and whether it did anything.
 
 The scope is the full external-demand surface — positioning, audience, launch, SEO, AI search,
 content, landing pages, email and lifecycle, paid, social and community, partnerships and PR, app
-store optimization, and measurement. It runs across the places demand actually happens: Google
-Search and AI answer engines, Gmail/Outlook/Yahoo inboxes, Meta and Google ad platforms, the App
-Store and Google Play, Product Hunt, integration marketplaces. Those platforms are the terrain,
-never the subject — the techniques are the same; the surfaces say how each one reshapes.
+store optimization, and measurement — across every place demand actually happens: search and AI
+answer engines, inboxes, ad platforms, app stores, launch platforms, integration marketplaces.
+Those platforms are the terrain, never the subject — the techniques are the same; the surfaces say
+how each one reshapes.
 
-**What makes this pack different is that it grades its own evidence.** Marketing's canon mixes
-decades-replicated empirical law with arithmetic heuristics that got repeated until they sounded
-measured. So every claim here carries its tier and the point where it stops applying, every
+**What makes this pack different: it grades its own evidence.** Marketing's canon mixes
+decades-replicated empirical law with heuristics repeated until they sounded measured. So every
+claim here carries its tier and the point where it stops applying, every
 volatile platform fact carries an as-of date and the check that re-verifies it, and the flagship
 job — [attribution-and-measurement](references/attribution-and-measurement.md) ⭐ — answers the
 question the rest of the field avoids: *what actually happened, and what can you honestly know at
-your scale?* Often the answer is "less than the dashboard claims," and saying so is the job.
+your scale?* Often it's "less than the dashboard claims" — and saying so is the job.
 
 **The default reader is one person building a digital product**, with a small budget and no
-analytics team. That is not a simplification of enterprise practice — it changes the answers.
-Platform attribution over-claims by construction, a valid lift test needs scale almost nobody has,
-and marketing-mix modelling needs years of weekly data. What remains at that scale is real, and
-this pack teaches it instead of pretending the enterprise toolkit scales down.
+analytics team — not a simplification of enterprise practice, but a change in the answers: platform
+attribution over-claims by construction, a valid lift test needs scale almost nobody has, and
+marketing-mix modelling needs years of weekly data. What remains at that scale is real, and this
+pack teaches it instead of pretending the enterprise toolkit scales down.
 
-`marketing` writes copy, requirements, briefs, plans, and measurement specs. It ships **no
-production code**, and does not author the price, compose the page, run the experiment, or own the
-pipeline.
+`marketing` writes copy, requirements, briefs, plans, and measurement specs — **no production
+code**; see "Not this skill" below.
 
 Operate independently when invoked alone. When compatible upstream artifacts are provided, use them
 without silently overriding established decisions. Recommend adjacent skills when useful; do not
@@ -83,6 +82,7 @@ invoke them automatically unless the user explicitly requested a composition wor
 | Choose between a brand account, a founder account, or an owned community | [organic-social-and-community](references/organic-social-and-community.md) | Brand-account reach is dying and founders aren't — stated at its real evidence tier; owned vs. rented; the Orbit model with its maintenance status; DevRel is not developer marketing; **an explicit list of what stays folklore here** |
 | Earn distribution through someone else's audience — press, marketplaces, affiliates, co-marketing | [partnerships-pr-and-affiliates](references/partnerships-pr-and-affiliates.md) | The site-reputation-abuse warning that kills a class of partnership pitch; marketplace listings and their traction gates; affiliate mechanics; FTC disclosure; the liveness check before naming any journalist-query service |
 | Get a mobile app found and installed — listing copy, keywords, store experiments | [app-store-optimization](references/app-store-optimization.md) | Also the pack's **mobile-surface authority**. Hard character limits per store; two different keyword-stuffing enforcement philosophies; Custom Product Pages ≠ Product Page Optimization; per-market localization; what stays unverified |
+| Diagnose a decline — traffic, rankings, conversions or inbox placement fell and the cause isn't known | [seo-strategy](references/seo-strategy.md) → then the affected channel reference | Intent-and-coverage diagnosis before volume; the traffic-collapse convergence; what the available data cannot establish |
 
 ### Surfaces
 
@@ -113,9 +113,9 @@ Emitting for downstream work → [handoff](references/handoff.md).
 | Building the campaign workflow itself — triggers, sequences, cross-system sync | `automation` |
 
 **The AARRR note.** A practitioner who knows acquisition → activation → retention → referral →
-revenue will notice this pack covers acquisition and stops. That is a deliberate seam, not a gap:
-**AARRR spans three packs** — `marketing` owns acquisition, `growth` owns the experiments that
-improve conversion across the whole funnel, `success` owns retention. Read the boundaries as where
+revenue will notice this pack covers acquisition and stops — a deliberate seam, not a gap.
+**AARRR spans three packs**: `marketing` owns acquisition, `growth` owns the experiments that
+improve conversion across the funnel, `success` owns retention. Read the boundaries as where
 responsibility for each letter moved, not as territory this pack failed to claim.
 
 ## Universal invariants

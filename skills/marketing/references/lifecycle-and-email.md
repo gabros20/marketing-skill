@@ -105,6 +105,15 @@ send list cannot lawfully be treated the same way everywhere.
   sender's mailing address and unsubscribe mechanism must both stay valid for **at least 60 days**,
   processed without delay and no later than 10 business days. Penalties reach **$1 million for
   individuals, $10 million for businesses** — the strictest ceiling of the four regimes on paper.
+- **Elsewhere → verify the jurisdiction before sending.** These four regimes do not exhaust the
+  field. Any recipient outside them needs its own consent basis checked against that
+  jurisdiction's current law before a send — never default to one of the four by proximity or
+  assumption.
+
+The EU/EEA opt-in rule is a directive, not a regulation — member states transpose it into national
+law with their own enforcement detail, so a single "EU rule" can understate local variance. Germany's
+UWG §7 is a named example of that member-state layer; verify the applicable national transposition,
+not just the directive, before sending into a specific EU country.
 
 Net: opt-in-with-narrow-exception (EU/UK) vs. opt-out-with-disclosure (US) vs.
 consent-with-long-validity-windows (Canada) are structurally different defaults. Segment the send

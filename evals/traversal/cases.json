@@ -60,5 +60,20 @@
       "references/handoff.md"
     ],
     "notes": "The flagship must be read before or alongside paid-acquisition — the question is a measurement-trust question wearing a channel-choice costume. The zero-audience overlay must not load: the product has traffic and reported conversions."
+  },
+  {
+    "id": "solo-dev-launch-stacks-zero-audience-on-developer-tool",
+    "prompt": "I'm a solo developer with zero users, zero followers, and zero mailing list, building a CLI tool for other developers. How should I launch it?",
+    "expected_references": [
+      "references/surface-developer-tool.md",
+      "references/surface-zero-audience.md",
+      "references/go-to-market-and-launch.md"
+    ],
+    "forbidden_references": [
+      "references/surface-selfserve-saas.md",
+      "references/surface-b2b-sales-assisted.md",
+      "references/surface-agentic.md"
+    ],
+    "notes": "Overlay stacking: the zero-audience overlay must load on top of the developer-tool base surface, not replace it or the default. No other base surface may load, and the agentic overlay must not load — no model is authoring or deciding a marketing action here."
   }
 ]

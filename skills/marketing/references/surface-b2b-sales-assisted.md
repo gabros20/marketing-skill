@@ -81,24 +81,16 @@ often the best signal available, not a fallback.
 
 ## The B2B brand/activation split: what is and isn't known
 
-Binet & Field's ~60/40 brand-building-to-activation budget split is a **B2C number**, drawn from the
-IPA Databank — a self-submitted awards corpus, a structurally
-selection-biased sample of agencies entering work they already believe won. A commonly repeated
-claim holds that the B2B-filtered split reverses toward activation. **Never ship a specific B2B
-split as fact.** Secondary sources repeat the claim, but no primary document was located, and it
-does not appear in the LinkedIn B2B Institute's own research library. The honest position, and the
-only one this pack ships: 60/40 is a B2C figure with known selection bias in its own source, B2B
-differs from it in direction, and the exact ratio is unconfirmed — verify before quoting any
-specific number, on either side of the split.
+The 60/40 brand-building/activation split is a B2C awards-corpus figure, not a B2B fact — **never
+ship a specific B2B split**. Full argument and the source's selection bias:
+[marketing-science.md](marketing-science.md#binet--field-and-the-b2b-split-an-awards-corpus-not-a-panel).
 
-Two related B2B-specific findings do clear the bar and are safe to cite: **category entry points**
-(Romaniuk, 2022) — B2B datasets with disclosed sample sizes (business insurance n=606, online-ad
-decision-makers n=311, business banking n=609) show each additional CEP linked in memory lowers
-defection probability by roughly 5%, holding across 16 of 17 products studied — and **double
-jeopardy**, replicated in B2B categories including business banking, business insurance, concrete,
-and aviation fuel, though without disclosed sample sizes in the located sources. Both are the
-strongest B2B-specific evidence this pack found; the unconfirmed B2B brand/activation split above is
-not in the same tier and should never be presented as if it were.
+Category entry points (Romaniuk, 2022) do clear the evidence bar for B2B — sample sizes and effect
+size: [marketing-science.md](marketing-science.md#category-entry-points-the-best-evidenced-b2b-finding).
+A related finding, double jeopardy, replicates in B2B categories including business banking,
+business insurance, concrete, and aviation fuel, though without disclosed sample sizes in the
+located sources. Both are the strongest B2B-specific evidence found; the unconfirmed
+brand/activation split above is not in the same tier and should never be presented as if it were.
 
 Two competitive-posture and segmentation framings from named practitioners are worth carrying into
 this surface's positioning work: Jason Lemkin (@jasonlk, 2026-07-31; see

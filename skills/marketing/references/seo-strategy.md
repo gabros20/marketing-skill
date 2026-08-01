@@ -40,6 +40,8 @@ Produces:
 - The FAQ/HowTo removal — a staleness parable
 - Site-reputation-abuse: a partnership warning
 - Zero-click reality
+- Validation
+- Failure modes and handoff
 
 ## Family ownership: SEO is a seam, not a solo job
 

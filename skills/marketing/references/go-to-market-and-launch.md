@@ -38,6 +38,8 @@ Produces:
 - [4. Product Hunt's enforceable rules](#4-product-hunts-enforceable-rules)
 - [5. The failed-launch pattern](#5-the-failed-launch-pattern)
 - [6. Two frameworks for structuring a launch](#6-two-frameworks-for-structuring-a-launch)
+- [Validation](#validation)
+- [Failure modes and handoff](#failure-modes-and-handoff)
 
 ## 1. GTM motion and the brutal middle
 

@@ -36,6 +36,8 @@ metric.
 - 6. The n=1 answer
 - 7. Validate against brand science, not just conversions
 - 8. A channel taxonomy that already exists
+- Validation
+- Failure modes and handoff
 
 ---
 

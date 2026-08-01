@@ -23,8 +23,8 @@ Inputs: confirmation that no measurable audience exists yet, and which base surf
 stacks on.
 
 Produces: a small set of checkable actions (marketplace gates, platform launch rules) separated
-explicitly from unfalsifiable folklore, and honest acknowledgment of what this pack could not
-verify at this scale.
+explicitly from unfalsifiable folklore, and honest acknowledgment of what could not be verified at
+this scale.
 
 ## Contents
 
@@ -35,34 +35,30 @@ verify at this scale.
 
 ## What is known
 
-**Marketplace listing is a post-traction channel, not a zero-audience one.** The Slack Marketplace
-requires a minimum of **≥5 active workspaces and ≥10 weekly active users before an app may list**
-(Slack developer documentation, as-of 2026-08-01 — re-verify the threshold before build time). "List
-in the marketplaces your users already use" is routinely pitched to pre-launch founders as an early
-channel; the platform's own gate makes it structurally unavailable until traction exists elsewhere
-first. Treat any integration-marketplace listing as a channel to plan for *after* the zero-audience
-phase, not during it.
+**Marketplace listing is a post-traction channel, not a zero-audience one.** The Slack Marketplace's
+traction gate (full detail:
+[partnerships-pr-and-affiliates.md](partnerships-pr-and-affiliates.md#2-marketplace-listings-as-acquisition--with-traction-gates))
+makes it structurally unavailable until traction exists elsewhere first. Treat any
+integration-marketplace listing as a channel to plan for *after* the zero-audience phase, not
+during it.
 
-**Product Hunt's rules are enumerated and enforceable**, and they are the closest thing to a codified
-zero-audience launch primary source this pack found (community guidelines, self-dated 2025-04-11):
-soliciting upvotes, using bots, or incentivizing upvotes is banned and enforced (visits and comments
-may be asked for; upvotes may not); relaunching for a genuinely new iteration is explicitly
-sanctioned, not penalized; the platform names no best weekday and launches at 12:01am Pacific; and
-the ranking algorithm itself is unpublished — anyone claiming to know its weighting is guessing.
+**Product Hunt's rules are enumerated and enforceable** — the closest thing to a codified
+zero-audience launch primary source found. Full ruleset:
+[go-to-market-and-launch.md](go-to-market-and-launch.md#4-product-hunts-enforceable-rules).
 
 **Founder-distribution evidence exists, but is anecdote-tier by construction.** The strongest
-disclosed-numbers case this pack located anywhere in the developer/founder space is Julia Evans'
-(@b0rk) technical-zine business — 1,000+ disclosed sales, zero ad spend, built on free companion
-content (see [surface-developer-tool.md](surface-developer-tool.md) for the full case). That is one
-practitioner, self-reporting her own numbers, in one niche. Set against it, the genre's more typical
-shape: a claim of a large number of organic app users acquired in one week for $0 (@jurree,
-2026-07-28), posted by a 2,700-follower account with its supporting detail behind an unread external
-link — a
-compelling headline with no verifiable mechanism, which is precisely the hazard this overlay exists
-to flag. Both exist in this pack's research; only the first has a checkable number attached to it.
+disclosed-numbers case located anywhere in the developer/founder space is Julia Evans'
+(@b0rk) technical-zine business — one practitioner, self-reporting her own numbers, in one niche.
+Full case:
+[organic-social-and-community.md](organic-social-and-community.md#5-two-counterpoints-worth-naming).
+Set against it, the genre's more typical shape: a claim of a large number of organic app users
+acquired in one week for $0 (@jurree, 2026-07-28), posted by a 2,700-follower account with its
+supporting detail behind an unread external link — a compelling headline with no verifiable
+mechanism, which is precisely the hazard this overlay exists to flag. Both exist in the research;
+only the first has a checkable number attached to it.
 
 **No marketing-science dataset covers a zero-audience founder, in either direction.** Every
-Ehrenberg-Bass dataset this pack located — the double-jeopardy and category-entry-point research
+Ehrenberg-Bass dataset located — the double-jeopardy and category-entry-point research
 covered in [marketing-science.md](marketing-science.md) — requires an existing, measurable buyer
 population with repeat-purchase behavior. A pre-launch, n=1 founder is structurally outside that
 requirement, not a small instance of it. This means the rigorous marketing-science canon offers
@@ -94,7 +90,7 @@ method.
 **"Do things that don't scale" (Paul Graham) is a named piece of practitioner craft, not an
 empirical finding.** It belongs in this pack's vocabulary as a named heuristic — manually recruit
 early users, do the unscalable thing personally rather than automate it before there's anything to
-automate — but it carries no measurement behind it in anything this pack's research located. Cite it
+automate — but no measurement behind it was located anywhere in this research. Cite it
 as craft, in the same register [positioning-and-messaging.md](positioning-and-messaging.md) uses for
 Dunford's positioning method: well-regarded, widely practiced, not evidence-backed.
 

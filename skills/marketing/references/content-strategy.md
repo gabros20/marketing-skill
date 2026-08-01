@@ -36,6 +36,8 @@ Produces:
 - Repurposing
 - The copy-fidelity seam (design owns the ladder; marketing owns what must survive)
 - Named counterpoints: production still matters
+- Validation
+- Failure modes and handoff
 
 ## Content-market fit and distribution beats production
 
@@ -78,10 +80,11 @@ undifferentiated output the next section warns against.
 ## Information gain vs. scaled-content abuse
 
 The durable rule for content volume is **information gain, not authorship method**. Google's own
-spam policy (last updated 2026-05-15) tests purpose and value, not whether AI was involved:
-*"Scaled content abuse is when many pages are generated for the primary purpose of manipulating
-search rankings and not helping users."* Generative AI tooling is named as one instrument among
-several — the policy nowhere prohibits AI-assisted authorship as such. The checkable question for
+spam policy tests purpose and value, not whether AI was involved — pages generated at scale to
+manipulate rankings rather than help users are the target, and generative AI tooling is named as
+one instrument among several, not a blanket prohibition on AI-assisted authorship. Exact quote,
+date, and re-verify pointer:
+[seo-strategy.md](seo-strategy.md#four-myths-googles-own-docs-kill--with-dates). The checkable question for
 any scale decision is not "did a model write this" but "does each page add value a reader
 couldn't get from the page next to it." A heuristic that operationalizes this well, from SEO
 practitioner @patrickstox (2026-06-16): for a class of content that's easy to template

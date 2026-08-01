@@ -61,7 +61,7 @@ shape: companies with self-serve revenue are meaningfully more likely to be prof
 without (secondhand citation via @tomxecom, 2025-03-31, citing @wes_bush/ProductLed). Use the
 direction — self-serve correlates with profitability — as a legitimate business-case point. Do not
 repeat the report's precise percentages as settled fact: the underlying survey's sample size and
-methodology are not disclosed in any source this pack located, a secondhand citation is not the
+methodology are not disclosed in any located source, a secondhand citation is not the
 primary report, and a newer edition may already supersede the "2025" dataset. This is
 specimen-versus-evidence in miniature — the stat is a specimen of the genre's best available
 evidence, not proof; if you need the exact figures, pull them from ProductLed's primary report

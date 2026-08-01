@@ -47,13 +47,11 @@ doing it consistently is itself a durable distribution advantage, not a growth h
 ## The channels are the product's own artifacts
 
 Docs, tutorials, open-source code, and community presence do not support developer marketing on this
-surface — they *are* the channels. The clearest documented case is Julia Evans (@b0rk,
-2024-06-03/2024-08-13): a developer-education business built entirely on free technical "zines" and
-companion comics posted publicly, funding a paid product with **1,000+ disclosed sales** and no ad
-spend — *"I know $12 USD is a lot of money for some people, so to celebrate 1000+ sales, I'm giving
-away 1000 PDF copies."* This is one of the few specimens in this pack's whole research run with a
-disclosed, checkable number behind a zero-paid-spend developer-audience claim; treat it as a strong
-specimen, not a population-level result — n=1 practitioner, self-reported.
+surface — they *are* the channels. The clearest documented case is Julia Evans (@b0rk) — one of the
+few specimens in this pack's whole research run with a disclosed, checkable number behind a
+zero-paid-spend developer-audience claim; treat it as a strong specimen, not a population-level
+result — n=1 practitioner, self-reported. Full case, quote, and dates:
+[organic-social-and-community.md](organic-social-and-community.md#5-two-counterpoints-worth-naming).
 
 ## Company marketing handbooks as primary sources
 
@@ -89,10 +87,9 @@ it does not re-teach the discipline.
 ## Launch surfaces differ here
 
 A developer-tool launch runs through Hacker News, Product Hunt, and the product's own changelog more
-than a conventional press cycle. Product Hunt's rules apply the same way they do on every surface
-(see [go-to-market-and-launch.md](go-to-market-and-launch.md) for the full ruleset) — visits and
-comments may be solicited, upvotes may never be; the platform sanctions relaunching for a genuine new
-iteration rather than treating launch as a single unrepeatable moment, and names no best weekday.
+than a conventional press cycle. Product Hunt's rules apply the same way they do on every surface —
+full ruleset:
+[go-to-market-and-launch.md](go-to-market-and-launch.md#4-product-hunts-enforceable-rules).
 Hacker News and a public changelog have no equivalent codified guideline set; both reward genuine
 technical substance and penalize promotional framing more visibly than other channels do, per the
 practitioner consensus this pack found (no primary HN policy document exists to cite for this the way

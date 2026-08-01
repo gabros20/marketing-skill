@@ -14,8 +14,8 @@ Read when:
 Skip when:
 - The question is which empirical law applies and at what evidence tier →
   [marketing-science.md](marketing-science.md).
-- The question is which segment or ICP stage to target, or a JTBD discovery job → [audience-and-
-  segmentation.md](audience-and-segmentation.md).
+- The question is which segment or ICP stage to target, or a JTBD discovery job →
+  [audience-and-segmentation.md](audience-and-segmentation.md).
 - The question is landing-page requirements, proof placement, or conversion mechanics — a page turns
   positioning into a requirements brief; that brief lives in
   [landing-pages-and-conversion.md](landing-pages-and-conversion.md), and the page composition itself
@@ -174,5 +174,5 @@ MIT sources.)
 - The real question is who the best-fit customer is, not how to frame the product for them →
   [audience-and-segmentation.md](audience-and-segmentation.md).
 - The real question is how to prove a claim on a page (trust signals, objection placement) rather than
-  what the claim should say → landing-pages-and-conversion.md.
+  what the claim should say → [landing-pages-and-conversion.md](landing-pages-and-conversion.md).
 - The messaging is ready to test at statistical scale, not just read-test → hand off to `growth`.

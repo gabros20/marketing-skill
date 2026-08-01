@@ -17,7 +17,7 @@ Skip when:
   [positioning-and-messaging.md](positioning-and-messaging.md).
 - The question is which segment or ICP stage to target → [audience-and-segmentation.md](audience-and-segmentation.md).
 - The question is a specific attribution method's own validity (MMM floors, lift-test power) →
-  attribution-and-measurement.md.
+  [attribution-and-measurement.md](attribution-and-measurement.md).
 
 Inputs: the specific claim or number in question, its cited source, and the population it is being
 applied to (FMCG panel, B2B replication, or zero-audience founder).
@@ -107,8 +107,8 @@ sizes, a named third-party co-sponsor, and a consistent effect direction:
 July 2022.) In her own words: "for each additional CEP a customer has linked to the brand in memory,
 probability of defection lowers by 5%" — with an honest caveat in the same report that the predictive
 scale is imperfect. CEPs are the rigorous alternative to persona theater: segment by the buying
-situations and cues that trigger retrieval, not by demographic profile — see [audience-and-
-segmentation.md](audience-and-segmentation.md). Still no SaaS/subscription dataset among them.
+situations and cues that trigger retrieval, not by demographic profile — see
+[audience-and-segmentation.md](audience-and-segmentation.md). Still no SaaS/subscription dataset among them.
 
 ## The Thomaz dispute
 
@@ -167,4 +167,4 @@ penetration-vs-loyalty or category entry points before shipping it. That connect
   empirical claim → [positioning-and-messaging.md](positioning-and-messaging.md), which is craft, not
   science, and should never borrow this file's evidence tiers for itself.
 - The question turns out to be about which attribution method to trust, not which brand law applies →
-  attribution-and-measurement.md.
+  [attribution-and-measurement.md](attribution-and-measurement.md).

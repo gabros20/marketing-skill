@@ -39,6 +39,8 @@ Produces:
 - [7. Vertical playbooks, distilled](#7-vertical-playbooks-distilled)
 - [8. The color-psychology myth](#8-the-color-psychology-myth)
 - [9. The ethics table — a pack invariant](#9-the-ethics-table--a-pack-invariant)
+- [Validation](#validation)
+- [Failure modes and handoff](#failure-modes-and-handoff)
 
 ## 1. The requirements brief is marketing's artifact
 

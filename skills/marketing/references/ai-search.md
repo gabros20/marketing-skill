@@ -37,6 +37,8 @@ Produces:
 - The one peer-reviewed GEO anchor — and its limits
 - How AI answers actually pick sources
 - Citability vs. surfacing
+- Validation
+- Failure modes and handoff
 
 ## The anti-staleness invariant — read this first
 

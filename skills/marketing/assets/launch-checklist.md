@@ -56,16 +56,15 @@ owned channel has no floor.
 
 ## Product Hunt — the enforceable rules
 
-Re-verify against Product Hunt's current community guidelines before launching; guideline pages
-change without a version number. As of the guidelines self-dated 2025-04-11:
+Full ruleset and rationale:
+[`references/go-to-market-and-launch.md`](../references/go-to-market-and-launch.md#4-product-hunts-enforceable-rules).
+Re-verify against Product Hunt's current community guidelines before launching — guideline pages
+change without a version number.
 
-- [ ] **We are asking for visits and comments — never upvotes.** Soliciting, incentivising, or
-      botting upvotes is banned and enforced with product removal and account suspension. This is the
-      single most-violated rule in circulating launch checklists
+- [ ] We are asking for visits and comments — never upvotes
 - [ ] No self-promotion in comments; posting from a real personal profile, not a company account
 - [ ] Timing anchored to **12:01am Pacific**
-- [ ] No "best weekday" assumed — the platform names none, and the ranking algorithm is unpublished.
-      Anyone stating its exact weighting is guessing
+- [ ] No "best weekday" assumed
 
 ## Relaunch
 

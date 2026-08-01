@@ -35,6 +35,8 @@ Produces:
 - [4. Company handbooks as primary sources](#4-company-handbooks-as-primary-sources)
 - [5. Two counterpoints worth naming](#5-two-counterpoints-worth-naming)
 - [6. What is still folklore here](#6-what-is-still-folklore-here)
+- [Validation](#validation)
+- [Failure modes and handoff](#failure-modes-and-handoff)
 
 ## 1. Organic reach reality: brand accounts are dying, founders aren't
 

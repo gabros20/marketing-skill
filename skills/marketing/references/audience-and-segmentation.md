@@ -12,13 +12,13 @@ Read when:
 Skip when:
 - The question is which empirical law backs a segmentation claim, or a light/non-buyer figure needs
   its evidence tier → [marketing-science.md](marketing-science.md).
-- The question is how to phrase the positioning or claim once the audience is set → [positioning-and-
-  messaging.md](positioning-and-messaging.md).
+- The question is how to phrase the positioning or claim once the audience is set →
+  [positioning-and-messaging.md](positioning-and-messaging.md).
 - The question is discovering the job a customer is hiring the product to do in the first place — that
   discovery work is `product`'s; this file only covers using an already-discovered job for
   message-market fit.
 - The question is which consent regime governs a given list — pointer only here, mechanics live in
-  lifecycle-and-email.md.
+  [lifecycle-and-email.md](lifecycle-and-email.md).
 
 Inputs: the product's real alternatives, any existing customer or prospect data, and — if available —
 `product`'s JTBD discovery output.
@@ -41,7 +41,7 @@ compliance checkpoint before any segment gets emailed.
 A demographic persona ("Sarah, 34, marketing manager") describes a person; it doesn't describe when or
 why they'd reach for this product. **Category entry points** — the buying situations and cues a buyer
 uses to retrieve a brand from memory — are the better unit of segmentation, and they're the
-best-evidenced B2B-specific finding this pack's research located (real disclosed sample sizes across
+best-evidenced B2B-specific finding located (real disclosed sample sizes across
 three B2B datasets; see [marketing-science.md](marketing-science.md) for the tiering and the numbers).
 Segmenting by CEP means asking "what situation makes someone reach for this" rather than "who is this
 person," and it generalizes better across campaigns and channels because the same buyer can enter
@@ -80,8 +80,8 @@ evidence-graded law.)
 ## Light-buyer and non-buyer reality
 
 The evidence-graded finding this segmentation choice should be checked against: the heaviest 20% of
-buyers deliver roughly half of sales, not 80% — see the Pareto ~60/20 finding in [marketing-
-science.md](marketing-science.md). Segmentation that concentrates entirely on "best customers" or heavy
+buyers deliver roughly half of sales, not 80% — see the Pareto ~60/20 finding in
+[marketing-science.md](marketing-science.md). Segmentation that concentrates entirely on "best customers" or heavy
 users, at the expense of the much larger pool of light and non-buyers, caps growth against that
 finding. A segmentation scheme should at minimum name where light buyers and category non-buyers sit,
 even if the initial campaign targets a narrower slice deliberately — leaving them unaddressed by
@@ -125,4 +125,4 @@ lifecycle-and-email.md — this file's job is only to make sure the checkpoint i
 - The segments are set and the next question is how to phrase the message for each →
   [positioning-and-messaging.md](positioning-and-messaging.md).
 - A segment is about to be emailed and its consent basis hasn't been checked → stop and route to
-  lifecycle-and-email.md before sending.
+  [lifecycle-and-email.md](lifecycle-and-email.md) before sending.
