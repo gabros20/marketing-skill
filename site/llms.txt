@@ -2,10 +2,23 @@
 
 > Position the product and create, capture, and attribute demand. Installs as an agent skill.
 
-TODO — one paragraph: what problem this replaces, the workflow it runs (stages/strategies, in
-order), and what "read only what you need" the router gives you. Claude Code is the reference
-host; it's plain Agent Skills format (agentskills.io), so it installs on Codex, Cursor,
-Antigravity, opencode, Grok Build, and Hermes too.
+Ask an agent to market a product and it produces channel-agnostic advice built from whichever
+half-remembered "best practices" it absorbed, quoting numbers the field repeats until they sound
+measured. `marketing` replaces that with the full external-demand surface — positioning, audience,
+launch, SEO, AI search, content, landing-page requirements, email and lifecycle, paid, organic
+social and community, partnerships and PR, app-store listings, and measurement — with every claim
+graded by its evidence tier and the point where it stops applying, and every volatile platform fact
+carrying an as-of date plus the check that re-verifies it. It is a **faceted router, not a
+pipeline**: each request selects exactly one of 14 primary jobs, at most one of 3 base surfaces
+(self-serve SaaS is the default, and an assumed surface is stated out loud), plus additive overlays
+for a zero audience and for agent-authored marketing — so two references get read fully out of
+twenty, never the whole pack. The flagship job, `attribution-and-measurement`, answers what the rest
+of the field avoids: what actually happened, and what you can honestly know at your scale — often
+less than the dashboard claims. The default reader is one person building a digital product, with a
+small budget and no analytics team, which changes the answers rather than just their scale.
+`marketing` writes copy, requirements, briefs, plans and measurement specs — no production code.
+Claude Code is the reference host; it's plain Agent Skills format (agentskills.io), so it installs
+on Codex, Cursor, Antigravity, opencode, Grok Build, and Hermes too.
 
 ## Install
 
@@ -17,14 +30,49 @@ Antigravity, opencode, Grok Build, and Hermes too.
 
 - [README.md](https://raw.githubusercontent.com/gabros20/marketing-skill/main/README.md): overview, install, workflow, and repository map.
 - [skills/marketing/SKILL.md](https://raw.githubusercontent.com/gabros20/marketing-skill/main/skills/marketing/SKILL.md): runtime router, workflow, artifact contract, and completion rules.
+- [skills/marketing/SOURCES.md](https://raw.githubusercontent.com/gabros20/marketing-skill/main/skills/marketing/SOURCES.md): attribution, licences, and what this pack claims for itself.
 - [docs/installation.md](https://raw.githubusercontent.com/gabros20/marketing-skill/main/docs/installation.md): installation and verification by client.
 - [docs/usage.md](https://raw.githubusercontent.com/gabros20/marketing-skill/main/docs/usage.md): activation boundary, routes, outputs, and completion.
 - [docs/recipes.md](https://raw.githubusercontent.com/gabros20/marketing-skill/main/docs/recipes.md): representative starting prompts.
 
 ## Reference inventory (`skills/marketing/references/`)
 
-- `example.md` — TODO: what job this reference answers.
+Primary jobs — exactly one per request:
+
+- `attribution-and-measurement.md` — **flagship**. The honesty hierarchy of measurement methods; why platform-reported is never incremental; why almost nobody can run a valid lift test; the n=1 answer.
+- `positioning-and-messaging.md` — what the product is, who it's for, why it beats the alternatives. Dunford's five components as craft, never as science; the messaging ladder; the staged repositioning rollout.
+- `audience-and-segmentation.md` — who to market to. Category entry points over persona theater; ICP as a funnel; the consent-regime checkpoint before any segment is emailed.
+- `marketing-science.md` — the adjudication layer. The evidence ladder; the laws with their domain boundaries; the 95-5 derivation and its disclaimer; the Thomaz dispute presented, not settled.
+- `go-to-market-and-launch.md` — motion selection and the launch. Launch ≠ release ≠ deploy; launch tiers; Product Hunt's enforceable rules; owned/rented/borrowed channels.
+- `seo-strategy.md` — what to rank for, and four myths Google's own dated docs kill. Also the diagnostic entry point when traffic, rankings or conversions fall.
+- `ai-search.md` — visibility inside ChatGPT, Perplexity, AI Overviews and Copilot. The Bing/Google divergence on GEO; the crawler matrix; llms.txt falsified by four independent evidence classes.
+- `content-strategy.md` — what to produce and how to brief it. Distribution beats production; scaled-content abuse is purpose-tested, not authorship-tested.
+- `landing-pages-and-conversion.md` — the requirements brief marketing owns and `design` composes against. Attention Ratio; proof devices; the ethics/dark-patterns table.
+- `lifecycle-and-email.md` — deliverability as engineering; SPF/DKIM/DMARC; the four consent regimes and the jurisdiction decision rule; stream separation.
+- `paid-acquisition.md` — whether to spend at all, which format, and when paid is premature. What ATT changed; black-box campaign types with zero independent incrementality evidence.
+- `organic-social-and-community.md` — brand account vs. founder account vs. owned community, each at its real evidence tier; an explicit list of what stays folklore.
+- `partnerships-pr-and-affiliates.md` — distribution through someone else's audience. Site-reputation-abuse; marketplace traction gates; affiliate mechanics; FTC disclosure.
+- `app-store-optimization.md` — the pack's mobile-surface authority. Hard character limits per store; two enforcement philosophies; Custom Product Pages ≠ Product Page Optimization.
+
+Base surfaces — at most one, reshaping how a job applies:
+
+- `surface-selfserve-saas.md` — **default**. Anyone can sign up or trial without talking to a human.
+- `surface-b2b-sales-assisted.md` — a rep, demo or procurement gates the deal.
+- `surface-developer-tool.md` — the buyer evaluates through docs, an API, or source.
+
+Additive overlays — stack on a base surface, never instead of one:
+
+- `surface-zero-audience.md` — no list, following or customers yet. What is known, what is folklore, and what is unknowable.
+- `surface-agentic.md` — a model authors at scale, or decides a spend or send. Guardrails for agent-decided marketing actions.
+
+Seams:
+
+- `handoff.md` — every boundary with the rest of the family, from marketing's side, plus the AARRR note (acquisition here, funnel experiments in `growth`, retention in `success`).
+
+## Assets (`skills/marketing/assets/`)
+
+- `positioning-canvas.md`, `landing-page-requirements-brief.md`, `launch-checklist.md`, `attribution-requirements-spec.md`, `email-compliance-checklist.md` — compact, fill-in templates.
 
 ## Optional
 
-- [Visual guide](https://marketing-skill.vercel.app): the workflow, boundaries, and reference map on one page.
+- [Visual guide](https://marketing-skill.vercel.app): the router, jobs, surfaces, flagship, invariants, and seams on one page.

@@ -105,37 +105,62 @@ const SceneGrade: React.FC<{ t: Theme; dur: number }> = ({ t, dur }) => {
 };
 
 // -- S2 . the gap is not marginal ---------------------------------------------------
-const BAR_W = 620;
+// One shared linear scale across all three bars, anchored on a visible zero: the experimental
+// result is a speck on the wrong side of the axis, which is the whole point. Nothing is
+// rescaled to make it visible.
+const ZERO_X = 74;
+const PX_PER_POINT = 520 / 4100;
 
 const RoiBar: React.FC<{
   t: Theme;
   label: string;
   sub: string;
-  frac: number;
+  roi: number;
   color: string;
   grow: number;
-  negative?: boolean;
   value: string;
-}> = ({ t, label, sub, frac, color, grow, negative, value }) => (
-  <div style={{ display: "grid", gridTemplateColumns: "210px 1fr", gap: 20, alignItems: "center", marginTop: 16 }}>
-    <div style={{ textAlign: "right" }}>
-      <div style={{ fontFamily: MONO, fontSize: 14, color: t.ink, fontWeight: 600 }}>{label}</div>
-      <div style={{ fontFamily: SANS, fontSize: 11.5, color: t.muted, marginTop: 2 }}>{sub}</div>
+}> = ({ t, label, sub, roi, color, grow, value }) => {
+  const w = Math.abs(roi) * PX_PER_POINT * grow;
+  const negative = roi < 0;
+  return (
+    <div style={{ display: "grid", gridTemplateColumns: "230px 1fr", gap: 20, alignItems: "center", marginTop: 16 }}>
+      <div style={{ textAlign: "right" }}>
+        <div style={{ fontFamily: MONO, fontSize: 14, color: t.ink, fontWeight: 600 }}>{label}</div>
+        <div style={{ fontFamily: SANS, fontSize: 11.5, color: t.muted, marginTop: 2 }}>{sub}</div>
+      </div>
+      <div style={{ position: "relative", height: 36 }}>
+        <div style={{ position: "absolute", left: ZERO_X, top: 0, bottom: 0, width: 2, background: t.line }} />
+        <div
+          style={{
+            position: "absolute",
+            top: 7,
+            left: negative ? ZERO_X - w : ZERO_X,
+            width: w,
+            height: 22,
+            background: color,
+            borderRadius: negative ? "5px 0 0 5px" : "0 5px 5px 0",
+            opacity: 0.9,
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            top: 9,
+            left: negative ? ZERO_X + 16 : ZERO_X + w + 12,
+            fontFamily: MONO,
+            fontSize: 15,
+            fontWeight: 700,
+            color,
+            opacity: grow > 0.75 ? 1 : 0,
+            whiteSpace: "nowrap",
+          }}
+        >
+          {value}
+        </div>
+      </div>
     </div>
-    <div style={{ position: "relative", height: 34, display: "flex", alignItems: "center" }}>
-      <div
-        style={{
-          height: 22,
-          width: BAR_W * frac * grow,
-          background: color,
-          borderRadius: negative ? "6px 0 0 6px" : "0 6px 6px 0",
-          opacity: 0.9,
-        }}
-      />
-      <div style={{ marginLeft: 12, fontFamily: MONO, fontSize: 15, fontWeight: 700, color, opacity: grow > 0.75 ? 1 : 0, whiteSpace: "nowrap" }}>{value}</div>
-    </div>
-  </div>
-);
+  );
+};
 
 const SceneGap: React.FC<{ t: Theme; dur: number }> = ({ t, dur }) => {
   const frame = useCurrentFrame();
@@ -151,9 +176,16 @@ const SceneGap: React.FC<{ t: Theme; dur: number }> = ({ t, dur }) => {
       <div style={{ translate: `0 ${y}px`, display: "flex", flexDirection: "column", alignItems: "center", width: 1060 }}>
         <SceneTitle t={t} kicker="platform-reported is not incremental" title="the gap is not marginal — it is a sign flip" />
         <div style={{ width: 940 }}>
-          <RoiBar t={t} label="naive OLS, uncontrolled" sub="the observational estimate" frac={1} color={t.glyph} grow={g1} value="+4,100% ROI" />
-          <RoiBar t={t} label="naive OLS, with controls" sub="time and geo controls added" frac={0.36} color={t.muted} grow={g2} value="+1,400% ROI" />
-          <RoiBar t={t} label="the actual experiment" sub="ads switched off in randomized markets" frac={0.11} color={t.bad} grow={g3} negative value="−63% ROI · 95% CI [−124%, −3%]" />
+          <RoiBar t={t} label="naive OLS, uncontrolled" sub="the observational estimate" roi={4100} color={t.glyph} grow={g1} value="+4,100% ROI" />
+          <RoiBar t={t} label="naive OLS, with controls" sub="time and geo controls added" roi={1400} color={t.muted} grow={g2} value="+1,400% ROI" />
+          <RoiBar t={t} label="the actual experiment" sub="ads switched off in randomized markets" roi={-63} color={t.bad} grow={g3} value="−63% ROI · 95% CI [−124%, −3%]" />
+        </div>
+        <div style={{ width: 940, display: "grid", gridTemplateColumns: "230px 1fr", gap: 20, opacity: g3 }}>
+          <div />
+          <div style={{ position: "relative", height: 16 }}>
+            <div style={{ position: "absolute", left: ZERO_X - 4, fontFamily: MONO, fontSize: 11.5, color: t.muted }}>0</div>
+            <div style={{ position: "absolute", left: ZERO_X + 40, fontFamily: MONO, fontSize: 11.5, color: t.muted }}>one shared scale — nothing rescaled to make it visible</div>
+          </div>
         </div>
         <div style={{ marginTop: 26, opacity: flip, textAlign: "center" }}>
           <div style={{ fontFamily: MONO, fontSize: 16, color: t.ink }}>
@@ -226,7 +258,7 @@ const SceneFlagship: React.FC<{ t: Theme; dur: number }> = ({ t, dur }) => {
               position: "absolute",
               left: -14,
               right: -14,
-              top: 3 * 47 + 2,
+              top: 3 * 37 + 2,
               height: 0,
               borderTop: `2px dashed ${t.bad}`,
               opacity: gate,
@@ -236,7 +268,7 @@ const SceneFlagship: React.FC<{ t: Theme; dur: number }> = ({ t, dur }) => {
             style={{
               position: "absolute",
               right: -14,
-              top: 3 * 47 - 22,
+              top: 3 * 37 - 22,
               fontFamily: MONO,
               fontSize: 12,
               color: t.bad,
@@ -457,7 +489,7 @@ const SceneHandoff: React.FC<{ t: Theme; dur: number }> = ({ t, dur }) => {
     <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity }}>
       <div style={{ translate: `0 ${y}px`, display: "flex", flexDirection: "column", alignItems: "center", width: 1060 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 26 }}>
-          <div style={{ opacity: build, border: `1px solid ${t.accent}`, background: t.codeBg, borderRadius: 10, padding: "16px 20px", fontFamily: MONO, fontSize: 12, color: t.muted, width: 340 }}>
+          <div style={{ opacity: build, border: `1px solid ${t.accent}`, background: t.codeBg, borderRadius: 10, padding: "16px 20px", fontFamily: MONO, fontSize: 12, color: t.muted, width: 400 }}>
             <div style={{ color: t.accent, fontWeight: 700, marginBottom: 8 }}>marketing writes</div>
             {emitted.map(([k, v], i) => {
               const op = step(frame, 32 + i * 9, 48 + i * 9);

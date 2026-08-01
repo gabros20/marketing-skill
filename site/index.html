@@ -1,20 +1,26 @@
 <!doctype html>
-<!-- skill-site scaffold: shared family chrome; identity = the accent triple PLUS sections, components, and a hero designed for THIS skill. Read site/README.md (the design brief) before editing — filling the TODOs is not a site. Keep the hero-terminal and Start-here shapes. -->
+<!-- marketing skill · visual guide. Shared family chrome (tokens, type, hero-terminal, footer);
+     identity = fuchsia accent + sections/diagrams/hero designed for THIS skill's faceted router
+     (14 jobs × 3 base surfaces × 2 additive overlays + handoff = 20 references) — the external
+     demand surface. Its flagship is attribution-and-measurement: platform-reported is never
+     incremental, and what a solo builder can honestly know is less than the dashboard claims.
+     The two additive overlays carry the violet token (--tok-dim), the same convention
+     automation/operate/quality/data use for their own additive overlay. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6f7fa">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#12151d">
-<title>marketing — Position the product and create, capture, and attribute demand</title>
-<meta name="description" content="TODO — one to two sentence description of the skill for search engines.">
+<title>marketing — position the product and create, capture, and attribute demand</title>
+<meta name="description" content="A faceted agent skill for the whole external-demand surface — positioning and messaging, launch and go-to-market, SEO and AI-search visibility, content, landing-page requirements, email and lifecycle, paid ads, organic social and community, partnerships and PR, app-store listings, and attribution. It grades its own evidence: every claim carries its tier and the point where it stops applying, every volatile platform fact carries an as-of date and the check that re-verifies it. 14 jobs across 3 surfaces plus two additive overlays — flagship is attribution and measurement: what actually happened, and what you can honestly know at your scale.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://marketing-skill.vercel.app/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="marketing — Position the product and create, capture, and attribute demand">
-<meta property="og:description" content="TODO — one to two sentence description for social previews.">
+<meta property="og:title" content="marketing — position the product and create, capture, and attribute demand">
+<meta property="og:description" content="Positioning, launch, SEO and AI search, content, landing-page requirements, email, paid, social, partnerships, ASO, and attribution — for one person building a digital product, with a small budget and no analytics team. Every claim carries its evidence tier; every volatile platform fact carries its as-of date and the check that re-verifies it.">
 <meta property="og:url" content="https://marketing-skill.vercel.app/">
 <meta property="og:image" content="https://marketing-skill.vercel.app/og.png">
 <meta property="og:image:width" content="1200">
@@ -22,8 +28,8 @@
 <meta property="og:site_name" content="marketing">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="marketing — Position the product and create, capture, and attribute demand">
-<meta name="twitter:description" content="TODO — one to two sentence description for social previews.">
+<meta name="twitter:title" content="marketing — position the product and create, capture, and attribute demand">
+<meta name="twitter:description" content="The full external-demand surface, with its own evidence graded. 14 jobs across 3 surfaces plus two additive overlays — flagship is attribution: platform-reported is never incremental, and often the honest answer is that you can know less than the dashboard claims.">
 <meta name="twitter:image" content="https://marketing-skill.vercel.app/og.png">
 
 <script type="application/ld+json">
@@ -31,9 +37,9 @@
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "marketing",
-  "applicationCategory": "DesignApplication",
+  "applicationCategory": "BusinessApplication",
   "operatingSystem": "Claude Code / agent CLIs",
-  "description": "TODO — one to two sentence description of the skill.",
+  "description": "A faceted agent skill for the external-demand surface of a digital product: attribution and measurement (flagship), positioning and messaging, audience and segmentation, marketing science as an adjudication layer, go-to-market and launch, SEO strategy, AI search, content strategy, landing pages and conversion, lifecycle and email, paid acquisition, organic social and community, partnerships PR and affiliates, and app-store optimization. Covers self-serve SaaS, B2B sales-assisted, and developer-tool surfaces, plus additive zero-audience and agentic overlays. Grades every empirical claim by evidence tier and names its domain boundary; date-stamps every volatile platform fact and ships the check that re-verifies it. Writes copy, requirements, briefs, plans, and measurement specs — no production code. Not for site implementation, page composition, pricing, funnel experiments, sales pipeline, or onboarding and retention — those route to frontend, design, product, growth, sales, and success respectively.",
   "url": "https://marketing-skill.vercel.app/",
   "offers": {
     "@type": "Offer",
@@ -50,27 +56,34 @@
     --bg:#f6f7fa; --panel:#ffffff; --ink:#1c2333; --muted:#5a6478; --line:#d8dde8;
     --accent:#c026d3; --accent-ink:#ffffff; --amber:#a97a10; --amber-bg:#fdf6e3;
     --good:#1e7f4f; --bad:#b3403a; --code-bg:#eef1f7; --glyph:#8391ad;
-    --tok-strat:#c026d3; --tok-dim:#8146c9; --tok-val:#1e7f4f; --tok-file:#a97a10;
+    --tok-dim:#8146c9; --tok-val:#1e7f4f; --tok-file:#a97a10;
+    --dim-bg:rgba(129,70,201,.08);
   }
   @media (prefers-color-scheme: dark){ :root{
     --bg:#12151d; --panel:#1a1f2b; --ink:#e6eaf3; --muted:#93a0b8; --line:#2b3245;
     --accent:#e879f9; --accent-ink:#0d1220; --amber:#d9a72e; --amber-bg:#26200f;
     --good:#4cc38a; --bad:#e5726c; --code-bg:#141824; --glyph:#5d6a85;
-    --tok-strat:#e879f9; --tok-dim:#b98aef; --tok-val:#4cc38a; --tok-file:#d9a72e;
+    --tok-dim:#b98aef; --tok-val:#4cc38a; --tok-file:#d9a72e;
+    --dim-bg:rgba(185,138,239,.14);
   }}
   :root[data-theme="dark"]{
     --bg:#12151d; --panel:#1a1f2b; --ink:#e6eaf3; --muted:#93a0b8; --line:#2b3245;
     --accent:#e879f9; --accent-ink:#0d1220; --amber:#d9a72e; --amber-bg:#26200f;
     --good:#4cc38a; --bad:#e5726c; --code-bg:#141824; --glyph:#5d6a85;
-    --tok-strat:#e879f9; --tok-dim:#b98aef; --tok-val:#4cc38a; --tok-file:#d9a72e;
+    --tok-dim:#b98aef; --tok-val:#4cc38a; --tok-file:#d9a72e;
+    --dim-bg:rgba(185,138,239,.14);
   }
   :root[data-theme="light"]{
     --bg:#f6f7fa; --panel:#ffffff; --ink:#1c2333; --muted:#5a6478; --line:#d8dde8;
     --accent:#c026d3; --accent-ink:#ffffff; --amber:#a97a10; --amber-bg:#fdf6e3;
     --good:#1e7f4f; --bad:#b3403a; --code-bg:#eef1f7; --glyph:#8391ad;
-    --tok-strat:#c026d3; --tok-dim:#8146c9; --tok-val:#1e7f4f; --tok-file:#a97a10;
+    --tok-dim:#8146c9; --tok-val:#1e7f4f; --tok-file:#a97a10;
+    --dim-bg:rgba(129,70,201,.08);
   }
   *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%; text-size-adjust:100%}
+  html,body{overflow-x:hidden; max-width:100%}
+  .wedgegrid>*,.seam>*,.downstream>*,.seambox,.boundary>*,.bandgrid>*{min-width:0}
   body{background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; margin:0; -webkit-font-smoothing:antialiased}
   .wrap{max-width:1060px; margin:0 auto; padding:0 24px 96px}
   code,.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
@@ -81,7 +94,7 @@
   h2::after{content:""; flex:1; height:1px; background:var(--line)}
   h2 .lu{color:var(--accent); width:20px; height:20px}
   section{margin-top:64px}
-  .lede{font-size:19px; color:var(--muted); max-width:60ch; margin:0}
+  .lede{font-size:19px; color:var(--muted); max-width:64ch; margin:0}
   .hosts{display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin:16px 0 0}
   .hosts .hl{font-family:"Avenir Next Condensed","Arial Narrow",system-ui,sans-serif; text-transform:uppercase; letter-spacing:.14em; font-weight:600; font-size:11px; color:var(--muted); margin-right:2px}
   .hosts span:not(.hl){font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--muted); background:var(--code-bg); border-radius:5px; padding:3px 8px; white-space:nowrap}
@@ -90,13 +103,14 @@
   p{max-width:68ch}
   a{color:var(--accent)}
 
-  /* lucide icons */
   .lu{width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1.75; stroke-linecap:round; stroke-linejoin:round; flex:none; vertical-align:-3px}
 
-  /* top nav */
-  nav{display:flex; flex-wrap:wrap; gap:8px; margin-top:26px}
-  nav a{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; text-decoration:none; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:4px 12px; background:var(--panel)}
-  nav a:hover,nav a:focus-visible{color:var(--accent); border-color:var(--accent); outline:none}
+  nav.toplinks{display:flex; flex-wrap:wrap; gap:8px; margin-top:26px}
+  nav.toplinks a{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; text-decoration:none; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:4px 12px; background:var(--panel)}
+  nav.toplinks a:hover,nav.toplinks a:focus-visible{color:var(--accent); border-color:var(--accent); outline:none}
+  .secnav{display:flex; flex-wrap:wrap; gap:8px; margin-top:26px}
+  .secnav a{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; text-decoration:none; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:4px 12px; background:var(--panel)}
+  .secnav a:hover,.secnav a:focus-visible{color:var(--accent); border-color:var(--accent); outline:none}
   .secnav a::before{content:"#"; color:var(--glyph); margin-right:5px}
   .secnav a:hover::before,.secnav a:focus-visible::before{color:var(--accent)}
 
@@ -105,82 +119,205 @@
   .term .c{color:var(--muted)}
   .term .p{color:var(--accent); font-weight:600}
 
-  /* the arc — animated explainer: a Remotion video, light/dark, swapped in
-     as progressive enhancement over the static one-line arc fallback below */
-  .vidwrap{display:none; margin-top:20px}
+  .vidwrap{display:none; margin-top:22px}
   .vidwrap video{display:block; width:100%; aspect-ratio:16/9; border:1px solid var(--line); border-radius:10px; background:var(--bg); box-shadow:0 30px 70px -40px rgba(0,0,0,.45)}
   body.has-vid .vidwrap{display:block}
-  body.has-vid .poster{display:none}
-  .poster{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:20px; margin-top:20px}
-  .arcline{font-family:ui-monospace,Menlo,monospace; font-size:14.5px; line-height:2; color:var(--muted); margin:0}
-  .arcline b{color:var(--ink); font-weight:600}
-  .arcline .ar{color:var(--glyph); margin:0 2px}
+  body.has-vid .herofallback{display:none}
+
+  /* the router card — also the hero's static fallback */
+  .router{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:22px 24px; margin-top:22px}
+  .gate{display:flex; align-items:flex-start; gap:10px; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; color:var(--muted); padding:0 0 16px; margin-bottom:16px; border-bottom:1px dashed var(--line); line-height:1.55}
+  .gate .lu{width:16px; height:16px; color:var(--accent); flex:none; margin-top:2px}
+  .gate b{color:var(--ink)}
+  .rlane{display:grid; grid-template-columns:150px 1fr; gap:14px 16px; align-items:center}
+  .rlane + .rlane{margin-top:12px}
+  .rlabel{font-family:"Avenir Next Condensed","Arial Narrow",system-ui,sans-serif; text-transform:uppercase; letter-spacing:.1em; font-weight:600; font-size:12px; color:var(--muted); text-align:right; line-height:1.25}
+  .rlabel small{display:block; font-family:ui-monospace,Menlo,monospace; text-transform:none; letter-spacing:0; font-weight:400; font-size:10.5px; color:var(--glyph)}
+  .chips{display:flex; flex-wrap:wrap; gap:7px}
+  .chip{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; padding:5px 11px; border-radius:8px; white-space:nowrap; color:var(--muted); background:var(--bg); border:1px solid var(--line)}
+  .chip.on{color:var(--accent-ink); background:var(--accent); border-color:var(--accent); font-weight:600}
+  .chip.star{color:var(--accent-ink); background:var(--accent); border-color:var(--accent); font-weight:600}
+  .chip.dimon{color:var(--tok-dim); background:var(--dim-bg); border-color:var(--tok-dim); font-weight:600}
+  .rdown{display:flex; align-items:center; gap:10px; margin:16px 0 14px; color:var(--glyph)}
+  .rdown::before,.rdown::after{content:""; flex:1; height:1px; background:var(--line)}
+  .rdown span{font-family:ui-monospace,Menlo,monospace; font-size:12px; color:var(--muted)}
+  .readset{display:flex; flex-wrap:wrap; gap:9px; align-items:center}
+  .readset code{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; padding:6px 12px; border-radius:8px; color:var(--accent); background:var(--code-bg); border:1px solid var(--accent)}
+  .readset .cnt{font-family:ui-monospace,Menlo,monospace; font-size:12px; color:var(--muted); margin-left:4px}
+  .readset .cnt b{color:var(--ink)}
+  .rrule{margin:16px 0 0; font-size:13.5px; color:var(--muted); display:flex; gap:9px; line-height:1.55; max-width:none}
+  .rrule .lu{color:var(--accent); flex:none; margin-top:1px; width:17px; height:17px}
+  .rrule b{color:var(--ink)}
   .pcap{font-size:13.5px; color:var(--muted); margin:14px 0 0; max-width:68ch}
   .pcap b{color:var(--ink)}
-
-  /* numbered stage timeline */
-  .steps{margin-top:20px; counter-reset:step}
-  .steps>div{position:relative; padding:0 0 22px 46px; --sc:var(--accent)}
-  .steps>div::before{counter-increment:step; content:counter(step); position:absolute; left:0; top:-3px; width:28px; height:28px; border-radius:50%; background:var(--panel); border:2px solid var(--sc); color:var(--sc); font-family:ui-monospace,Menlo,monospace; font-size:13px; font-weight:600; display:flex; align-items:center; justify-content:center}
-  .steps>div::after{content:""; position:absolute; left:13px; top:31px; bottom:-6px; width:2px; background:var(--line)}
-  .steps>div:last-child{padding-bottom:0}
-  .steps>div:last-child::after{display:none}
-  .steps b{display:flex; align-items:center; gap:8px; font-family:ui-monospace,Menlo,monospace; font-size:14px; margin:2px 0 4px}
-  .steps b .lu{width:15px; height:15px; color:var(--sc)}
-  .steps span{font-size:13.5px; color:var(--muted); display:block; line-height:1.55; max-width:66ch}
-  .steps span b{display:inline; font-family:inherit; font-size:inherit; color:var(--ink); margin:0; font-weight:600}
-  .steps span code{font-size:12px; background:var(--code-bg); padding:1px 4px; border-radius:4px; overflow-wrap:anywhere}
-
-  /* reference cards, grouped by stage */
-  /* reference map — stage → chips definition list (voids impossible by construction; lighter
-     than the card-heavy neighbouring sections, so it varies the page rhythm) */
-  .refmap{margin-top:20px}
-  .refrow{display:grid; grid-template-columns:200px 1fr; gap:8px 18px; padding:14px 0; align-items:start}
-  .refrow + .refrow{border-top:1px solid var(--line)}
-  .refrow dt, .refrow dd{margin:0}
-  .reflabel{display:flex; align-items:center; gap:8px; font-family:ui-monospace,Menlo,monospace; font-size:14px; letter-spacing:-.01em; color:var(--ink)}
-  .reflabel .lu{color:var(--accent); width:16px; height:16px; flex:none}
-  .reflabel .ct{margin-left:auto; font-size:11px; color:var(--accent); border:1px solid var(--accent); border-radius:999px; padding:1px 8px; font-family:system-ui; flex:none}
-  .refchips{display:flex; flex-wrap:wrap; gap:7px 8px; align-items:baseline}
-  .refchips .ref{display:inline-flex; align-items:baseline; gap:6px}
-  .refchips code{background:var(--code-bg); padding:2px 8px; border-radius:5px; font-size:12px; white-space:nowrap}
-  .refchips .d{font-size:11.5px; color:var(--muted)}
-  @media (max-width:640px){
-    .refrow{grid-template-columns:1fr; gap:9px 0}
-    .reflabel .ct{margin-left:8px}
+  /* the annotation chips carry a sentence, not a label — at phone widths nowrap would clip them
+     against the page's overflow-x:hidden rather than scroll */
+  @media (max-width:560px){
+    .rlane{grid-template-columns:1fr; gap:6px}
+    .rlabel{text-align:left}
+    .chip{white-space:normal}
+    .router{padding:18px 16px}
   }
 
-  /* tables */
+  /* mission — owns / hands off */
+  .boundary{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:20px}
+  .bcol{border:1px solid var(--line); border-radius:10px; padding:16px 18px; background:var(--panel)}
+  .bcol.own{border-left:3px solid var(--accent)}
+  .bcol.off{border-left:3px solid var(--glyph)}
+  .bcol h3{font-family:ui-monospace,Menlo,monospace; font-size:13.5px; margin:0 0 4px; display:flex; align-items:center; gap:8px}
+  .bcol.own h3{color:var(--accent)} .bcol.own h3 .lu{color:var(--accent)}
+  .bcol.off h3{color:var(--muted)} .bcol.off h3 .lu{color:var(--glyph)}
+  .bcol .sub{font-size:12.5px; color:var(--muted); margin:0 0 12px}
+  .bitems{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px}
+  .bitems li{font-size:13.5px; line-height:1.4}
+  .bitems li b{font-family:ui-monospace,Menlo,monospace; font-weight:600; font-size:12.5px; color:var(--ink)}
+  .bitems.hand li b{color:var(--tok-dim)}
+  .bitems li .d{color:var(--muted)}
+  .bnote{margin-top:14px; font-size:13.5px; color:var(--muted); display:flex; gap:9px; line-height:1.55; max-width:none}
+  .bnote .lu{color:var(--accent); flex:none; margin-top:1px; width:17px; height:17px}
+  .bnote b{color:var(--ink)}
+  @media (max-width:640px){ .boundary{grid-template-columns:1fr} }
+
   .tblwrap{overflow-x:auto; border:1px solid var(--line); border-radius:8px; margin-top:20px}
   table{border-collapse:collapse; width:100%; font-size:14px; background:var(--panel)}
   th{font-family:"Avenir Next Condensed","Arial Narrow",system-ui,sans-serif; text-transform:uppercase; letter-spacing:.08em; font-size:12.5px; font-weight:600; text-align:left; color:var(--muted); padding:10px 16px; border-bottom:1px solid var(--line)}
-  td{padding:10px 16px; border-bottom:1px solid var(--line); vertical-align:top}
+  td{padding:11px 16px; border-bottom:1px solid var(--line); vertical-align:top; overflow-wrap:break-word}
+  @media (max-width:700px){ .tblwrap table{width:auto; min-width:640px} }
   tr:last-child td{border-bottom:none}
   td code{background:var(--code-bg); padding:1px 6px; border-radius:4px; font-size:12.5px; white-space:nowrap}
   td code a{color:inherit; text-decoration:none}
   td code a:hover{text-decoration:underline}
-  td.dim{font-weight:600; font-family:ui-monospace,Menlo,monospace; font-size:13px; color:var(--tok-dim); white-space:nowrap}
-  td .d{color:var(--muted)}
+  td.job{font-weight:600; color:var(--ink); line-height:1.4}
+  td .canon{color:var(--muted); font-size:12.5px; line-height:1.5}
+  td .canon b{color:var(--ink); font-weight:600}
+  td .prod{color:var(--muted); font-size:12.5px; line-height:1.45}
+  td.dim{font-weight:600; font-family:ui-monospace,Menlo,monospace; font-size:12.5px; color:var(--tok-dim); white-space:nowrap}
+  td .tier{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:700; border-radius:5px; padding:1px 7px; white-space:nowrap}
+  .tier.a{color:var(--good); border:1px solid var(--good)}
+  .tier.b{color:var(--amber); border:1px solid var(--amber)}
+  .tier.c{color:var(--bad); border:1px solid var(--bad)}
 
   .note{background:var(--amber-bg); border:1px solid var(--amber); border-radius:8px; padding:12px 16px; font-size:14px; margin-top:16px; max-width:none}
   .note b{color:var(--amber)}
 
-  /* rails — the laws */
-  .rules{list-style:none; padding:0; margin:20px 0 0; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px}
-  .rules li{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--amber); border-radius:6px; padding:12px 16px; font-size:14px; line-height:1.5}
-  .rules li b{display:flex; align-items:center; gap:7px; font-family:ui-monospace,Menlo,monospace; font-size:13px; margin-bottom:3px}
-  .rules li b .lu{width:15px; height:15px; color:var(--amber)}
-  /* if the laws list ends on an orphan cell, make the last item a full-width capstone
-     (title | text) so the wide card reads as a deliberate closing emphasis, not a gap */
-  .rules li:last-child{grid-column:1 / -1; display:flex; align-items:baseline; gap:22px}
-  .rules li:last-child b{margin-bottom:0; flex:none; width:230px}
-  @media (max-width:620px){ .rules li:last-child{flex-direction:column; gap:3px} .rules li:last-child b{width:auto} }
-  .loopback{display:flex; gap:10px; margin-top:12px; font-size:13.5px; color:var(--muted); line-height:1.55; max-width:none}
-  .loopback .ic{color:var(--accent); flex:none; margin-top:1px}
-  .loopback .ic .lu{width:17px; height:17px}
-  .loopback b{color:var(--ink)}
+  /* surfaces */
+  .overlays{display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px; margin-top:20px}
+  .ov{border:1px solid var(--line); border-radius:10px; padding:15px 17px; background:var(--panel)}
+  .ov.wedge{border-color:var(--tok-dim); box-shadow:0 0 0 1px var(--tok-dim) inset; background:linear-gradient(180deg,color-mix(in srgb,var(--tok-dim) 7%,var(--panel)),var(--panel))}
+  .ov h3{font-family:ui-monospace,Menlo,monospace; font-size:14px; margin:0 0 3px; display:flex; align-items:center; gap:8px; color:var(--ink); flex-wrap:wrap}
+  .ov h3 .lu{color:var(--accent); width:16px; height:16px}
+  .ov.wedge h3 .lu{color:var(--tok-dim)}
+  .ov .file{font-family:ui-monospace,Menlo,monospace; font-size:11px; color:var(--muted); margin-left:auto; font-weight:400}
+  .ov .reshape{font-size:13px; color:var(--muted); margin:6px 0 10px; line-height:1.5; max-width:none}
+  .ov .reshape b{color:var(--ink); font-weight:600}
+  .ov .lens{font-size:12px; color:var(--muted); border-top:1px solid var(--line); padding-top:9px; display:flex; gap:7px; max-width:none}
+  .ov .lens .k{font-family:"Avenir Next Condensed","Arial Narrow",system-ui,sans-serif; text-transform:uppercase; letter-spacing:.08em; font-weight:600; color:var(--accent); flex:none}
+  .ov.wedge .lens .k{color:var(--tok-dim)}
+  .ov .badge{display:inline-block; font-family:"Avenir Next Condensed","Arial Narrow",system-ui,sans-serif; text-transform:uppercase; letter-spacing:.08em; font-weight:600; font-size:10.5px; color:var(--accent-ink); background:var(--tok-dim); border-radius:999px; padding:1px 9px; margin-left:auto}
 
-  /* details / appendix */
+  /* flagship */
+  .wedgehead{background:var(--accent); color:var(--accent-ink); border-radius:10px 10px 0 0; padding:14px 20px; font-family:ui-monospace,Menlo,monospace; font-size:15px; font-weight:600; display:flex; align-items:center; gap:10px; margin-top:20px}
+  .wedgehead .lu{width:19px; height:19px}
+  .wedgebody{border:1px solid var(--accent); border-top:none; border-radius:0 0 10px 10px; padding:20px; background:var(--panel)}
+  .wedgegrid{display:grid; grid-template-columns:1.05fr 1fr; gap:18px}
+  @media (max-width:720px){ .wedgegrid{grid-template-columns:1fr} }
+  .wcol h3{font-family:ui-monospace,Menlo,monospace; font-size:13px; margin:0 0 8px; color:var(--ink)}
+  .ladder{list-style:none; padding:0; margin:0 0 16px; display:flex; flex-direction:column; gap:6px}
+  .ladder li{font-size:12.5px; line-height:1.4; display:flex; gap:9px; align-items:baseline}
+  .ladder li .t{font-family:ui-monospace,Menlo,monospace; font-weight:600; font-size:12px; flex:none; width:118px; color:var(--ink)}
+  .ladder li .d{color:var(--muted)}
+  .ladder li.good .t{color:var(--good)} .ladder li.warn .t{color:var(--amber)} .ladder li.bad .t{color:var(--bad)}
+  .sharprule{margin-top:18px; background:var(--amber-bg); border:1px solid var(--amber); border-radius:8px; padding:13px 16px; font-size:13.5px; line-height:1.5; max-width:none}
+  .sharprule b{color:var(--amber)}
+  .sharprule .cc{display:flex; flex-wrap:wrap; gap:6px; margin-top:9px}
+  .sharprule .cc span{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; color:var(--muted); background:var(--panel); border:1px solid var(--line); border-radius:5px; padding:2px 8px}
+
+  /* the reach bar — what a solo builder can and can't run */
+  .reachbar{display:flex; height:38px; border-radius:8px; overflow:hidden; border:1px solid var(--line); font-family:ui-monospace,Menlo,monospace; font-size:11.5px; font-weight:600}
+  .reachbar .r-in{background:var(--good); color:#fff; display:flex; align-items:center; justify-content:center; white-space:nowrap; flex:0 0 auto}
+  .reachbar .r-edge{background:var(--amber); color:#0d1220; display:flex; align-items:center; justify-content:center; white-space:nowrap; flex:0 0 auto}
+  .reachbar .r-out{background:var(--bad); color:#fff; display:flex; align-items:center; justify-content:center; flex:1 1 auto}
+  .poplegend{display:flex; flex-direction:column; gap:6px; margin-top:10px}
+  .pill{font-size:12px; line-height:1.4; padding:6px 10px; border-radius:7px; border:1px solid var(--line)}
+  .pill.good{color:var(--good); border-color:var(--good); background:color-mix(in srgb, var(--good) 8%, var(--panel))}
+  .pill.amber{color:var(--amber); border-color:var(--amber); background:var(--amber-bg)}
+  .pill.bad{color:var(--bad); border-color:var(--bad); background:color-mix(in srgb, var(--bad) 8%, var(--panel))}
+
+  /* what's distinct */
+  .bandgrid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:20px}
+  @media (max-width:720px){ .bandgrid{grid-template-columns:1fr} }
+  .band{border:1px solid var(--line); border-radius:10px; padding:17px 19px; background:var(--panel)}
+  .band.sub{border-top:3px solid var(--accent)}
+  .band.stale{border-top:3px solid var(--amber)}
+  .band h3{font-family:ui-monospace,Menlo,monospace; font-size:14px; margin:0 0 4px; display:flex; align-items:center; gap:9px; color:var(--ink)}
+  .band.sub h3 .lu{color:var(--accent)} .band.stale h3 .lu{color:var(--amber)}
+  .band .sub2{font-size:12.5px; color:var(--muted); margin:0 0 12px; line-height:1.5; max-width:none}
+  .band .sub2 b{color:var(--ink)}
+  .subrules{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:9px}
+  .subrules li{font-size:13px; line-height:1.45; display:flex; gap:9px}
+  .subrules li .lu{flex:none; margin-top:1px; width:15px; height:15px}
+  .band.sub .subrules li .lu{color:var(--accent)} .band.stale .subrules li .lu{color:var(--amber)}
+  .subrules li b{color:var(--ink); font-family:ui-monospace,Menlo,monospace; font-size:12px; font-weight:600}
+  .subrules li .d{color:var(--muted)}
+
+  /* the laws */
+  .rules{list-style:none; padding:0; margin:20px 0 0; display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:12px}
+  .rules li{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--amber); border-radius:6px; padding:12px 16px; font-size:13.5px; line-height:1.5}
+  .rules li b{display:flex; align-items:center; gap:7px; font-family:ui-monospace,Menlo,monospace; font-size:13px; margin-bottom:3px; color:var(--ink)}
+  .rules li b .lu{width:15px; height:15px; color:var(--amber)}
+  .rules li:last-child{grid-column:1 / -1; display:flex; align-items:baseline; gap:22px}
+  .rules li:last-child b{margin-bottom:0; flex:none; width:250px}
+  @media (max-width:620px){ .rules li:last-child{flex-direction:column; gap:3px} .rules li:last-child b{width:auto} }
+
+  /* core workflow */
+  .vloop{display:flex; flex-wrap:wrap; align-items:stretch; gap:0; margin-top:20px; border:1px solid var(--line); border-radius:10px; overflow:hidden; background:var(--panel)}
+  .vstep{flex:1 1 0; min-width:130px; padding:14px 16px; border-right:1px solid var(--line); display:flex; flex-direction:column; gap:5px}
+  .vstep:last-child{border-right:none}
+  .vstep .n{font-family:ui-monospace,Menlo,monospace; font-size:11px; color:var(--glyph)}
+  .vstep .t{font-family:ui-monospace,Menlo,monospace; font-size:13.5px; color:var(--ink); font-weight:600; display:flex; align-items:center; gap:6px}
+  .vstep .t .lu{color:var(--accent); width:15px; height:15px}
+  .vstep .d{font-size:11.5px; color:var(--muted); line-height:1.4}
+  @media (max-width:640px){ .vstep{flex-basis:45%; border-right:1px solid var(--line)} }
+
+  .artgrid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; margin-top:20px}
+  .art{border:1px solid var(--line); border-radius:10px; padding:15px 17px; background:var(--panel)}
+  .art h3{font-family:ui-monospace,Menlo,monospace; font-size:13.5px; margin:0 0 4px; display:flex; align-items:center; gap:8px; color:var(--ink)}
+  .art h3 .lu{color:var(--accent); width:16px; height:16px; flex:none}
+  .art .file{display:block; font-family:ui-monospace,Menlo,monospace; font-size:11px; color:var(--muted); margin:0 0 8px}
+  .art p{font-size:12.5px; color:var(--muted); margin:0; line-height:1.5; max-width:none}
+  .art p b{color:var(--ink); font-weight:600}
+
+  /* handoff seams */
+  .seam{display:grid; grid-template-columns:1fr auto 1.15fr; gap:0 18px; align-items:stretch; margin-top:20px}
+  .seambox{border:1px solid var(--line); border-radius:10px; padding:16px 18px; background:var(--panel)}
+  .seam>.seambox:first-child{align-self:start}
+  .seambox.mid{border-color:var(--accent); background:var(--code-bg)}
+  .seambox h3{font-family:ui-monospace,Menlo,monospace; font-size:13.5px; margin:0 0 8px; display:flex; align-items:center; gap:8px; color:var(--ink)}
+  .seambox h3 .lu{width:16px; height:16px; color:var(--accent)}
+  .seambox p{font-size:12.5px; color:var(--muted); margin:0; line-height:1.5; max-width:none}
+  .seamyaml{font-family:ui-monospace,Menlo,monospace; font-size:11.5px; line-height:1.7; color:var(--muted); margin:0; white-space:pre; overflow-x:auto; min-width:0; max-width:100%}
+  .seamyaml .k{color:var(--accent)} .seamyaml .v{color:var(--ink)} .seamyaml .req{color:var(--tok-val)}
+  .seamarrows{display:flex; flex-direction:column; justify-content:center; gap:16px; color:var(--accent); font-family:ui-monospace,Menlo,monospace; font-size:22px}
+  /* stacked, not three columns: each seam carries a paragraph, and three columns at this
+     width collapses them into unreadable ribbons */
+  .downstream{display:grid; grid-template-rows:repeat(3,auto); gap:12px; align-content:stretch}
+  @media (max-width:760px){
+    .seam{grid-template-columns:1fr; gap:14px}
+    .seamarrows{flex-direction:row; justify-content:center; gap:40px}
+    .seamarrows span{transform:rotate(90deg)}
+  }
+  .seamnote{margin-top:14px; font-size:13.5px; color:var(--muted); display:flex; gap:9px; line-height:1.55; max-width:none}
+  .seamnote .lu{color:var(--accent); flex:none; margin-top:1px; width:17px; height:17px}
+  .seamnote b{color:var(--ink)}
+
+  /* the family strip */
+  .family{display:flex; flex-wrap:wrap; gap:8px; margin-top:18px}
+  .family a{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; text-decoration:none; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:5px 13px; background:var(--panel)}
+  .family a:hover,.family a:focus-visible{color:var(--accent); border-color:var(--accent); outline:none}
+  .family a .st{color:var(--glyph); margin-right:6px}
+  .family a:hover .st{color:var(--accent)}
+  .family span.unshipped{font-family:ui-monospace,Menlo,monospace; font-size:12.5px; color:var(--glyph); border:1px dashed var(--line); border-radius:999px; padding:5px 13px}
+
   details.disc{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:0; margin-top:14px}
   details.disc summary{cursor:pointer; padding:13px 18px; font-family:ui-monospace,Menlo,monospace; font-size:13.5px; color:var(--accent); list-style:none; display:flex; align-items:center; gap:8px}
   details.disc summary::before{content:"▸"; color:var(--glyph); transition:transform .12s ease}
@@ -190,146 +327,594 @@
   details.disc .tblwrap{margin-top:8px}
   details.disc p{font-size:13.5px; color:var(--muted)}
 
-  /* files */
   .files{background:var(--code-bg); border:1px solid var(--line); border-radius:8px; padding:16px 20px; font-family:ui-monospace,Menlo,monospace; font-size:13px; line-height:1.9; overflow-x:auto; white-space:pre; margin-top:8px}
   .files .d{color:var(--muted)}
   .files .hl{color:var(--accent); font-weight:600}
 
   footer{margin-top:72px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px}
-  /* iOS 26 chrome tint: Safari samples fixed edge elements; theme-color alone is ignored */
   .edge{position:fixed; left:0; right:0; height:8px; background:var(--bg); z-index:0; pointer-events:none}
   .edge.top{top:0} .edge.bottom{bottom:0}
-  @media (max-width:720px){
-    .prow{flex-direction:column; align-items:flex-start}
-    .prow .arr{transform:rotate(90deg); margin-left:18px}
-  }
 </style>
 </head>
 <body>
 <div class="edge top" aria-hidden="true"></div>
 <div class="edge bottom" aria-hidden="true"></div>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="lu-file-input" viewBox="0 0 24 24"><path d="M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M2 15h10"/><path d="m9 18 3-3-3-3"/></symbol>
+  <symbol id="lu-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></symbol>
+  <symbol id="lu-git-fork" viewBox="0 0 24 24"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"/><path d="M12 12v3"/></symbol>
+  <symbol id="lu-scale" viewBox="0 0 24 24"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></symbol>
+  <symbol id="lu-shield-alert" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="M12 8v4"/><path d="M12 16h.01"/></symbol>
   <symbol id="lu-shield-check" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
-  <symbol id="lu-scroll-text" viewBox="0 0 24 24"><path d="M15 12h-5"/><path d="M15 8h-5"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/><path d="M8 21h12a2 2 0 0 0 2-2v-1a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v1a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v2a1 1 0 0 0 1 1h3"/></symbol>
-  <symbol id="lu-clipboard-list" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></symbol>
-  <symbol id="lu-clipboard-check" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></symbol>
-  <symbol id="lu-search-check" viewBox="0 0 24 24"><path d="m8 11 2 2 4-4"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
-  <symbol id="lu-file-output" viewBox="0 0 24 24"><path d="M4.226 20.925A2 2 0 0 0 6 22h12a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.127"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="m5 11-3 3"/><path d="m5 17-3-3h10"/></symbol>
+  <symbol id="lu-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="lu-megaphone" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+  <symbol id="lu-bot" viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></symbol>
+  <symbol id="lu-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="lu-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/></symbol>
+  <symbol id="lu-file-check" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="m9 15 2 2 4-4"/></symbol>
+  <symbol id="lu-file-input" viewBox="0 0 24 24"><path d="M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="M2 15h10"/><path d="m9 18 3-3-3-3"/></symbol>
   <symbol id="lu-files" viewBox="0 0 24 24"><path d="M15 2h-4a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"/><path d="M16.706 2.706A2.4 2.4 0 0 0 15 2v5a1 1 0 0 0 1 1h5a2.4 2.4 0 0 0-.706-1.706z"/><path d="M5 7a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8a2 2 0 0 0 1.732-1"/></symbol>
-  <symbol id="lu-sliders-horizontal" viewBox="0 0 24 24"><path d="M10 5H3"/><path d="M12 19H3"/><path d="M14 3v4"/><path d="M16 17v4"/><path d="M21 12h-9"/><path d="M21 19h-5"/><path d="M21 5h-7"/><path d="M8 10v4"/><path d="M8 12H3"/></symbol>
-  <symbol id="lu-gauge" viewBox="0 0 24 24"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></symbol>
-  <symbol id="lu-coins" viewBox="0 0 24 24"><path d="M13.744 17.736a6 6 0 1 1-7.48-7.48"/><path d="M15 6h1v4"/><path d="m6.134 14.768.866-.5 2 3.464"/><circle cx="16" cy="8" r="6"/></symbol>
-  <symbol id="lu-split" viewBox="0 0 24 24"><path d="M16 3h5v5"/><path d="M8 3H3v5"/><path d="M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3"/><path d="m15 9 6-6"/></symbol>
-  <symbol id="lu-copy-x" viewBox="0 0 24 24"><line x1="12" x2="18" y1="12" y2="18"/><line x1="12" x2="18" y1="18" y2="12"/><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
-  <symbol id="lu-workflow" viewBox="0 0 24 24"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></symbol>
   <symbol id="lu-layers" viewBox="0 0 24 24"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="m6.08 9.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59"/><path d="m6.08 14.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59"/></symbol>
-  <symbol id="lu-eye" viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="lu-mail" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+  <symbol id="lu-coins" viewBox="0 0 24 24"><path d="M13.744 17.736a6 6 0 1 1-7.48-7.48"/><path d="M15 6h1v4"/><path d="m6.134 14.768.866-.5 2 3.464"/><circle cx="16" cy="8" r="6"/></symbol>
+  <symbol id="lu-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="lu-handshake" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></symbol>
+  <symbol id="lu-smartphone" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></symbol>
+  <symbol id="lu-pen-line" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"/></symbol>
+  <symbol id="lu-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91 0z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+  <symbol id="lu-activity" viewBox="0 0 24 24"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"/></symbol>
+  <symbol id="lu-search-check" viewBox="0 0 24 24"><path d="m8 11 2 2 4-4"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="lu-clipboard-list" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></symbol>
+  <symbol id="lu-calendar-clock" viewBox="0 0 24 24"><path d="M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h5"/><path d="M17.5 17.5 16 16.3V14"/><circle cx="16" cy="16" r="6"/></symbol>
 </svg>
 <div class="wrap">
 <header>
-  <div class="eyebrow">TODO: an agent skill · one short descriptor chip</div>
+  <div class="eyebrow">an agent skill · positioning, demand creation, capture and attribution</div>
   <nav class="toplinks" aria-label="external links">
     <a href="https://github.com/gabros20/marketing-skill" target="_blank" rel="noopener">GitHub</a>
     <a href="https://github.com/gabros20/marketing-skill#install" target="_blank" rel="noopener">Install</a>
     <a href="/llms.txt">llms.txt</a>
   </nav>
   <h1><span class="sl">/</span>marketing</h1>
-  <p class="lede">TODO sentence 1 — the generic, forgettable result an agent produces without this
-  skill. TODO sentence 2 — what marketing replaces that with, ending on Position the product and create, capture, and attribute demand.</p>
-  <div class="term" style="margin-top:22px"><span class="c"># that's the whole start</span>
-<span class="p">/marketing</span> TODO — the shortest real ask that would trigger this skill</div>
+  <p class="lede"><b>marketing</b> says what the product is and who it's for, in words a buyer
+  believes — then creates, captures and attributes demand for it. The launch. Being found, in search,
+  in an AI answer, in an app store, in someone else's newsletter. The page that converts the visit,
+  the email that arrives, the ad budget and whether it did anything. What makes it different is that
+  <b>it grades its own evidence</b>: marketing's canon mixes decades-replicated law with heuristics
+  repeated until they sounded measured, so every claim here carries its tier and the point where it
+  stops applying. The default reader is <b>one person building a digital product, with a small budget
+  and no analytics team</b> — which changes the answers, not just their scale.</p>
+  <div class="term" style="margin-top:22px"><span class="c"># natural language — no flags, no fixed pipeline</span>
+<span class="p">/marketing</span> the ads dashboard says 340% ROAS — is any of that incremental at our spend?</div>
   <p class="hosts"><span class="hl">runs on</span><span class="ref">Claude Code</span><span>Codex</span><span>Cursor</span><span>Antigravity</span><span>opencode</span><span>Grok Build</span><span>Hermes</span></p>
   <nav class="secnav" aria-label="page sections">
-    <a href="#arc">the arc</a><a href="#laws">the laws</a><a href="#pick">pick by job</a>
-    <a href="#refs">reference map</a><a href="#start">start here</a>
+    <a href="#mission">mission</a><a href="#router">the router</a><a href="#jobs">by job</a>
+    <a href="#surfaces">surfaces</a><a href="#flagship">attribution ⭐</a><a href="#distinct">what's distinct</a>
+    <a href="#laws">invariants</a><a href="#artifacts">artifacts</a><a href="#handoff">handoff</a><a href="#start">start here</a>
   </nav>
-</header>
 
-<section id="arc">
-  <h2><svg class="lu" aria-hidden="true"><use href="#lu-workflow"/></svg>The workflow arc</h2>
-  <p>TODO: state the arc here — how many stages/strategies, and whether the agent can enter at
-  any point or must run it start to finish.</p>
   <div class="vidwrap" id="vidwrap"></div>
   <!-- render from remotion/, see remotion/README -->
-  <div class="poster" role="img" aria-label="TODO: describe the diagram this poster stands in for.">
-    <p class="arcline"><b>TODO stage 1</b> <span class="ar">→</span> <b>TODO stage 2</b> <span class="ar">→</span> <b>TODO stage 3</b></p>
+  <div class="herofallback router" role="img" aria-label="The honesty hierarchy of measurement: platform-reported conversions answer only which touchpoint fired last, multi-touch attribution gives a credit split across observed touchpoints, and self-reported attribution is directional — while holdout lift tests, geo-lift and marketing-mix modelling sit above the line a solo builder can reach, because a valid lift test can need more than ten million person-weeks and MMM's own vendors gate it at two to three years of weekly data. Then one primary job — attribution and measurement, the flagship — composes with at most one base surface, self-serve SaaS by default, plus two additive overlays for a zero audience and for agent-authored marketing, resolving to the smallest sufficient reference set: two files, read fully, out of twenty.">
+    <div class="gate"><svg class="lu" aria-hidden="true"><use href="#lu-scale"/></svg><span><b>Platform-reported is not incremental.</b> A dashboard number answers "what fired last," never "would this have happened anyway" — and the three methods that can answer the second question sit above what most budgets and data histories reach.</span></div>
+    <div class="rlane">
+      <div class="rlabel">measurement<small>the honesty hierarchy</small></div>
+      <div class="chips">
+        <span class="chip" style="color:var(--good); border-color:var(--good)">UTM discipline</span>
+        <span class="chip" style="color:var(--good); border-color:var(--good)">self-reported</span>
+        <span class="chip" style="color:var(--amber); border-color:var(--amber)">geo-split lift</span>
+        <span class="chip" style="color:var(--bad); border-color:var(--bad)">lift test · MMM — out of reach at n=1</span>
+      </div>
+    </div>
+    <div class="rlane">
+      <div class="rlabel">① primary job<small>exactly one, of 14</small></div>
+      <div class="chips">
+        <span class="chip star">attribution-and-measurement ⭐</span><span class="chip">positioning-and-messaging</span>
+        <span class="chip">audience-and-segmentation</span><span class="chip">marketing-science</span>
+        <span class="chip">go-to-market-and-launch</span><span class="chip">seo-strategy</span>
+        <span class="chip">ai-search</span><span class="chip">content-strategy</span>
+        <span class="chip">landing-pages-and-conversion</span><span class="chip">lifecycle-and-email</span>
+        <span class="chip">paid-acquisition</span><span class="chip">organic-social-and-community</span>
+        <span class="chip">partnerships-pr-and-affiliates</span><span class="chip">app-store-optimization</span>
+      </div>
+    </div>
+    <div class="rlane">
+      <div class="rlabel">② base surface<small>at most one, of 3</small></div>
+      <div class="chips">
+        <span class="chip on">self-serve SaaS</span><span class="chip">B2B sales-assisted</span>
+        <span class="chip">developer tool</span>
+        <span class="chip" style="border-style:dashed">assumed when unstated — and said out loud</span>
+      </div>
+    </div>
+    <div class="rlane">
+      <div class="rlabel">③ additive overlays<small>stack on, never instead</small></div>
+      <div class="chips">
+        <span class="chip dimon">surface-zero-audience</span><span class="chip dimon">surface-agentic</span>
+        <span class="chip" style="border-style:dashed">no list, following or customers yet · a model authors or decides at scale</span>
+      </div>
+    </div>
+    <div class="rdown"><span>compose →</span></div>
+    <div class="readset">
+      <code>attribution-and-measurement.md</code><code>surface-selfserve-saas.md</code>
+      <span class="cnt"><b>2 of 20</b> loaded · read fully</span>
+    </div>
+    <p class="rrule"><svg class="lu" aria-hidden="true"><use href="#lu-route"/></svg><span><b>Route before acting.</b> One job, at most one base surface, overlays added only when they apply. If the request names no business model, the skill does not stall — it assumes self-serve SaaS and says which it assumed.</span></p>
   </div>
-  <p class="pcap">TODO: note which stages (if any) also stand alone, entered without the rest of the arc.</p>
+  <p class="pcap"><b>The router is the skill.</b> There is no fixed campaign pipeline to run
+  start-to-finish — each job stands alone and enters where your request is. The animation traces one
+  path (the flagship, deciding what a measurement can honestly support); the sections below map the
+  whole surface it routes across.</p>
+</header>
 
-  <div class="steps">
-    <div><b><svg class="lu" aria-hidden="true"><use href="#lu-sliders-horizontal"/></svg>TODO stage 1</b><span>TODO one-line job for this stage. → <code>references/example.md</code></span></div>
-    <div><b><svg class="lu" aria-hidden="true"><use href="#lu-files"/></svg>TODO stage 2</b><span>TODO one-line job for this stage.</span></div>
-    <div><b><svg class="lu" aria-hidden="true"><use href="#lu-file-output"/></svg>TODO stage 3</b><span>TODO one-line job for this stage.</span></div>
+<section id="mission">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-megaphone"/></svg>Position the product, then create, capture and attribute demand</h2>
+  <p>The scope is the full external-demand surface — positioning, audience, launch, SEO, AI search,
+  content, landing pages, email and lifecycle, paid, social and community, partnerships and PR, app
+  store optimization, and measurement — across every place demand actually happens: search and AI
+  answer engines, inboxes, ad platforms, app stores, launch platforms, integration marketplaces.
+  <b>Those platforms are the terrain, never the subject</b> — the techniques are the same; the
+  surfaces say how each one reshapes them. <code>marketing</code> writes copy, requirements, briefs,
+  plans and measurement specs. It writes <b>no production code</b>, and it does not compose the page
+  it briefs.</p>
+  <div class="boundary">
+    <div class="bcol own">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg>marketing owns</h3>
+      <p class="sub">everything between the product and the person who hasn't heard of it</p>
+      <ul class="bitems">
+        <li><b>what actually happened, and what you can know ⭐</b> <span class="d">— the measurement method matched to your real scale, and what that method cannot answer</span></li>
+        <li><b>the claim a buyer believes</b> <span class="d">— positioning, category framing, the messaging ladder, and the audience named by its buying situation</span></li>
+        <li><b>being found, and being chosen</b> <span class="d">— SEO and AI-search visibility, content, the launch, partnerships, app-store listings, the page's claims and proof</span></li>
+        <li><b>the send, and whether it is lawful</b> <span class="d">— deliverability as engineering, stream separation, and the consent basis decided before the copy is written</span></li>
+      </ul>
+    </div>
+    <div class="bcol off">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-git-fork"/></svg>hands off to</h3>
+      <p class="sub">the "Not this skill" table — eleven asks this skill declines by design</p>
+      <ul class="bitems hand">
+        <li><b>frontend · backend</b> <span class="d">— the site, the JSON-LD, the sitemap, the email template, the tracking pixel. Marketing writes the requirement and the copy</span></li>
+        <li><b>design</b> <span class="d">— page composition, section order, the landing page's beat sequence, in-product voice</span></li>
+        <li><b>product</b> <span class="d">— the price, the tier structure, the LTV model, JTBD discovery</span></li>
+        <li><b>growth</b> <span class="d">— running an experiment and reading its result; marketing proposes the hypothesis and never reports the readout as its own</span></li>
+        <li><b>sales · success</b> <span class="d">— pipeline, CRM stages, cold outbound; onboarding education and retention communication</span></li>
+        <li><b>data · quality · operate</b> <span class="d">— the pipeline that computes attribution; auditing a live site; deploying or hosting anything</span></li>
+        <li><b>ai · automation</b> <span class="d">— a model's prompts, retrieval and output evaluation; building the campaign workflow itself</span></li>
+      </ul>
+    </div>
   </div>
-  <div class="loopback"><span class="ic"><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg></span><span>TODO: state the loop-back rule, if this skill has a review/QA gate that can send work back through an earlier stage.</span></div>
+  <p class="bnote"><svg class="lu" aria-hidden="true"><use href="#lu-users"/></svg><span><b>The default reader is one person, with a small budget and no analytics team.</b>
+  That is not a simplification of enterprise practice — it changes the answers. Platform attribution
+  over-claims by construction, a valid lift test needs scale almost nobody has, and marketing-mix
+  modelling needs years of weekly data. What remains at that scale is real, and this pack teaches it
+  instead of pretending the enterprise toolkit scales down.</span></p>
+</section>
+
+<section id="router">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-route"/></svg>The faceted router</h2>
+  <p>SKILL.md is a router, not a script. Every request selects the smallest sufficient route:
+  <b>one primary job</b> — the fourteen below — combined with <b>at most one base surface</b> that
+  reshapes how the job applies to how the product is actually bought, plus <b>additive overlays</b>
+  when there is no audience yet or when a model authors at scale. Read the selected references
+  completely; load one or two, never the whole pack.</p>
+  <div class="tblwrap"><table style="table-layout:fixed">
+    <colgroup><col style="width:16%"><col style="width:44%"><col style="width:40%"></colgroup>
+    <tr><th>facet</th><th>options</th><th>rule</th></tr>
+    <tr>
+      <td class="job">① Primary job</td>
+      <td class="prod"><b>attribution-and-measurement ⭐</b> · positioning-and-messaging · audience-and-segmentation · marketing-science · go-to-market-and-launch · seo-strategy · ai-search · content-strategy · landing-pages-and-conversion · lifecycle-and-email · paid-acquisition · organic-social-and-community · partnerships-pr-and-affiliates · app-store-optimization</td>
+      <td class="canon"><b>Exactly one.</b> Pick the single job the request needs. The flagship answers the question the rest of the field avoids — what actually happened, and what can you honestly know at your scale. Often the answer is "less than the dashboard claims," and saying so is the job.</td>
+    </tr>
+    <tr>
+      <td class="job">② Base surface</td>
+      <td class="prod">surface-selfserve-saas <span style="color:var(--muted)">(default)</span> · surface-b2b-sales-assisted · surface-developer-tool</td>
+      <td class="canon"><b>At most one.</b> The surface reshapes what each job means for how the product is actually bought — it points to the job references, it doesn't redefine them. Many questions (what to claim, which consent regime applies) are surface-independent.</td>
+    </tr>
+    <tr>
+      <td class="job">③ Additive overlays <span style="color:var(--tok-dim)">⭐</span></td>
+      <td class="prod"><b style="font-family:ui-monospace,Menlo,monospace; color:var(--tok-dim)">surface-zero-audience</b> — no list, following or customers yet<br><b style="font-family:ui-monospace,Menlo,monospace; color:var(--tok-dim)">surface-agentic</b> — a model authors or decides a spend or send at scale</td>
+      <td class="canon"><b>Additive.</b> Each stacks <i>on top of</i> a base surface, never instead of one. Read <code>marketing-science</code> as a fourth, orthogonal move whenever a claim invokes "brand science" or a named statistic — it grades the claim so the other references need not re-derive it.</td>
+    </tr>
+  </table></div>
+  <div class="note"><b>Every claim on this page is true of the shipped pack.</b> Where a number is
+  cited — eBay's measured ROI, the person-weeks a valid lift test needs, the data history MMM
+  requires — it carries its named source; where a fact is volatile (a store limit, a spam threshold,
+  a crawler policy), the pack carries an as-of date and the check that re-verifies it, rather than
+  freezing a number this page would then repeat after it changed.</div>
+</section>
+
+<section id="jobs">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-files"/></svg>The fourteen primary jobs</h2>
+  <p>Each job is one reference, read fully only when its route is selected. Attribution is the
+  flagship because every other channel reference assumes <i>this</i> honesty hierarchy — not the
+  platform dashboard — is the arbiter of "did it work." This is the whole surface, not a headline
+  slice.</p>
+  <div class="tblwrap"><table>
+    <tr><th>I need to…</th><th>Read</th><th>Contribution</th></tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-scale"/></svg> Judge whether a channel, campaign or launch actually worked — and what my scale can honestly support <span style="color:var(--tok-dim)">⭐</span></td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/attribution-and-measurement.md">attribution-and-measurement.md</a></code></td>
+      <td class="prod"><b>Flagship.</b> The honesty hierarchy of measurement methods; why platform-reported ≠ incremental; why almost nobody can run a valid lift test; the n=1 answer — UTM discipline, self-reported attribution, geo-split lift, pre-committed decision rules</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-target"/></svg> Say what the product is, who it's for, and why it beats the alternatives</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/positioning-and-messaging.md">positioning-and-messaging.md</a></code></td>
+      <td class="prod">The front-door job. Dunford's five components <b>as craft, never as science</b>; category and competitive framing; the messaging ladder; copywriting frameworks; the staged repositioning rollout and defensibility hierarchy</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-users"/></svg> Decide who to market to, or challenge a persona that names no buying situation</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/audience-and-segmentation.md">audience-and-segmentation.md</a></code></td>
+      <td class="prod">Category entry points over persona theater; the JTBD seam with <code>product</code>; ICP as a funnel not a checkbox; light-buyer reality; the consent-regime checkpoint before any segment is emailed</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-search-check"/></svg> Grade a "brand science" claim, a named statistic, or a budget-split rule of thumb</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/marketing-science.md">marketing-science.md</a></code></td>
+      <td class="prod">The adjudication layer. The evidence ladder; the laws with their domain boundaries; the 95-5 derivation and its disclaimer; the Thomaz dispute presented, not settled; <b>no SaaS dataset exists, and n=1 is outside all of them</b></td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-rocket"/></svg> Choose a go-to-market motion, or plan and run a launch</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/go-to-market-and-launch.md">go-to-market-and-launch.md</a></code></td>
+      <td class="prod">Four motions and the brutal middle; <b>launch ≠ release ≠ deploy</b>; major/minor/silent launch tiers; Product Hunt's enforceable rules (never solicit upvotes); the failed-launch pattern; owned/rented/borrowed channels</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-search"/></svg> Decide what to rank for, or check an SEO claim against what Google actually documents</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/seo-strategy.md">seo-strategy.md</a></code></td>
+      <td class="prod">Keyword-intent mapping; topic clusters; <b>four myths Google's own dated docs kill</b>; the structured-data requirement marketing specifies and <code>frontend</code> implements; the FAQ/HowTo removal as a staleness parable; zero-click reality</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-sparkles"/></svg> Decide what to do about visibility inside ChatGPT, Perplexity, AI Overviews or Copilot</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/ai-search.md">ai-search.md</a></code></td>
+      <td class="prod">The platform divergence (Bing formally adopts GEO; Google formally rejects it); the crawler matrix per bot; <b>llms.txt falsified by four independent evidence classes</b>; the one peer-reviewed GEO anchor and its limits; citability vs. surfacing</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-pen-line"/></svg> Decide what content to produce, brief a writer, or set an editorial cadence</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/content-strategy.md">content-strategy.md</a></code></td>
+      <td class="prod">Distribution beats production; what a brief must specify, including its information-gain claim; scaled-content abuse is purpose-tested, not authorship-tested; the traffic-collapse convergence; the copy-fidelity seam with <code>design</code></td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-file-check"/></svg> Brief a landing, campaign or pricing page — the claims, the proof, the objections</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/landing-pages-and-conversion.md">landing-pages-and-conversion.md</a></code></td>
+      <td class="prod">The requirements brief marketing owns and <code>design</code> composes against; Attention Ratio and the one-goal doctrine; trust and proof devices with placement as the lever; message-match; <b>the ethics/dark-patterns table</b></td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-mail"/></svg> Get marketing email delivered, and decide whether a list is lawful to send to</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/lifecycle-and-email.md">lifecycle-and-email.md</a></code></td>
+      <td class="prod">Deliverability as engineering first; SPF/DKIM/DMARC and DMARC's supersession; provider divergence; <b>the four consent regimes and the jurisdiction decision rule</b>; stream separation; where lifecycle hands off to <code>success</code></td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-coins"/></svg> Decide whether to spend on ads, which format, and when it's premature</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/paid-acquisition.md">paid-acquisition.md</a></code></td>
+      <td class="prod">What ATT changed and didn't; black-box campaign types — documented controls, undocumented effect, <b>zero independent incrementality evidence</b>; when paid is premature; the format taxonomy; the standard-vs-incremental death-spiral rule</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-activity"/></svg> Choose between a brand account, a founder account, or an owned community</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/organic-social-and-community.md">organic-social-and-community.md</a></code></td>
+      <td class="prod">Brand-account reach is dying and founders aren't — stated at its real evidence tier; owned vs. rented; the Orbit model with its maintenance status; DevRel is not developer marketing; <b>an explicit list of what stays folklore here</b></td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-handshake"/></svg> Earn distribution through someone else's audience — press, marketplaces, affiliates, co-marketing</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/partnerships-pr-and-affiliates.md">partnerships-pr-and-affiliates.md</a></code></td>
+      <td class="prod">The site-reputation-abuse warning that kills a class of partnership pitch; marketplace listings and their traction gates; affiliate mechanics; FTC disclosure; the liveness check before naming any journalist-query service</td>
+    </tr>
+    <tr>
+      <td class="job"><svg class="lu" aria-hidden="true" style="color:var(--accent)"><use href="#lu-smartphone"/></svg> Get a mobile app found and installed — listing copy, keywords, store experiments</td>
+      <td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/app-store-optimization.md">app-store-optimization.md</a></code></td>
+      <td class="prod">Also the pack's <b>mobile-surface authority</b>. Hard character limits per store; two different keyword-stuffing enforcement philosophies; Custom Product Pages ≠ Product Page Optimization; per-market localization; what stays unverified</td>
+    </tr>
+  </table></div>
+  <p style="margin-top:12px">A fifteenth routing row is a <b>diagnostic entry point</b> rather than a
+  fourteenth reference: <i>traffic, rankings, conversions or inbox placement fell and the cause isn't
+  known</i> routes to <code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/seo-strategy.md">seo-strategy.md</a></code>
+  first — intent-and-coverage diagnosis before volume — and then to whichever channel reference the
+  decline actually touches. Full router table &amp; invariants:
+  <a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/SKILL.md#route-before-acting">SKILL.md</a>.</p>
+</section>
+
+<section id="surfaces">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-layers"/></svg>Three surfaces + two additive overlays</h2>
+  <p>One base surface, at most, reshapes every job for how the product is actually bought — the same
+  positioning job resolves differently when a rep closes the deal than when anyone can sign up
+  unattended. The two overlays are <b>additive</b> — they stack on top of whichever base you picked,
+  never replace it — and carry a distinct violet identity throughout this page, the same convention
+  <code>automation</code>, <code>operate</code>, <code>quality</code> and <code>data</code> use for
+  their own additive overlays.</p>
+  <div class="overlays">
+    <div class="ov">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-route"/></svg>Self-serve SaaS <span class="file">surface-selfserve-saas.md</span></h3>
+      <p class="reshape">The <b>default</b>: anyone can sign up or trial without talking to a human.
+      If a request names no business model, this is what the skill assumes — and it says so rather
+      than stalling for a clarification it doesn't need.</p>
+      <p class="lens"><span class="k">reshapes</span>the page as the whole sales conversation · the seam at signup, where marketing's lifecycle job stops and <code>success</code> begins</p>
+    </div>
+    <div class="ov">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-users"/></svg>B2B sales-assisted <span class="file">surface-b2b-sales-assisted.md</span></h3>
+      <p class="reshape">A rep, a demo, or procurement gates the deal — a human conversation closes
+      it. This surface names the boundary the incumbent genre routinely blurs: pipeline, enablement
+      and cold outbound are <code>sales</code>'s, not marketing's.</p>
+      <p class="lens"><span class="k">reshapes</span>what "qualified demand" means as a handoff to <code>sales</code> — a defined fit-plus-intent signal on a named account, not a lead count</p>
+    </div>
+    <div class="ov">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-file-input"/></svg>Developer tool <span class="file">surface-developer-tool.md</span></h3>
+      <p class="reshape">The buyer evaluates through docs, an API, or the source. The audience
+      detects and discounts marketing language, so proof moves from testimonial to something the
+      reader can run.</p>
+      <p class="lens"><span class="k">reshapes</span>where the claim gets tested — the docs, not the landing page · why DevRel is not developer marketing</p>
+    </div>
+    <div class="ov wedge">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-users"/></svg>Zero audience <span class="badge">additive ⭐</span></h3>
+      <p class="reshape">No list, no following, no customers yet. <b>Stacks on, does not replace.</b>
+      The overlay that most changes the answers, because every brand-science dataset requires an
+      existing, measurable buyer population — the exact opposite of a pre-launch founder. It
+      separates what is known here from what is folklore, and from what is genuinely unknowable.</p>
+      <p class="lens"><span class="k">reshapes</span>which laws may be cited at all · what an honest "nobody has measured this" looks like as a deliverable</p>
+    </div>
+    <div class="ov wedge">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-bot"/></svg>Agentic <span class="badge">additive ⭐</span></h3>
+      <p class="reshape">A model authors marketing content at scale, or decides a spend or a send —
+      not a model drafting one piece of copy a human reviews before it ships.
+      <b>Stacks on, does not replace.</b> Scaled
+      content abuse is <b>purpose-tested, not authorship-tested</b>; the blast radius of slop is
+      domain reputation; the ethics table binds an agent identically to a human.</p>
+      <p class="lens"><span class="k">reshapes</span>guardrails for agent-decided spend and sends · what's <code>ai</code>'s (the model's cognition) vs ours (the deterministic envelope around a marketing action)</p>
+    </div>
+  </div>
+</section>
+
+<section id="flagship">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-scale"/></svg>Attribution and measurement — the flagship</h2>
+  <p>Ask an agent whether a campaign worked and it reads the number the platform reported. Nobody
+  checked whether those conversions were <i>incremental</i> — whether they would have happened
+  anyway. That question is the one the field mostly avoids, and answering it honestly is this pack's
+  flagship job. <b>Platform-reported conversions answer "what fired last," never "what was
+  incremental."</b> The gap between the two is not a rounding error. In eBay's own large-scale
+  paid-search field experiment, naive estimation put ROI above <b>+4,100%</b> uncontrolled and above
+  <b>+1,400%</b> with time and geo controls; switching the ads off in randomized markets measured
+  <b>−63% ROI</b> (95% CI [−124%, −3%]) — a sign flip, not a margin. The mechanism generalizes past
+  search ads: people clicking high-intent ads were mostly going to buy anyway, which is why
+  retargeting is the format most likely to overstate its own incrementality.</p>
+  <div class="tblwrap"><table>
+    <tr><th>Method</th><th>What it answers</th><th>What it cannot</th></tr>
+    <tr><td class="job">Platform-reported conversions</td><td class="canon">Which touchpoint fired last before a tracked conversion</td><td class="prod">Whether the conversion was incremental — would it have happened anyway</td></tr>
+    <tr><td class="job">Multi-touch attribution</td><td class="canon">A credit split across observed touchpoints</td><td class="prod">Causality; blind to unobserved, offline or organic touchpoints; degrades under consent gating and ATT</td></tr>
+    <tr><td class="job">Self-reported attribution</td><td class="canon">Directional channel awareness, very cheaply</td><td class="prod">Precision — it carries recall and social-desirability bias, in a <i>known</i> direction</td></tr>
+    <tr><td class="job">Holdout / conversion lift</td><td class="canon">The true incremental effect of exposure vs. a matched control</td><td class="prod">Anything at all without real statistical power — see the ceiling below</td></tr>
+    <tr><td class="job">Geo-lift</td><td class="canon">Incrementality at market level; survives ATT and cookie loss with no user tracking</td><td class="prod">A trustworthy null without enough independent geo units and a stable outcome metric</td></tr>
+    <tr><td class="job">Marketing-mix modelling</td><td class="canon">Cross-channel contribution and diminishing-returns curves over the longer run</td><td class="prod">Causal ground truth on its own; and it cannot forecast — Google's Meridian docs say it is "designed for causal inference, not prediction"</td></tr>
+  </table></div>
+  <div class="wedgehead"><svg class="lu" aria-hidden="true"><use href="#lu-shield-alert"/></svg>The three rigorous options are gated by scale — not by budget, and not by tooling</div>
+  <div class="wedgebody">
+    <div class="wedgegrid">
+      <div>
+        <h3>Why almost nobody can run a valid lift test</h3>
+        <ul class="ladder">
+          <li class="good"><span class="t">the finding</span><span class="d">Lewis &amp; Rao (<i>QJE</i> 130(4), 2015) analyzed 25 large field experiments: an informative advertising experiment "can easily require more than 10 million person-weeks"</span></li>
+          <li class="warn"><span class="t">the scale gap</span><span class="d">the median campaign in that dataset would need to be <b>9× larger</b> to distinguish a genuine +50% ROI from breakeven, and <b>62× larger</b> to resolve a 10% ROI difference</span></li>
+          <li class="bad"><span class="t">the consequence</span><span class="d">this is a statistical-power problem baked into how noisy sales data is — not a tooling problem, and not one more spend solves. Most advertisers, including most large ones, never reach it</span></li>
+        </ul>
+        <p style="font-size:13px; color:var(--muted); margin:0">MMM has the same shape of gate from
+        the other direction: <b>Robyn</b> (Meta, MIT) documents roughly two years of weekly data at a
+        1:10 variable-to-observation ratio; <b>Meridian</b> (Google, Apache-2.0) says two years for a
+        geo-level model is "too low to estimate the model reliably" and recommends three. Neither
+        names a dollar threshold — the gate is data history, which is why MMM is unreachable for an
+        early-stage product regardless of ad spend.</p>
+      </div>
+      <div class="wcol">
+        <h3>What your scale can actually reach</h3>
+        <div class="reachbar" aria-hidden="true"><div class="r-in" style="width:40%">reachable at n=1</div><div class="r-edge" style="width:22%">conditional</div><div class="r-out">out of reach</div></div>
+        <div class="poplegend">
+          <span class="pill good"><b>UTM discipline · self-reported</b> — cheap, biased in a known direction, worth having anyway</span>
+          <span class="pill amber"><b>geo-split lift</b> — real at small scale where geography allows; run a power check before trusting a null</span>
+          <span class="pill bad"><b>lift tests · MMM</b> — gated by statistical power and years of weekly data, not by budget</span>
+        </div>
+      </div>
+    </div>
+    <div class="sharprule"><b>The n=1 answer:</b> none of the three rigorous options are available, so
+    what remains is, in order of cheapness — UTM discipline, self-reported attribution, geo-split lift
+    where geography allows, and a <b>decision rule written down before the result exists</b>. At n=1
+    there is no second person auditing whether you re-ran the analysis until it looked right; the
+    independence has to come from the rule, committed to in advance.
+      <div class="cc"><span>the same resolution <code>automation</code> reaches for a maker-checker it cannot staff</span><span>"Unknown is honest. Direct is a claim" — @HaktanSuren</span></div>
+    </div>
+  </div>
+  <p class="pcap"><b>And a number can be incremental and still be the wrong thing to optimize.</b> A
+  campaign that shows a clean incrementality result while only harvesting buyers already in-market
+  has passed a measurement test without answering the growth question. Reading an incrementality
+  result alongside "did this reach buyers new to the category" — connecting measurement mechanics to
+  the brand-growth evidence in <code>marketing-science</code> — is a connection the wider genre
+  leaves open, and this pack's job.</p>
+</section>
+
+<section id="distinct">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-search-check"/></svg>What makes this different</h2>
+  <p>Almost every individual fact in this pack exists somewhere else. What does not exist anywhere
+  else is a pack that <b>grades</b> those facts and <b>connects</b> them to each other — so the wedge
+  is named as adjudication and integration, not discovery.</p>
+  <div class="bandgrid">
+    <div class="band sub">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-scale"/></svg>Every claim carries its tier and its boundary</h3>
+      <p class="sub2">The canon mixes decades-replicated law, self-selected award-entry corpora, and
+      arithmetic heuristics with a disclaimer attached. They are not cited the same way here.</p>
+      <ul class="subrules">
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg><span><b>(a) well-evidenced in its own domain</b> <span class="d">— decades of replication on consumer repeat-purchase panels, many countries, peer-reviewed</span></span></li>
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-search"/></svg><span><b>(b) plausibly transferable, thinner</b> <span class="d">— real B2B replications exist and the direction holds, but smaller and younger; <b>no B2B SaaS or subscription dataset has been located in any open-access institute publication</b></span></span></li>
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-shield-alert"/></svg><span><b>(c) folklore extrapolation</b> <span class="d">— applying (a) or (b) to a zero-audience, pre-launch, n=1 product. Every dataset behind these laws needs an existing, measurable buyer population</span></span></li>
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-users"/></svg><span><b>the boundary that matters most</b> <span class="d">— a pre-launch founder sits outside every dataset surveyed <i>in both directions</i>: no evidence for, none against. That is the honest answer, not a gap to paper over</span></span></li>
+      </ul>
+    </div>
+    <div class="band stale">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-calendar-clock"/></svg>Volatile facts carry a date and the check that re-verifies them</h3>
+      <p class="sub2">Store limits, spam thresholds, crawler policies, supported rich results and
+      platform guidelines all change with no deploy on your side. The pack teaches the check, not the
+      list — and it never names a number in order to forbid it.</p>
+      <ul class="subrules">
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-search"/></svg><span><b>four SEO myths, killed with dates</b> <span class="d">— AI authorship is not penalized (the test is purpose, not authorship); there is no separate helpful-content algorithm since it folded into core ranking; a rater's score cannot move a page; E-E-A-T is not four co-equal factors — Trust is the center</span></span></li>
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-sparkles"/></svg><span><b>llms.txt is falsified, not merely unproven</b> <span class="d">— by four independent, non-citing evidence classes, including the spec's own text and every major provider's crawler documentation. Ship it as cheap, low-risk and of unverified payoff — never as a tactic</span></span></li>
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg><span><b>the self-verifying alternative</b> <span class="d">— blocking or allowing named AI crawlers by user-agent needs no trust in an unobserved consumption claim: user-agents are directly observable in your own logs</span></span></li>
+        <li><svg class="lu" aria-hidden="true"><use href="#lu-search-check"/></svg><span><b>specimen vs. evidence</b> <span class="d">— a measurement vendor's aggregate is evidence about a pattern <i>and</i> a specimen of the genre that sells the service. The interest gets named, including when it makes the claim stronger</span></span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="note"><b>What it will not do:</b> assert a number it could not verify. No ESOV
+  coefficient is shipped, not even hedged, because none was located at a primary source. The 60/40
+  brand-versus-activation split is labelled as what it is — an IPA Databank figure from a
+  self-submitted awards corpus, and a B2C one. The Thomaz dispute over mental and physical
+  availability is presented, not settled. <b>An honest "nobody has measured this, and here is why" is
+  a deliverable, not a failure to produce one.</b></div>
 </section>
 
 <section id="laws">
-  <h2><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg>The non-negotiable laws</h2>
-  <p>These govern everything in the references below — the load-bearing ones, condensed.</p>
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg>The universal invariants</h2>
+  <p>These govern every route, whichever references it loads.</p>
   <ul class="rules">
-    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-layers"/></svg>TODO law 1</b>TODO one to two sentences.</li>
-    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-sliders-horizontal"/></svg>TODO law 2</b>TODO one to two sentences.</li>
-    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-gauge"/></svg>TODO law 3</b>TODO one to two sentences, as a full-width capstone if it's the closing rule.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-scale"/></svg>Grade the claim before you use it</b>Every empirical claim carries its evidence tier and the population it was measured on. Replicated law, award-entry corpora and arithmetic heuristics get cited differently.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-users"/></svg>Name the domain boundary, especially when it excludes your reader</b>Say a dataset doesn't cover you instead of borrowing a panel's confidence.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-activity"/></svg>Platform-reported is not incremental</b>A dashboard number answers "what fired last," never "would this have happened anyway." The two are never reported as the same fact.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-calendar-clock"/></svg>Date-stamp every volatile fact, and ship the check</b>Teach the check, not the list — limits, thresholds, crawler policies and platform guidelines change with no deploy on your side.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-search-check"/></svg>Specimen vs. evidence</b>Name the interest of anyone selling what they measure — including when it makes their claim stronger.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-shield-alert"/></svg>Never name a number in order to forbid it</b>A figure that failed verification is not repeated with a disclaimer attached. State the mechanism and point at the primary source.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-mail"/></svg>Segment by jurisdiction before any send</b>A single global list treated uniformly is unlawful in at least one regime it touches. The consent basis is decided before the copy is written.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-target"/></svg>The mechanism is fine; verify the claim underneath it</b>Scarcity, anchoring, framing and social proof are ethical or dark patterns depending only on whether the underlying claim is true.</li>
+    <li><b><svg class="lu" aria-hidden="true"><use href="#lu-file-check"/></svg>State what you could not verify</b>An honest "nobody has measured this, and here is why" is a deliverable, not a failure to produce one — and it is the answer nobody else in the genre gives.</li>
   </ul>
 </section>
 
-<section id="pick">
-  <h2><svg class="lu" aria-hidden="true"><use href="#lu-clipboard-list"/></svg>Pick by job</h2>
-  <p>The SKILL.md is a router — load only the reference your current job needs. A condensed cut of the full table:</p>
-  <div class="tblwrap"><table>
-    <tr><th>I need to…</th><th>Read</th></tr>
-    <tr><td>TODO job 1</td><td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/example.md">example.md</a></code></td></tr>
-    <tr><td>TODO job 2</td><td><code><a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/references/example.md">example.md</a></code></td></tr>
-  </table></div>
-  <p style="margin-top:12px">Full table: <a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/SKILL.md#route-before-acting">SKILL.md</a>.</p>
-  <div class="note"><b>Complementary, not duplicated:</b> TODO — name the adjacent skills this one hands off to instead of duplicating.</div>
+<section id="artifacts">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-file-check"/></svg>What a pass produces</h2>
+  <p>Copy is delivered as copy. Requirements are delivered as requirements. Neither is delivered as
+  production code. A marketing artifact is incomplete unless it carries the audience and buying
+  situation it addresses, the one goal, every claim with a named proof source, the evidence tier and
+  domain boundary of any law it cites, an as-of date on every volatile fact, the consent basis if
+  anything gets sent, the measurement method <i>and what that method cannot answer</i>, and the
+  sibling packs it hands to.</p>
+  <div class="vloop" aria-label="the marketing core workflow">
+    <div class="vstep"><span class="n">step 1</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-route"/></svg>route</span><span class="d">one primary job + one base surface; overlays only if they apply; state any surface you assumed</span></div>
+    <div class="vstep"><span class="n">step 2</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-users"/></svg>name the audience</span><span class="d">by its buying situation — and the one thing this work should make happen</span></div>
+    <div class="vstep"><span class="n">step 3</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-scale"/></svg>grade</span><span class="d">every claim, statistic or "best practice" you lean on, and where its evidence stops</span></div>
+    <div class="vstep"><span class="n">step 4</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-calendar-clock"/></svg>re-verify</span><span class="d">every volatile platform fact against its primary source; carry the as-of date with it</span></div>
+    <div class="vstep"><span class="n">step 5</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-pen-line"/></svg>produce</span><span class="d">the brief, plan, copy or requirements spec — a named proof source behind every claim</span></div>
+    <div class="vstep"><span class="n">step 6</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-file-check"/></svg>commit the rule</span><span class="d">decide how you'll know it worked, honestly, and write the decision rule down before the result exists</span></div>
+    <div class="vstep"><span class="n">step 7</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-shield-check"/></svg>check ethics</span><span class="d">every persuasion mechanism, and any agent-generated output, against the ethics table</span></div>
+    <div class="vstep"><span class="n">step 8</span><span class="t"><svg class="lu" aria-hidden="true"><use href="#lu-git-fork"/></svg>hand off</span><span class="d">a compact handoff when downstream work is expected — paths, owners, residual risk</span></div>
+  </div>
+  <div class="artgrid">
+    <div class="art">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-target"/></svg>Positioning canvas</h3>
+      <span class="file">assets/positioning-canvas.md</span>
+      <p>The five components filled as <b>craft, not science</b> — competitive alternatives, unique attributes, the value they enable, who cares most, and the market frame the product is set in.</p>
+    </div>
+    <div class="art">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-file-check"/></svg>Landing-page requirements brief</h3>
+      <span class="file">assets/landing-page-requirements-brief.md</span>
+      <p>What the page must <b>claim and prove</b> — the one goal, the objections, the proof devices — handed to <code>design</code> to compose against. Never a layout.</p>
+    </div>
+    <div class="art">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-rocket"/></svg>Launch checklist</h3>
+      <span class="file">assets/launch-checklist.md</span>
+      <p>The launch as its own event — <b>launch ≠ release ≠ deploy</b> — with its tier chosen deliberately and the platform rules that are actually enforceable named before the day.</p>
+    </div>
+    <div class="art">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-scale"/></svg>Attribution requirements spec</h3>
+      <span class="file">assets/attribution-requirements-spec.md</span>
+      <p>The UTM taxonomy, event and conversion definitions, and attribution window that <code>data</code> implements — plus the method's confidence level and <b>what it cannot answer</b>.</p>
+    </div>
+    <div class="art">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-mail"/></svg>Email compliance checklist</h3>
+      <span class="file">assets/email-compliance-checklist.md</span>
+      <p>The consent basis per jurisdiction, decided <b>before</b> the copy is written, alongside the sender-authentication baseline and transactional/marketing stream separation.</p>
+    </div>
+  </div>
 </section>
 
-<section id="refs">
-  <h2><svg class="lu" aria-hidden="true"><use href="#lu-files"/></svg>Reference map</h2>
-  <p>TODO: how many references, grouped by the stage/strategy they serve. Every one is copy-pasteable rather than abstract — the whole point of the router is that you never read all of them at once.</p>
-  <dl class="refmap">
-    <div class="refrow">
-      <dt class="reflabel"><svg class="lu" aria-hidden="true"><use href="#lu-sliders-horizontal"/></svg>TODO stage 1<span class="ct">1</span></dt>
-      <dd class="refchips"><span class="ref"><code>example.md</code></span></dd>
+<section id="handoff">
+  <h2><svg class="lu" aria-hidden="true"><use href="#lu-git-fork"/></svg>The handoff seams</h2>
+  <p>marketing operates independently when invoked alone, and uses compatible upstream artifacts
+  without silently overriding them. It is rarely terminal: <code>handoff.md</code> maps every seam
+  between this pack and the rest of the family from marketing's side — what it produces for each
+  sibling, what it consumes, and the line it does not cross.</p>
+  <div class="seam">
+    <div class="seambox">
+      <h3><svg class="lu" aria-hidden="true"><use href="#lu-pen-line"/></svg>marketing emits</h3>
+<pre class="seamyaml"><span class="k">audience</span>: <span class="v">&lt;buying situation&gt;</span>
+<span class="req">one_goal</span>: <span class="v">&lt;what this makes happen&gt;</span>
+<span class="req">claims</span>: <span class="v">[claim, named proof source,</span>
+  <span class="v">evidence tier, domain boundary]</span>
+<span class="k">volatile_facts</span>: <span class="v">[fact, as_of,</span>
+  <span class="v">re_verify_check]</span>
+<span class="k">consent_basis</span>: <span class="v">&lt;if anything is sent&gt;</span>
+<span class="req">measurement</span>: <span class="v">method + what it</span>
+  <span class="v">cannot answer</span></pre>
     </div>
-  </dl>
-  <p style="margin-top:16px">Browse the full set: <a href="https://github.com/gabros20/marketing-skill/tree/main/skills/marketing/references">skills/marketing/references/</a>.</p>
+    <div class="seamarrows"><span>→</span><span>→</span></div>
+    <div class="downstream">
+      <div class="seambox mid">
+        <h3><svg class="lu" aria-hidden="true"><use href="#lu-layers"/></svg>design · frontend</h3>
+        <p>Landing-page requirements, copy, E-E-A-T content requirements and the structured-data
+        requirement plus entity map. <code>design</code> composes the page — its surface-website
+        product-narrative beats stay canonical there; <code>frontend</code> implements. Marketing
+        writes no production code.</p>
+      </div>
+      <div class="seambox mid">
+        <h3><svg class="lu" aria-hidden="true"><use href="#lu-activity"/></svg>data</h3>
+        <p>The attribution and measurement requirements — what needs tracking and why. Marketing does
+        not build or certify the pipeline and writes none of the SQL that computes attribution; it
+        owns the requirements spec.</p>
+      </div>
+      <div class="seambox mid">
+        <h3><svg class="lu" aria-hidden="true"><use href="#lu-search-check"/></svg>growth <span style="color:var(--muted); font-weight:400">(lateral)</span></h3>
+        <p>A qualified hypothesis for a funnel experiment. The design and the readout are
+        <code>growth</code>'s regardless of who proposed the test — marketing never reports a growth
+        experiment as its own finding.</p>
+      </div>
+    </div>
+  </div>
+  <p class="seamnote"><svg class="lu" aria-hidden="true"><use href="#lu-shield-alert"/></svg><span><b>The AARRR note.</b> A practitioner who knows acquisition → activation → retention → referral → revenue will notice this pack covers acquisition and stops. That is a deliberate seam, not a gap: <b>AARRR spans three packs</b> — <code>marketing</code> owns acquisition, <code>growth</code> owns the experiments that improve conversion across the funnel, <code>success</code> owns retention. Read the boundaries as where responsibility for each letter moved, not as territory this pack failed to claim.</span></p>
+  <p style="margin-top:22px; font-size:13.5px; color:var(--muted); max-width:none">The rest of the
+  family — each an independently installable pack with its own guide:</p>
+  <div class="family">
+    <a href="https://product-skill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>product</a>
+    <a href="https://designskill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>design</a>
+    <a href="https://architecture-skill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>architecture</a>
+    <a href="https://frontendengskill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>frontend</a>
+    <a href="https://backendengskill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>backend</a>
+    <a href="https://aiengskill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>ai</a>
+    <a href="https://data-skill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>data</a>
+    <a href="https://automation-skill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>automation</a>
+    <a href="https://quality-skill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>quality</a>
+    <a href="https://operate-skill.vercel.app" target="_blank" rel="noopener"><span class="st">/</span>operate</a>
+    <span class="unshipped">growth · sales · success — seams declared, packs not yet shipped</span>
+  </div>
 </section>
 
 <section id="start">
   <h2><svg class="lu" aria-hidden="true"><use href="#lu-file-input"/></svg>Start here</h2>
-  <p>Install once. It's a plain <code>SKILL.md</code> router — no flags, no config, no scripts —
-  so it activates on natural-language phrasing (TODO: a couple of real trigger examples) rather
+  <p>Install once. It's a plain <code>SKILL.md</code> router — no flags, no config, no scripts — so it
+  activates on natural-language phrasing ("is any of this ROAS actually incremental," "write the
+  positioning for this before I build the page," "is this list lawful to email in the EU") rather
   than a fixed command.</p>
   <div class="term"><span class="c"># skills.sh ecosystem</span>
 npx skills add gabros20/marketing-skill
 
 <span class="c"># clone + installer (per-host targets)</span>
-git clone https://github.com/gabros20/marketing-skill && cd marketing-skill
-./install.sh codex   <span class="c"># or: claude | agents | cursor | antigravity | opencode | grok | hermes | all</span>
+git clone https://github.com/gabros20/marketing-skill &amp;&amp; cd marketing-skill
+./install.sh codex   <span class="c"># or: claude | cursor | antigravity | opencode | grok | hermes | agents | all</span>
 
-<span class="c"># use</span>
-<span class="p">/marketing</span> TODO — a real, short invocation example
-<span class="p">/marketing</span> TODO — a second real, short invocation example</div>
+<span class="c"># use — natural language, any host</span>
+<span class="p">/marketing</span> the ads dashboard says 340% ROAS — is any of that incremental at our spend?
+<span class="p">/marketing</span> write the positioning for this before I brief the landing page   <span class="c"># → positioning-and-messaging.md</span>
+<span class="p">/marketing</span> we have no list and no following — what actually works before launch?   <span class="c"># → surface-zero-audience.md</span></div>
   <p style="margin-top:14px">The same install runs on any <a href="https://agentskills.io">Agent&nbsp;Skills</a>
-  host. Codex installs to <code>${CODEX_HOME:-$HOME/.codex}/skills</code>; <code>agents</code>
-  remains a separate cross-agent installation target.</p>
+  host. Codex installs to <code>${CODEX_HOME:-$HOME/.codex}/skills</code> and triggers with
+  <code>$marketing</code>; <code>agents</code> remains a separate cross-agent installation target.</p>
   <details class="disc">
     <summary>install targets by host</summary>
     <div>
       <div class="tblwrap"><table>
         <tr><th>host</th><th>install target</th><th>command</th></tr>
-        <tr><td class="dim">Claude Code</td><td><code>~/.claude/skills</code></td><td><code>./install.sh claude</code></td></tr>
-        <tr><td class="dim">Codex</td><td><code>${CODEX_HOME:-$HOME/.codex}/skills</code></td><td><code>./install.sh codex</code></td></tr>
-        <tr><td class="dim">Cross-agent path</td><td><code>~/.agents/skills</code></td><td><code>./install.sh agents</code></td></tr>
-        <tr><td class="dim">Cursor CLI</td><td><code>~/.cursor/skills</code></td><td><code>./install.sh cursor</code></td></tr>
-        <tr><td class="dim">Antigravity (IDE + agy)</td><td><code>~/.gemini/…/skills</code></td><td><code>./install.sh antigravity</code></td></tr>
-        <tr><td class="dim">opencode</td><td><code>~/.config/opencode/skills</code></td><td><code>./install.sh opencode</code></td></tr>
-        <tr><td class="dim">Grok Build</td><td><code>~/.grok/skills</code></td><td><code>./install.sh grok</code></td></tr>
-        <tr><td class="dim">Hermes</td><td><code>~/.hermes/skills</code></td><td><code>./install.sh hermes</code></td></tr>
+        <tr><td class="job">Claude Code</td><td><code>~/.claude/skills</code></td><td><code>./install.sh claude</code></td></tr>
+        <tr><td class="job">Codex</td><td><code>${CODEX_HOME:-$HOME/.codex}/skills</code></td><td><code>./install.sh codex</code></td></tr>
+        <tr><td class="job">Cross-agent path</td><td><code>~/.agents/skills</code></td><td><code>./install.sh agents</code></td></tr>
+        <tr><td class="job">Cursor CLI</td><td><code>~/.cursor/skills</code></td><td><code>./install.sh cursor</code></td></tr>
+        <tr><td class="job">Antigravity (IDE + agy)</td><td><code>~/.gemini/…/skills</code></td><td><code>./install.sh antigravity</code></td></tr>
+        <tr><td class="job">opencode</td><td><code>~/.config/opencode/skills</code></td><td><code>./install.sh opencode</code></td></tr>
+        <tr><td class="job">Grok Build</td><td><code>~/.grok/skills</code></td><td><code>./install.sh grok</code></td></tr>
+        <tr><td class="job">Hermes</td><td><code>~/.hermes/skills</code></td><td><code>./install.sh hermes</code></td></tr>
       </table></div>
       <p style="margin-top:12px">Prefer <code>npx skills add gabros20/marketing-skill</code> when you have Node — it maps supported clients itself.</p>
     </div>
@@ -337,30 +922,30 @@ git clone https://github.com/gabros20/marketing-skill && cd marketing-skill
   <details class="disc">
     <summary>what's in the repo</summary>
     <div>
-      <div class="files"><span class="hl">skills/marketing/</span>          <span class="d">the skill: SKILL.md (router) + references/</span>
+      <div class="files"><span class="hl">skills/marketing/</span>          <span class="d">the skill: SKILL.md (router) + 20 references/ + assets/ + SOURCES.md</span>
 <span class="hl">docs/</span>                      <span class="d">installation · usage · recipes</span>
-<span class="hl">site/</span>                      <span class="d">optional guide — deploys to marketing-skill.vercel.app</span>
+<span class="hl">site/</span>                      <span class="d">this guide — deploys to marketing-skill.vercel.app</span>
 install.sh                 <span class="d">installer (claude | codex | cursor | antigravity | opencode | grok | hermes | agents | all)</span>
 README.md · CHANGELOG.md · LICENSE</div>
       <p>More docs: <a href="https://github.com/gabros20/marketing-skill/blob/main/docs/installation.md">docs/installation.md</a> ·
       <a href="https://github.com/gabros20/marketing-skill/blob/main/docs/usage.md">docs/usage.md</a> ·
-      <a href="https://github.com/gabros20/marketing-skill/blob/main/docs/recipes.md">docs/recipes.md</a>.</p>
+      <a href="https://github.com/gabros20/marketing-skill/blob/main/docs/recipes.md">docs/recipes.md</a> ·
+      <a href="https://github.com/gabros20/marketing-skill/blob/main/skills/marketing/SOURCES.md">SOURCES.md</a> — attribution, licences, and what this pack claims for itself.</p>
     </div>
   </details>
 </section>
 
 <footer>
-  <span><span class="mono">/marketing</span> — Position the product and create, capture, and attribute demand</span>
+  <span><span class="mono">/marketing</span> — position the product and create, capture, and attribute demand</span>
   <span><a href="https://github.com/gabros20/marketing-skill">github.com/gabros20/marketing-skill</a> · <a href="/llms.txt">llms.txt</a> · MIT</span>
 </footer>
 </div>
 <script>
 (function () {
-  // Progressive enhancement over the static .arcline fallback above: swaps in the
-  // hero Remotion video (light/dark). On any load error it removes the
-  // slot and leaves the static arc line in place.
+  // Progressive enhancement over the static router fallback above: swaps in the hero Remotion
+  // video (light/dark). On any load error it removes the slot, leaving the static router in place.
   if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  if (innerWidth < 720) return; // the static line reads better on phones
+  if (innerWidth < 720) return; // the static router reads better on phones
   var wrap = document.getElementById("vidwrap");
   if (!wrap || !document.createElement("video").canPlayType) return;
   var mq = matchMedia("(prefers-color-scheme: dark)");
@@ -370,7 +955,7 @@ README.md · CHANGELOG.md · LICENSE</div>
   v.autoplay = true;
   v.playsInline = true;
   v.setAttribute("playsinline", "");
-  v.setAttribute("aria-label", "TODO: describe what the hero animation shows.");
+  v.setAttribute("aria-label", "The marketing skill in motion: the claim that a live campaign worked because the dashboard says so gets corrected into three facts — a platform number reports only what fired last, a conversion that would have happened anyway looks identical to one you caused, and every claim must carry its evidence tier; eBay's own paid-search field experiment measured minus 63 percent ROI where naive estimation had put it above plus 4,100 percent, a sign flip rather than a margin, and the same mechanism makes retargeting the format most likely to overstate itself; the flagship image is the honesty hierarchy of measurement methods with a scale gate drawn across it, leaving holdout lift tests, geo-lift and marketing-mix modelling out of reach at n=1 and four moves below it — UTM discipline, self-reported attribution, geo-split lift where geography allows, and a decision rule written before the result exists; the faceted router composes one primary job of fourteen with at most one base surface, self-serve SaaS by default, plus additive zero-audience and agentic overlays, resolving to two of twenty references read fully; four of the field's most-quoted claims are then graded, from a decades-replicated law through an awards-corpus split and a disclaimed arithmetic derivation to llms.txt, falsified outright by four independent non-citing evidence classes; and the handoff carries positioning, page requirements, a measurement spec and a consent basis to design, frontend, data and growth, while marketing writes no production code and never claims a growth experiment as its own finding.");
   v.addEventListener("loadeddata", function () { document.body.classList.add("has-vid"); });
   v.addEventListener("error", function () { wrap.remove(); });
   function apply() {
