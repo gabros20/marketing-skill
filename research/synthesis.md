@@ -165,7 +165,10 @@ Rule (automation precedent): this gates magnitudes, prices, quotas, policy value
   person-weeks", 9×/62× multipliers; Robyn MIT + ~2yr/1:10 floor (slow-maintained — hedge); Meridian
   Apache-2.0 + 2yr "too low"/3yr, causal-not-predictive; PMax/Advantage+ = zero independent
   incrementality evidence; StockX inversion + Haus/TripleWhale numbers = vendor-sourced, footnote
-  origin. Plausible 17-channel taxonomy incl. AI-Assistants (cite the file).
+  origin. Plausible 19-channel taxonomy incl. AI-Assistants (cite the file). [AMENDMENT 1,
+  2026-08-01: was "17-channel" from the deep-walk report; fixer re-counted acquisition.ex from the
+  live repo → 19 channel branches as-of 2026-08-01. The re-count is the better evidence; pack
+  ships 19 with as-of + re-verify pointer.]
 - Marketing science: 95-5 derivation + disclaimer (Dawes 2021); CEP B2B datasets n=606/311/609,
   ~5% defection per CEP, 16/17 products (Romaniuk 2022); double jeopardy B2B replications (no n
   disclosed); Pareto ~60/20 (secondary); Binet & Field 60/40 = B2C awards-corpus with selection

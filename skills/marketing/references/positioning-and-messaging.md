@@ -79,11 +79,12 @@ directly into the next action, not just sit as reference material.
 
 ## Category and competitive framing
 
-Two distinct competitive situations get conflated and shouldn't be: a **brutally competitive market**
-where entrenched competitors must be actively displaced, versus a market where the real contest is for
-a buyer's discretionary attention or budget, not a head-to-head vendor fight. The framing — and the
-GTM motion built on top of it — has to match which situation the product is actually in; treating both
-as "competitive" the same way is a category error.
+Two distinct competitive situations get conflated and shouldn't be — a distinction worth crediting at
+first use (Jason Lemkin, @jasonlk, 2026-07-31): a **brutally competitive market** where entrenched
+competitors must be actively displaced, versus a market where the real contest is for a buyer's
+discretionary attention or budget, not a head-to-head vendor fight. The framing — and the GTM motion
+built on top of it — has to match which situation the product is actually in; treating both as
+"competitive" the same way is a category error.
 
 Two supporting techniques, independent of pricing (pricing tiers are `product`'s call, not marketing's
 — this pack writes the comparison copy, not the tier structure):

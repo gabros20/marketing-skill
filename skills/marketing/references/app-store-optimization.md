@@ -90,9 +90,9 @@ These are two different Apple tools for two different jobs — do not conflate t
   alternate icon, screenshot set, or preview video and reports results in App Analytics.
 
 Google Play's parallel is store-listing experiments (up to one default plus five localized
-concurrent experiments) and custom store listings (URL-addressable variants targetable by country,
-pre-registration status, inbound keyword, or inactivity) — functionally comparable to Apple's split,
-under different names.
+concurrent experiments, per Google's docs, as-of 2026-08) and custom store listings (URL-addressable
+variants targetable by country, pre-registration status, inbound keyword, or inactivity) —
+functionally comparable to Apple's split, under different names.
 
 **The seam**: this reference owns *which* variant to build and what to test (the requirements
 brief — claim, proof, audience). Running the experiment, reading its statistical result, and
@@ -118,8 +118,9 @@ a silent, undiagnosed drag on conversion rather than a visible failure.
 ## 5. Keyword localization as a live experiment
 
 The App Store functions as many small search markets, not one global one. A disclosed, in-progress
-n=1 experiment (a named practitioner's own app) produced 399 total ranked keywords across 8
-countries within days of launch, with the distribution skewed toward non-US markets — evidence that
+n=1 experiment (@kedytcom, 2026-07-27, live on the practitioner's own app) produced 399 total ranked
+keywords across 8 countries within days of launch, with the distribution skewed toward non-US
+markets — evidence that
 non-US, lower-competition locales can out-rank a saturated US keyword set for the same term. This is
 one operator's live result, not a benchmark: treat it as a specimen worth acting on directionally
 (localize metadata per market rather than shipping English-only), not as a guaranteed multiplier.

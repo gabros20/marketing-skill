@@ -69,8 +69,8 @@ State explicitly, per page, which mode it is in.
 
 Three credibility layers, and a page needs all three, not the most convenient one: **visual**
 (consistent design quality, real photography over stock — the reason for real imagery, stated without
-leaning on any specific credibility statistic; the usual "75% judge on design alone" figure has
-unverified provenance and belongs to design's craft argument, not a marketing brief); **content**
+leaning on any specific credibility statistic; the commonly repeated "users judge on design alone"
+figure has unverified provenance and belongs to design's craft argument, not a marketing brief); **content**
 (clarity, specificity, plain language, answers ordered the way questions arise); **social**
 (third-party validation — the layer with the largest lift, and the one a brief most often
 under-specifies).
@@ -127,23 +127,24 @@ product has already fixed; do not propose tier changes inside a landing-page bri
 
 ## 7. Vertical playbooks, distilled
 
-Each vertical implies a different primary proof device and page order. Visual-register choices
-(palette, imagery style, information density) stay with design — this table carries only what
-marketing must brief: who the page is for, what it must prove, and in what order.
+Each vertical implies a different primary proof device and a different proof burden. Sequencing a
+page's sections is design's call, not marketing's — cite design's page-anatomy vocabulary for
+structure; this table carries only what marketing must brief: who the page is for and what it must
+prove.
 
-| Vertical | Primary proof device | Structure (order) |
+| Vertical | Primary proof device | What it must prove |
 |---|---|---|
-| Architecture | Portfolio breadth + visible process | Hero → positioning → portfolio (~8–25 projects) → case studies (challenge→solution→outcome) → team → FAQ → CTA |
-| Interior design | Curated portfolio + trust bio | Home → portfolio → About → services → testimonials/press → one CTA |
-| Creative agencies | Outcome-led value prop + case studies as decision tools | Value prop (outcome+metric) → Problem→Empathy→Solution→Proof→Action → case studies (challenge→approach→result) |
-| Luxury/hospitality | Story before product | Hero → mood/story → detail pages → low-friction conversion (booking ≤3 clicks) |
-| Photographers/artists | Curated best work + personal presence | Best work first → series → About (first-person, artist's face) → per-piece context → CTA |
-| Law | Named outcomes with dollar figures | Hero+phone+CTA above fold → one page per practice area → attorney profiles → case results ($ figures) → testimonials → intake |
-| Finance/wealth | Credentials + fiduciary disclosure | Hero → who-we-serve → process → team credentials → proof (AUM/tenure) → insights → fiduciary statement → contact |
-| Healthcare | Anxiety-reducing sequencing | Fit & scope (~10s) → trust & credibility → process expectations → action path (booking after clarity) |
-| Real estate | Search tooling + agent track record | Hero → search/map → featured listings → agent bio/track record → testimonials → contact |
-| B2B SaaS | Multi-stakeholder proof + product visual | Hero (<8-word outcome, proof point, UI screenshot, trust bar) → problem→solution → multi-stakeholder value → social proof → feature→benefit → FAQ |
-| Professional services / consulting | Authority-led insight | Home → Services → Case Studies → trust-About → Contact |
+| Architecture | Portfolio breadth + visible process | Depth of portfolio and a visible, credible process, not just polished outcomes |
+| Interior design | Curated portfolio + trust bio | A curated body of work backed by a bio that establishes the designer as trustworthy, not just skilled |
+| Creative agencies | Outcome-led value prop + case studies as decision tools | The value prop states an outcome with a metric; case studies function as decision tools, not highlight reels |
+| Luxury/hospitality | Story before product | The story earns attention before the product is shown; conversion stays low-friction once it does |
+| Photographers/artists | Curated best work + personal presence | The work itself carries the page; personal presence backs it without substituting for it |
+| Law | Named outcomes with dollar figures | Every proof claim resolves to a named outcome with a dollar figure, not a general reputation claim |
+| Finance/wealth | Credentials + fiduciary disclosure | Credentials and fiduciary standing are demonstrable (tenure, AUM, an explicit fiduciary statement), not asserted |
+| Healthcare | Anxiety-reducing sequencing | Fit and scope are clear, and process expectations are set, before the page asks for a booking |
+| Real estate | Search tooling + agent track record | Search/filter tooling actually works, and agent track record is evidenced, not just claimed |
+| B2B SaaS | Multi-stakeholder proof + product visual | The page proves value to more than one stakeholder role, backed by a real product visual, not one persona's pitch |
+| Professional services / consulting | Authority-led insight | Authority is demonstrated through the insight itself, not asserted through a credentials list |
 
 ## 8. The color-psychology myth
 

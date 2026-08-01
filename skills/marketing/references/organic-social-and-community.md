@@ -93,10 +93,10 @@ over a secondhand summary of it whenever one exists.
 Against "organic reach is dead," two named practitioners stand as evidence it still works if the
 content itself carries the distribution:
 
-- **"Blog like it's 2005."** Simon Willison argues that publishing original long-form content on an
-  owned domain is now rare enough among developers that doing it consistently is itself a durable
-  advantage: *"...one of the few people who DO publish fresh information online on your own web
-  pages"* (@simonw, 2024-08-01) has outsized impact precisely because so few still do it.
+- **Publishing consistently is itself the advantage.** Simon Willison (@simonw, 2024-08-01) argues
+  that publishing original long-form content on an owned domain is now rare enough among developers
+  that doing it consistently is itself a durable distribution advantage — few people still publish
+  fresh writing on their own pages, so the ones who do stand out precisely for that reason.
 - **The zine as the product, not the funnel.** Julia Evans (@b0rk) runs a real, ad-free, VC-free
   business selling technical "zines" (one-time purchase, plus posters) whose growth is driven by free
   companion comics posted publicly — the free content isn't marketing for a separate product, it is

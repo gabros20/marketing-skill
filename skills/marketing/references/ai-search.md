@@ -44,7 +44,9 @@ This domain moves faster than any other in the pack. AI Overview coverage percen
 policies, and even which spec version a tool ships against can be stale within months — the
 market-leading competitor pack in this space shipped "Open Knowledge Format v0.1" in its own
 `SKILL.md` after the spec had already moved to v0.2, a verified, dated instance of exactly this
-failure. **Teach the check, not the list.** Every volatile fact below carries its as-of date and
+failure. Read that instance as evidence of how fast this domain moves — any pack, including this
+one, will drift the same way without a re-verify habit — not as a criticism of that maintainer.
+**Teach the check, not the list.** Every volatile fact below carries its as-of date and
 what to re-verify before repeating it. When in doubt, prefer citing the mechanism (a platform
 publishes a bot-IP allowlist; a spec has a version file) over a specific number, because the
 mechanism outlives the number.
@@ -59,7 +61,7 @@ index via standard indexing eligibility. Search Console blends AI-feature traffi
 search type — it cannot be isolated, which is itself a measurement gap worth flagging to
 `attribution-and-measurement`. **Bing formally adopted the opposite position**: its guidelines
 rewrite (reported 2026-02-27, re-verify against Bing's own webmaster guidelines directly since this
-worker could not get readable primary text) formally names "Generative Engine Optimization (GEO)"
+pack's research could not retrieve readable primary text) formally names "Generative Engine Optimization (GEO)"
 as an official guideline concept, documents `NOARCHIVE` as blocking Copilot grounding results
 specifically, and softens its AI-content stance toward Google's purpose-not-method framing
 (targeting large-scale, unreviewed generation, not machine authorship per se). Treat "GEO" as a
@@ -99,11 +101,20 @@ evidence classes, as of 2026-08-01:
    to fetch and paste the file manually.
 2. **Every major provider's own crawler documentation** (OpenAI, Anthropic, Perplexity, Google) is
    silent on consuming it — none list it as an input to training, indexing, or live retrieval.
-3. **An SE Ranking study of ~300,000 domains** found no statistically significant correlation
-   between having an `llms.txt` file and AI-citation frequency; removing the feature from a
-   predictive citation model *improved* the model's accuracy.
-4. **Server-log studies across 137,000+ domains** found **97%** of `llms.txt` files are never
+3. **An SE Ranking study (2026)** found no statistically significant correlation between having an
+   `llms.txt` file and AI-citation frequency; removing the feature from a predictive citation model
+   *improved* the model's accuracy. Re-verify the sample size before citing it — this pack traced
+   it to a secondhand summary, not the primary report.
+4. **A 2026 server-log analysis** (publisher not independently confirmed by this pack's sourcing —
+   re-verify before citing) found the large majority of `llms.txt` files it observed were never
    fetched by any AI crawler.
+
+The claim this falsifies is not hypothetical folklore floating in the ecosystem — it appears
+undefended in a competitor pack itself: `coreyhaines31/marketingskills`' `skills/ai-seo/SKILL.md:85`
+asserts that AI systems parse `llms.txt` when present, with no evidence cited for the claim
+(verified against the live file 2026-08-01; re-check the line before repeating the citation). Treat
+that line as a specimen of the genre's uncited-claim pattern, not as a counter-source to weigh
+against the falsification evidence above.
 
 Ship this as: *publishing `llms.txt` is cheap, low-risk, and of unverified payoff* — never as a
 recommended AI-visibility tactic, and never with a specific consumption percentage presented as

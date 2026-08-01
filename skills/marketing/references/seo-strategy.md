@@ -117,6 +117,33 @@ markup validates and that Google's current rich-result gallery actually rewards 
 (see below — this list moves). Marketing must not drift into "how to add a script tag" — that is
 implementation, not a requirement.
 
+A minimal example illustrates the requirement's shape without becoming the implementation — two
+schema.org types (schema.org, as-of 2026-08-01), kept tiny on purpose:
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Acme Inc.",
+  "url": "https://acme.example",
+  "logo": "https://acme.example/logo.png"
+}
+```
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How Acme Cut Deploy Time in Half",
+  "author": { "@type": "Person", "name": "Jane Doe" },
+  "datePublished": "2026-07-01"
+}
+```
+
+`Article` is used here deliberately, not `FAQPage` — see below for why. The entity-map requirement
+is the deliverable; these two blocks exist only to make the requirement concrete, not as a template
+to hand `frontend` verbatim — the real markup must match the page's actual rendered fields.
+
 ## The FAQ/HowTo removal — a staleness parable
 
 Between August 2023 and May 2026, FAQ structured-data advice went from standard, to restricted, to

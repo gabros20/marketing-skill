@@ -40,7 +40,7 @@ actively evaluating a purchase — the heuristic derives from an assumed multi-y
 not a measurement of any specific market. That means most B2B marketing activity is necessarily
 **memory-building for a future buying window, not capture of a buyer who is in-market today**, and a
 demand-gen program judged purely on this-quarter pipeline will systematically undercount its own
-value to the 90%+ of accounts not yet ready to talk to sales. Size the program's success metric
+value to the large majority of accounts not yet ready to talk to sales. Size the program's success metric
 accordingly: category-entry-point presence and brand recall matter alongside pipeline-this-quarter,
 and neither should be reported as if it were the other.
 
@@ -82,13 +82,13 @@ often the best signal available, not a fallback.
 ## The B2B brand/activation split: what is and isn't known
 
 Binet & Field's ~60/40 brand-building-to-activation budget split is a **B2C number**, drawn from the
-IPA Databank — roughly 1,000 self-submitted awards-competition case studies, a structurally
+IPA Databank — a self-submitted awards corpus, a structurally
 selection-biased sample of agencies entering work they already believe won. A commonly repeated
-figure claims the B2B-filtered split reverses toward activation, cited as **46/54**. **Never ship
-46/54 as fact.** Three secondary sources repeat it, but no primary document was located, and it does
-not appear in the LinkedIn B2B Institute's own research library. The honest position, and the only
-one this pack ships: 60/40 is a B2C figure with known selection bias in its own source, the B2B
-figure genuinely differs in direction, and the exact ratio is unconfirmed — verify before quoting any
+claim holds that the B2B-filtered split reverses toward activation. **Never ship a specific B2B
+split as fact.** Secondary sources repeat the claim, but no primary document was located, and it
+does not appear in the LinkedIn B2B Institute's own research library. The honest position, and the
+only one this pack ships: 60/40 is a B2C figure with known selection bias in its own source, B2B
+differs from it in direction, and the exact ratio is unconfirmed — verify before quoting any
 specific number, on either side of the split.
 
 Two related B2B-specific findings do clear the bar and are safe to cite: **category entry points**
@@ -97,17 +97,18 @@ decision-makers n=311, business banking n=609) show each additional CEP linked i
 defection probability by roughly 5%, holding across 16 of 17 products studied — and **double
 jeopardy**, replicated in B2B categories including business banking, business insurance, concrete,
 and aviation fuel, though without disclosed sample sizes in the located sources. Both are the
-strongest B2B-specific evidence this pack found; the 46/54 split is not in the same tier and should
-never be presented as if it were.
+strongest B2B-specific evidence this pack found; the unconfirmed B2B brand/activation split above is
+not in the same tier and should never be presented as if it were.
 
 Two competitive-posture and segmentation framings from named practitioners are worth carrying into
-this surface's positioning work: Jason Lemkin (@jasonlk, 2026-07-31) distinguishes a market where you
-must actively displace an entrenched competitor from one where the real contest is for a buyer's
-discretionary budget — the GTM motion and the sales hire profile should match which situation is
-actually in play, not a generic "we're competitive" framing. And Kyle Poyar's ICP-as-funnel model
-(@poyark, 2024-07-25) treats "ICP focus" as five stages (aware → self-educating → considering →
-chosen → enterprise-adopted) rather than a single checkbox — channel choice, his point runs, is
-secondary to whether the funnel reaches and converts the right buyer at each stage.
+this surface's positioning work: Jason Lemkin (@jasonlk, 2026-07-31; see
+[positioning-and-messaging.md](positioning-and-messaging.md) for the framing in full) distinguishes
+a market where you must actively displace an entrenched competitor from one where the real contest
+is for a buyer's discretionary budget — the GTM motion and the sales hire profile should match which
+situation is actually in play, not a generic "we're competitive" framing. And
+[audience-and-segmentation.md](audience-and-segmentation.md)'s ICP-as-funnel model applies directly
+here: channel choice is secondary to whether the funnel reaches and converts the right buyer at
+every stage, not just at signature.
 
 ## Failure modes
 
@@ -116,4 +117,5 @@ secondary to whether the funnel reaches and converts the right buyer at each sta
   pipeline, not instead of it.
 - Absorbing cold outbound, sales enablement, or revops content into a marketing deliverable instead
   of naming them as `sales`'s and routing there.
-- Shipping 46/54, or any specific B2B brand/activation split, as settled — it is not.
+- Shipping any specific B2B brand/activation split as settled — it is not; B2B differs from the
+  B2C ratio, and the actual split is unconfirmed.

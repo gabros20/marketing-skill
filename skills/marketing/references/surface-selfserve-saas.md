@@ -56,14 +56,16 @@ this one.
 
 ## The profit-odds stat, and how to cite it
 
-ProductLed's *State of B2B SaaS 2025* report is cited across the PLG world as: companies with
-self-serve revenue have a **68% chance of being profitable vs. 36.4%** for those without (secondhand
-citation via @tomxecom, 2025-03-31, citing @wes_bush/ProductLed). Use the direction — self-serve
-correlates with profitability — as a legitimate business-case point. Do not repeat the two decimal
-numbers as settled fact: the underlying survey's sample size and methodology are not disclosed in
-any source this pack located, and a newer edition may already supersede the "2025" dataset. This is
+ProductLed's *State of B2B SaaS 2025* report is cited across the PLG world for a claim in this
+shape: companies with self-serve revenue are meaningfully more likely to be profitable than those
+without (secondhand citation via @tomxecom, 2025-03-31, citing @wes_bush/ProductLed). Use the
+direction — self-serve correlates with profitability — as a legitimate business-case point. Do not
+repeat the report's precise percentages as settled fact: the underlying survey's sample size and
+methodology are not disclosed in any source this pack located, a secondhand citation is not the
+primary report, and a newer edition may already supersede the "2025" dataset. This is
 specimen-versus-evidence in miniature — the stat is a specimen of the genre's best available
-evidence, not proof.
+evidence, not proof; if you need the exact figures, pull them from ProductLed's primary report
+yourself and date-stamp them rather than propagating a number of unknown provenance.
 
 ## Benchmark hygiene: the OpenView gap
 
@@ -125,8 +127,8 @@ chain (the 8 beats) by name, never restate a rival sequence.
 
 ## Failure modes
 
-- Citing the ProductLed 68%/36.4% split, or any OpenView-successor benchmark, as a settled
-  population fact instead of a self-selected sample with a date on it.
+- Citing the ProductLed self-serve/profitability split, or any OpenView-successor benchmark, as a
+  settled population fact instead of a self-selected sample with a date on it.
 - Building enterprise-facing messaging onto a self-serve site instead of naming the surface change
   explicitly and routing to [surface-b2b-sales-assisted](surface-b2b-sales-assisted.md).
 - Treating activation and retention as marketing's to claim credit for, rather than `growth`'s and

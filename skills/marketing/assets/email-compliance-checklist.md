@@ -10,7 +10,7 @@ against the named primary source, not against this file. Source:
 | Check | Done | Notes |
 |---|---|---|
 | SPF published | | |
-| DKIM signing live (1024-bit RFC floor; 2048 is the practical target) | | |
+| DKIM signing live (1024-bit RFC 6376 floor; 2048 is the practical target) | | |
 | DMARC record present — `p=none` is sufficient to start | | |
 | From: domain aligned to the SPF **or** DKIM domain | | |
 | RFC 8058 one-click unsubscribe — `List-Unsubscribe` **and** `List-Unsubscribe-Post`, both covered by the DKIM signature | | |

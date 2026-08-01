@@ -78,13 +78,13 @@ as re-expressed fact, not verbatim, per the pack's licensing rulings. Together t
 ## DevRel is not developer marketing
 
 The two disciplines are adjacent, not identical, and conflating them is a common failure this pack
-should not repeat. Prathkum (@Prathkum, 2022-01-31) states the distinction directly: *"DevRel is not
-about selling products to developers... it's all about building a good relationship with
-developers."* DevRel is relationship, content, and enablement-first and does not report to a
-pipeline number the way demand generation does; developer marketing is the demand-facing counterpart
-that does. See [organic-social-and-community.md](organic-social-and-community.md) for where DevRel's
-community and content work is covered in full — this file only draws the boundary; it does not
-re-teach the discipline.
+should not repeat. As a practitioner puts it (@Prathkum, 2022-01-31), DevRel's job is building
+relationships with developers, not selling to them. DevRel is relationship, content, and
+enablement-first and does not report to a pipeline number the way demand generation does; developer
+marketing is the demand-facing counterpart that does. See
+[organic-social-and-community.md](organic-social-and-community.md) for the quote in full and for
+where DevRel's community and content work is covered in full — this file only draws the boundary;
+it does not re-teach the discipline.
 
 ## Launch surfaces differ here
 

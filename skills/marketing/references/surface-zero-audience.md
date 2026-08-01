@@ -55,8 +55,9 @@ disclosed-numbers case this pack located anywhere in the developer/founder space
 (@b0rk) technical-zine business — 1,000+ disclosed sales, zero ad spend, built on free companion
 content (see [surface-developer-tool.md](surface-developer-tool.md) for the full case). That is one
 practitioner, self-reporting her own numbers, in one niche. Set against it, the genre's more typical
-shape: a claim of ~32,000 organic app users acquired in one week for $0 (@jurree, 2026-07-28), posted
-by a 2,700-follower account with its supporting detail behind an unread external link — a
+shape: a claim of a large number of organic app users acquired in one week for $0 (@jurree,
+2026-07-28), posted by a 2,700-follower account with its supporting detail behind an unread external
+link — a
 compelling headline with no verifiable mechanism, which is precisely the hazard this overlay exists
 to flag. Both exist in this pack's research; only the first has a checkable number attached to it.
 
@@ -78,10 +79,10 @@ who do show up — not a dashboard.
 
 ## What is folklore
 
-**First-100-users playbooks, as a genre, are the pack's clearest specimen-not-evidence case.** The
-dedicated X sweep for this partition (10 jargon queries targeting "first 100 users," "build in
+**First-100-users playbooks, as a genre, are the pack's clearest specimen-not-evidence case.** A
+dedicated research pass on this topic (ten targeted searches for "first 100 users," "build in
 public," waitlist conversion, zero-audience launches) collided so heavily with unrelated AI-tooling
-promotional content that the sweep was abandoned mid-run without usable results (as-of 2026-07-31 —
+promotional content that the search was abandoned mid-run without usable results (as-of 2026-07-31 —
 this itself is a dated finding, not a permanent property of the platform: the indie-founder
 discourse space that once hosted these playbooks appears to have been substantially displaced by
 AI-product launch content by this date, and should be re-checked rather than assumed unchanged).
@@ -100,8 +101,8 @@ Dunford's positioning method: well-regarded, widely practiced, not evidence-back
 ## What is unknowable — and why that's stated, not hidden
 
 This pack's research explicitly could not close the zero-audience gap, and the honest move is to say
-so rather than pad the file with restated folklore to look complete. No X worker sweep, no GitHub
-curation pass, and no web channel located a disinterested, methodologically disclosed study of
+so rather than pad the file with restated folklore to look complete. No social-platform search, no
+GitHub research pass, and no general web search located a disinterested, methodologically disclosed study of
 zero-audience acquisition tactics — the entire genre self-selects for people telling their own
 success story. That absence is itself informative: **it means nothing in this pack's evidence base
 can rank one zero-audience tactic above another**, and a reader should treat every specific

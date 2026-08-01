@@ -50,8 +50,8 @@ any of those and no subject line saves the send.
 Bulk senders (5,000+ msgs/day to Gmail addresses, same threshold at Microsoft) need SPF **and**
 DKIM, a DMARC record (`p=none` is sufficient to start), and a From: domain aligned to the SPF or
 DKIM domain — the Gmail/Microsoft baseline as of 2026-07/08, re-verify at build time
-(support.google.com/a/answer/81126). DKIM's own RFC floor is a 1024-bit key for long-lived keys;
-2048 is the practical target ESPs recommend.
+(support.google.com/a/answer/81126). DKIM's own RFC floor (RFC 6376) is a 1024-bit key for long-lived keys;
+2048 is the practical target ESPs recommend in current practice.
 
 **DMARC has been superseded.** RFC 7489 is obsolete. As of May 2026, DMARCbis splits it into RFC
 9989 (core mechanism), RFC 9990 (aggregate reporting), and RFC 9991 (failure reporting), all
@@ -137,7 +137,7 @@ Email clients render HTML against a rendering floor closer to 1999 than to a mod
 reliable flexbox or grid, table-based layout, inlined CSS, and Outlook desktop's Word rendering
 engine as the binding compatibility target — "Even Outlook" is a real design constraint, not a
 punchline. The proof is structural, not anecdotal: the email-templating ecosystem's most-adopted
-tool, mjml (MIT, 18k+★), exists specifically because authors need a markup language that *compiles
+tool, mjml (MIT), exists specifically because authors need a markup language that *compiles
 down* to table-based HTML rather than writing it by hand. If a request needs actual template markup
 production, that's implementation — write the requirements (content, hierarchy, CTA, proof), not
 the markup itself.

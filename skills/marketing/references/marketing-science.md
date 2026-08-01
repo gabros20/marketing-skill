@@ -77,18 +77,18 @@ window is not optional: strip it and "95% aren't buying" becomes a different, fa
 ## Binet & Field and the B2B split: an awards-corpus, not a panel
 
 Binet & Field's ~60% brand-building / 40% activation split (*The Long and the Short of It*, IPA) comes
-from the **IPA Databank**: roughly 1,000 *self-submitted* case studies entered into the UK IPA
-Effectiveness Awards. That is a structurally different evidence base from an Ehrenberg-Bass panel —
+from the **IPA Databank**: a self-submitted awards corpus entered into the UK IPA Effectiveness
+Awards. That is a structurally different evidence base from an Ehrenberg-Bass panel —
 entrants are self-selecting agencies and brands who believe they won, skewed toward larger advertisers
 with agency relationships and self-reported outcomes. Treat 60/40 as (a)-adjacent *within its own
 corpus*, not as panel-grade evidence, and as a **B2C** number.
 
-A B2B-filtered cut of the same databank is widely reported to reverse toward ~46% brand-building /
-54% activation (LinkedIn B2B Institute + Binet & Field, 2019). **No primary PDF was located** for that
-figure, and it does not appear in the LinkedIn B2B Institute's own public research library — three
-secondary sources agree, but agreement among secondary sources is not a primary source. Teach this as
-*the B2C 60/40 ratio does not transfer to B2B — verify the actual split before quoting one*, not as
-"B2B is 46/54." The ESOV → share-growth coefficient has the same problem one level worse: the
+A B2B-filtered cut of the same databank is widely reported to reverse the ratio toward activation
+(LinkedIn B2B Institute + Binet & Field, 2019), but **no primary PDF was located** for any specific
+split, and none appears in the LinkedIn B2B Institute's own public research library — secondary
+sources agree with each other, but agreement among secondary sources is not a primary source. Teach
+this as *B2B differs from the B2C 60/40 ratio — verify the actual split before quoting one*, never
+as a specific settled number. The ESOV → share-growth coefficient has the same problem one level worse: the
 circulating figures conflict with each other and no primary source resolves which, if any, is
 correct — **no ESOV coefficient exists at a primary source, so never ship one**, not even hedged.
 

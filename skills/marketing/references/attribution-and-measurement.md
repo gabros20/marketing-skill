@@ -192,18 +192,17 @@ brand-growth evidence is this pack's answer to a gap the wider genre leaves open
 
 Before writing a bespoke UTM/channel taxonomy, start from one that is implemented, documented, and
 already extends GA4's own reference categories: Plausible's `lib/plausible/ingestion/acquisition.ex`
-classifies every visit into one of **17 acquisition channels** via a first-match-wins precedence
-cascade (Cross-network, Paid Shopping, Paid Search, Paid Social, Paid Video, Display, Paid Other,
-Organic Shopping, Organic Social, Organic Video, **AI Assistants**, Organic Search, Email,
-Affiliates, Audio, SMS, Mobile Push, Referral, Direct as the true fallback). It adds a dedicated
-**AI Assistants** channel — ChatGPT, Claude, Perplexity, Grok, Gemini, Copilot, Phind, DeepSeek —
+classifies every visit via a first-match-wins precedence cascade into one of **19 channels total**
+(as-of 2026-08-01, re-verify against the file before citing an exact count — categories can be
+added), including Cross-network, Paid Search, Organic Search, **AI Assistants**, Email, and Direct
+as the true fallback. It adds a dedicated **AI Assistants** channel — ChatGPT, Claude, Perplexity, Grok, Gemini, Copilot, Phind, DeepSeek —
 that GA4 lacks, a real signal of where channel taxonomy is heading as AI-referred traffic grows.
 It also encodes disambiguation rules practitioners rarely write down: a paid medium is detected by
 regex (anything containing "cp", "ppc", or starting with "paid"), not an exact-match list, because
 campaigns are routinely mislabeled; Google/Bing paid clicks are inferred from `gclid`/`msclkid`
-specifically because, as the module's own comment puts it, *"Google is in a privileged position to
-analyze paid traffic from within their own network"* — third-party tools cannot detect it from
-UTM parameters alone.
+specifically because Google and Microsoft can see paid traffic from inside their own ad networks in
+a way no third-party tool can reconstruct from UTM parameters alone (rationale documented in
+`lib/plausible/ingestion/acquisition.ex`).
 
 ## Validation
 

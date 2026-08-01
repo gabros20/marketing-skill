@@ -35,7 +35,7 @@ Produces:
 - The traffic-collapse convergence — teaching the pattern, not just the number
 - Repurposing
 - The copy-fidelity seam (design owns the ladder; marketing owns what must survive)
-- Named counterpoints: "blog like it's 2005" and the zine model
+- Named counterpoints: production still matters
 
 ## Content-market fit and distribution beats production
 
@@ -100,7 +100,10 @@ same direction on organic-search decline — this convergence pattern is the thi
 not either number in isolation. @randfish (2026-06-09) reports a Similarweb mobile+desktop panel
 (Jan–Apr 2026) showing a large share of Google searches ending without a click, and publicly
 self-corrected the exact figure days later — a methodological-transparency signal worth noting
-alongside the number itself. Independently, @yongfook (2026-07-26), founder of a SaaS product,
+alongside the number itself. Weigh it alongside a direct commercial interest: the same person
+co-founded SparkToro, an audience-research company whose products and public content are built on
+this exact thesis — the data does not become false because the messenger profits from it, but the
+disclosure belongs at the point of use, not as a footnote. Independently, @yongfook (2026-07-26), founder of a SaaS product,
 posted his own site analytics showing Google referral traffic "basically halved this year," with
 weak downstream signups, concluding that "just write content" was losing efficacy for his
 product — first-party operator data, posted with the bad news included, with no commercial stake
@@ -123,10 +126,9 @@ territory.
 
 ## The copy-fidelity seam (design owns the ladder; marketing owns what must survive)
 
-`design`'s information architecture already ships a three-level copy-fidelity ladder for
-re-authoring content during a rebuild — verbatim (faithful port, preserving SEO equity or
-contractual IP), preserve-and-lightly-tighten (redesign that keeps the message), and rewrite
-(repositioning). Marketing does not restate that ladder; cite it. Marketing's job at the seam is
+`design`'s information architecture already ships a copy-fidelity ladder for re-authoring content
+during a rebuild, spanning faithful ports through full repositioning. Marketing does not restate
+that ladder; cite it by name. Marketing's job at the seam is
 narrower and specific: **which keywords and search intents must survive the migration, and how you
 know they did.** Redirects alone do not carry ranking equity forward — the copy has to carry the
 intent, which is exactly what the ladder's verbatim and preserve tiers exist to protect, and what a
@@ -134,19 +136,14 @@ rewrite's keyword-preservation clause exists to enforce even when the words them
 this requirement into the migration plan alongside [seo-strategy](seo-strategy.md)'s redirect-and-
 equity guidance; don't duplicate the ladder itself.
 
-## Named counterpoints: "blog like it's 2005" and the zine model
+## Named counterpoints: production still matters
 
-Two named practitioners argue a version of the production-still-matters counterpoint worth
-carrying alongside the distribution-first framing above, not instead of it. @simonw (2024-08-01)
-argues that publishing original long-form content on an owned domain has become rare enough among
-developers that doing it *consistently* is itself a durable distribution advantage — "blog like
-it's 2005." @b0rk (Julia Evans, 2024-06-03) runs a working counter-model to ad-funded content
-marketing entirely: technical "zines," sold directly with no ad spend, growth driven by free
-companion content that doubles as its own marketing — a real, disclosed-sales business (1,000+
-zine sales at time of the cited post), not a funnel pitch. Both are evidence, not folklore, but both
-are single
-named practitioners' models, not measured studies — cite them as counterpoints to "distribution
-beats production" worth holding in tension, not as a settled resolution.
+[organic-social-and-community](organic-social-and-community.md)'s "two counterpoints worth naming"
+covers two named practitioners — Simon Willison and Julia Evans — who each argue a version of the
+production-still-matters case worth carrying alongside the distribution-first framing above, not
+instead of it. Both are evidence, not folklore, but both are single named practitioners' models,
+not measured studies — hold them in tension with "distribution beats production," not as a settled
+resolution.
 
 ## Validation
 - [ ] Every brief states an information-gain claim, not just a topic.

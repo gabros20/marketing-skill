@@ -35,7 +35,7 @@ not a restatement of the artifact itself.
 |---|---|---|---|
 | `product` | The narrative input for a launch — what shipped, for whom, why it matters — mirroring how `operate`'s release-and-rollout resolves the same split row | JTBD discovery output (marketing uses it for message-market fit); pricing tiers and structure; the decoy in a pricing page | Marketing does not set price or tier structure — it writes the page that presents them |
 | `design` | Landing-page requirements (goal, claims, proof, objections), copy, E-E-A-T content requirements, structured-data requirements | Page composition, design's surface-website product-narrative question chain — the 8 beats — cited by name and never restated here, the copy-fidelity ladder, in-product voice/tone (design owns it; marketing owns the external voice) | Marketing does not compose the page or design the interaction; it supplies what the page must claim and prove |
-| `frontend` | Structured-data examples and metadata requirements, redirect and URL-structure requirements for SEO | Implemented site code, the actual metadata as shipped | Marketing writes no production code — see [surface-agentic.md](surface-agentic.md) and the pack's standing code policy: examples only, nothing production |
+| `frontend` | Structured-data requirement + entity map, with minimal illustrative JSON-LD examples per [seo-strategy.md](seo-strategy.md), and metadata/redirect/URL-structure requirements for SEO | Implemented site code, the actual metadata as shipped | Marketing writes no production code — see [surface-agentic.md](surface-agentic.md) and the pack's standing code policy: examples only, nothing production |
 | `backend` | Rendering and crawlability requirements where they affect SEO (server-rendered vs. client-rendered content, sitemap generation needs) | Sitemaps, rendering behavior as actually implemented | Marketing does not implement rendering or sitemap generation |
 | `data` | Attribution and measurement requirements — what needs to be tracked and why, per [attribution-and-measurement.md](attribution-and-measurement.md) ⭐ | The certified pipeline, the actual data the requirements produced | Marketing does not build or certify the pipeline; it writes the requirements spec |
 | `growth` | A qualified hypothesis for a funnel experiment (e.g., "this landing page variant should convert better because...") | Experiment readouts and results | Marketing runs no experiment and calls it a result — a funnel change marketing wants tested is `growth`'s experiment to design and report on, not marketing's finding to claim |
@@ -48,13 +48,8 @@ not a restatement of the artifact itself.
 
 ## The AARRR note
 
-A practitioner who knows the AARRR framework (acquisition → activation → retention → referral →
-revenue) will notice this pack's job list covers acquisition and stops well short of the rest — that
-is a deliberate seam, not a gap. **AARRR spans three packs in this family**: `marketing` owns
-acquisition, `growth` owns the experiments that improve conversion across the whole funnel
-(activation, referral, and revenue-stage tests alike), and `success` owns retention. A practitioner
-reading this pack's boundaries against the AARRR model in their head should read the seams as where
-responsibility for each letter moved, not as territory this pack failed to claim.
+AARRR spans three packs in this family, acquisition here, funnel-wide experiments in `growth`,
+retention in `success` — see `SKILL.md`'s AARRR note for the full framing.
 
 ## Failure modes
 
