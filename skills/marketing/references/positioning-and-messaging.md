@@ -17,8 +17,10 @@ Skip when:
 - The question is which segment or ICP stage to target, or a JTBD discovery job → [audience-and-
   segmentation.md](audience-and-segmentation.md).
 - The question is landing-page requirements, proof placement, or conversion mechanics — a page turns
-  positioning into a requirements brief; that brief lives in landing-pages-and-conversion.md, and the
-  page composition itself belongs to design's page anatomy, cited, not restated, here.
+  positioning into a requirements brief; that brief lives in
+  [landing-pages-and-conversion.md](landing-pages-and-conversion.md), and the page composition itself
+  belongs to **design's surface-website product-narrative question chain (the 8 beats)** — cite it,
+  never restate it here.
 - The question is A/B testing a headline or running a message experiment → that crosses into `growth`.
 
 Inputs: the product, its real alternatives (including "do nothing"), and at least one candidate

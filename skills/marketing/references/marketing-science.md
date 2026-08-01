@@ -88,9 +88,9 @@ A B2B-filtered cut of the same databank is widely reported to reverse toward ~46
 figure, and it does not appear in the LinkedIn B2B Institute's own public research library — three
 secondary sources agree, but agreement among secondary sources is not a primary source. Teach this as
 *the B2C 60/40 ratio does not transfer to B2B — verify the actual split before quoting one*, not as
-"B2B is 46/54." The ESOV → share-growth coefficient has the same problem one level worse: circulating
-figures conflict (0.5% vs 0.7% share growth per 10 ESOV points) and no primary source resolves which,
-if either, is correct — do not ship a coefficient.
+"B2B is 46/54." The ESOV → share-growth coefficient has the same problem one level worse: the
+circulating figures conflict with each other and no primary source resolves which, if any, is
+correct — **no ESOV coefficient exists at a primary source, so never ship one**, not even hedged.
 
 ## Category entry points: the best-evidenced B2B finding
 

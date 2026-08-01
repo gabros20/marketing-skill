@@ -19,7 +19,7 @@
     "category": "Productivity",
     "capabilities": [],
     "defaultPrompt": [
-      "Use $marketing to TODO: provide one short starter request."
+      "Use $marketing to write the positioning and launch plan for my self-serve SaaS product."
     ],
     "brandColor": "#c026d3"
   }

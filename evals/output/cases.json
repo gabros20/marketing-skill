@@ -1,10 +1,52 @@
 [
   {
-    "id": "primary-artifact",
-    "prompt": "TODO: add a representative execution request.",
+    "id": "traffic-collapse-diagnosis-holds-evidence-discipline",
+    "prompt": "My Google traffic has halved this year and signups are down with it. What is going on and what should I do?",
     "assertions": [
-      "TODO: name an observable artifact requirement",
-      "TODO: name an objective validation or completion requirement"
+      "Names the intent-and-coverage diagnosis before recommending more content volume",
+      "Any claim about what Google penalizes or rewards traces to a dated Google Search Central citation, not practitioner assumption",
+      "Does not assert that Google penalizes AI-generated content; if scaled content comes up, the test given is purpose and information gain, not authorship",
+      "If a zero-click or AI Overviews figure is cited, it names Pew's observed-browsing panel as the primary and marks vendor percentages as directional only",
+      "States what the diagnosis cannot establish from the available data rather than asserting a single cause",
+      "Recommends implementation work to frontend and audit work to quality instead of writing markup"
+    ]
+  },
+  {
+    "id": "launch-plan-carries-tier-criterion-and-real-platform-rules",
+    "prompt": "Write my launch plan. We ship version 2 in three weeks and I want to launch on Product Hunt.",
+    "assertions": [
+      "Names a launch tier (major, minor, or silent) before building the channel plan",
+      "Keeps deploy, release, and launch as three separately owned decisions",
+      "States a success criterion that survives past launch day — activation, qualified conversations, or a specific inbound number — and explicitly not rank or upvote count",
+      "Says visits and comments may be solicited and upvotes may never be, and carries a re-verify pointer to Product Hunt's current guidelines",
+      "Does not assert a best launch weekday or claim knowledge of the ranking algorithm's weighting",
+      "Treats this as a legitimate relaunch rather than a spent one-shot opportunity"
+    ]
+  },
+  {
+    "id": "email-legality-segments-by-jurisdiction-before-sending",
+    "prompt": "Is my email list legal to send marketing to in the EU? Most addresses came from a free tool signup, and some are US and Canadian.",
+    "assertions": [
+      "Segments the list by recipient jurisdiction rather than issuing one global verdict",
+      "States that ePrivacy Art. 13 governs email marketing in the EU and that GDPR legitimate interest does not rescue cold email",
+      "If the soft opt-in is invoked, all four conditions are named, not summarized as 'existing customers are fine'",
+      "Distinguishes the US opt-out model and Canada's consent-with-validity-windows model from the EU/UK opt-in model",
+      "Every penalty figure or threshold cited carries its as-of date and a re-verify pointer",
+      "Raises deliverability authentication as a separate gate from lawfulness, not merged into it"
+    ]
+  },
+  {
+    "id": "channel-attribution-refuses-the-dashboard-number",
+    "prompt": "Which ad channel actually works for us? Meta reports 80% of our conversions and I do not believe it.",
+    "assertions": [
+      "States that platform-reported conversions answer what fired last, never what was incremental",
+      "Names the measurement method behind every number it reports, not just the value",
+      "Checks whether a valid lift test or MMM is reachable at this reader's scale before proposing either, and says plainly if neither is",
+      "Recommends the n=1 remainder — UTM discipline, self-reported attribution, geo-split lift where geography allows, and a pre-committed decision rule written before the result exists",
+      "Treats retargeting or warm-audience results with more skepticism than cold-audience ones, not less",
+      "Does not fabricate a single reconciled 'true' number across disagreeing platforms; names each source's bias and picks one for reporting consistency, flagged as directional",
+      "Any vendor-sourced incrementality figure carries its vendor footnote at the point of use",
+      "Hands pipeline construction to data and experiment design to growth rather than doing either"
     ]
   }
 ]

@@ -101,9 +101,10 @@ affiliate and influencer content, and it applies regardless of platform.
 Separately, **16 CFR Part 465** (the FTC's fake-reviews rule) exists and took effect **2024-10-21**
 — it bans fake or AI-generated reviews, reviews bought conditioned on sentiment, undisclosed
 insider reviews, review suppression, and fake indicators of social-media influence such as bought
-followers. **Its penalty figure is not primary-verified** — a $51,744-per-violation number
-circulates but could not be confirmed against ftc.gov directly; ship the rule's existence and
-effective date, not the penalty amount, until it clears primary verification.
+followers. **Its per-violation penalty figure is not primary-verified** — a specific dollar amount
+circulates widely in practitioner content but could not be confirmed against ftc.gov directly. Ship
+the rule's existence and its effective date; do not repeat any penalty figure, including to
+disclaim it — look the current amount up at ftc.gov if a client needs one.
 
 ## 5. Journalist-query services — liveness warning
 

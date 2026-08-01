@@ -1,12 +1,62 @@
 [
   {
-    "id": "positive-explicit",
-    "prompt": "Use $marketing to TODO: add a realistic in-scope request.",
+    "id": "positive-google-traffic-halved",
+    "prompt": "My Google traffic has halved this year and signups are down with it. What is actually going on and what should I do about it?",
     "should_trigger": true
   },
   {
-    "id": "negative-near-miss",
-    "prompt": "TODO: add a realistic request owned by the closest neighboring skill.",
+    "id": "positive-launch-plan",
+    "prompt": "Write my launch plan. We ship the new version in three weeks and I want to do Product Hunt.",
+    "should_trigger": true
+  },
+  {
+    "id": "positive-email-legality",
+    "prompt": "Is my email list legal to send marketing to in the EU? I collected most of these addresses from a free tool signup.",
+    "should_trigger": true
+  },
+  {
+    "id": "positive-channel-attribution",
+    "prompt": "Which ad channel actually works for us? Meta says it drives 80% of conversions and I do not believe it.",
+    "should_trigger": true
+  },
+  {
+    "id": "positive-implicit-positioning",
+    "prompt": "Our homepage copy sounds like every other B2B tool. Nobody can tell what we do in five seconds.",
+    "should_trigger": true
+  },
+  {
+    "id": "positive-aso",
+    "prompt": "Help me rewrite the App Store and Play listings for my iOS app so it ranks better in store search.",
+    "should_trigger": true
+  },
+  {
+    "id": "positive-ai-search",
+    "prompt": "Should I add an llms.txt file so ChatGPT and Perplexity cite my site?",
+    "should_trigger": true
+  },
+  {
+    "id": "negative-frontend-implementation",
+    "prompt": "Add the JSON-LD structured data and the sitemap route to our Next.js marketing site.",
+    "should_trigger": false
+  },
+  {
+    "id": "negative-growth-experiment",
+    "prompt": "Design an A/B test for our pricing page headline and tell me the sample size I need to reach significance.",
+    "should_trigger": false
+  },
+  {
+    "id": "negative-sales-pipeline",
+    "prompt": "Build me a cold outbound sequence and set up the CRM pipeline stages for our SDR team.",
+    "should_trigger": false
+  },
+  {
+    "id": "negative-design-composition",
+    "prompt": "Lay out the landing page sections and pick the type scale and color palette for the hero.",
+    "should_trigger": false
+  },
+  {
+    "id": "negative-success-onboarding",
+    "prompt": "Write the in-product onboarding checklist that teaches a new user how to set up their first workspace.",
     "should_trigger": false
   }
 ]

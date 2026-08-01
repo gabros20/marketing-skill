@@ -11,7 +11,8 @@ Read when:
 - Evaluating a community-building framework or deciding owned vs. rented channel investment.
 
 Skip when:
-- The question is short-video production or a repurposing pipeline → `content-strategy-and-briefs`.
+- The question is short-video production or a repurposing pipeline →
+  [content-strategy](content-strategy.md).
 - The question is paid social spend → `paid-acquisition`.
 - The question is retention inside an existing community/product, not acquisition into it →
   `success` or `growth`.
@@ -128,6 +129,6 @@ folklore worth testing at your own scale, not as an established benchmark to cit
 - **The audience is developers and the plan reads as a sales pitch** → redirect to docs/tutorials/
   open-source per §3; DevRel corrects a sales-first instinct, it doesn't relabel it.
 - **The request is for short-video or content-repurposing workflow detail** →
-  `content-strategy-and-briefs`.
+  [content-strategy](content-strategy.md).
 - **The question is measuring an existing community's engagement or retention** → `growth` or
   `success`, depending on whether it's acquisition or retention being measured.

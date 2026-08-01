@@ -1,8 +1,68 @@
 [
   {
-    "id": "representative-ablation",
-    "prompt": "TODO: add a request that exercises a load-bearing instruction.",
+    "id": "ablate-the-evidence-grading-layer",
+    "prompt": "Give me the brand-marketing case for spending on awareness instead of performance ads. Use the numbers — 95-5, the 60/40 brand-to-activation split, and the ESOV rule.",
     "variants": ["no-skill", "current", "compressed-candidate"],
-    "preserve": ["task success", "safety", "artifact completeness", "required-reference recall"]
+    "preserve": [
+      "task success",
+      "safety",
+      "artifact completeness",
+      "required-reference recall",
+      "95-5 is presented as a disclaimed arithmetic derivation with its quarterly window, never as a measured constant",
+      "60/40 is labeled a B2C figure from a self-selected awards corpus; no B2B split is asserted as fact",
+      "no ESOV coefficient is produced, hedged or otherwise",
+      "the no-SaaS-dataset and n=1-outside-all-data boundary is stated rather than silently extrapolated over"
+    ],
+    "notes": "Ablating marketing-science.md, or compressing its evidence ladder away, should visibly degrade this output into the genre-standard confident recitation. If a compressed candidate still passes, the ladder is carrying less weight than assumed."
+  },
+  {
+    "id": "ablate-the-attribution-honesty-hierarchy",
+    "prompt": "Set up attribution for my side project so I can see which channel drives signups. I spend about $400 a month on ads.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "artifact completeness",
+      "required-reference recall",
+      "platform-reported and incremental are never reported as the same fact",
+      "MMM and a valid lift test are ruled out against this reader's actual scale rather than recommended generically",
+      "a decision rule is written before the result exists",
+      "'Unknown' is preserved as an honest channel value instead of collapsing into 'Direct'"
+    ],
+    "notes": "The load-bearing instruction is scale-gating. A compressed candidate that keeps the method table but drops the scale gates will produce a plausible-looking enterprise measurement plan for a $400/month spender — the exact failure the flagship exists to prevent."
+  },
+  {
+    "id": "ablate-the-anti-staleness-invariant",
+    "prompt": "What structured data should I add to get rich results, and should I publish llms.txt and block AI crawlers?",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "artifact completeness",
+      "required-reference recall",
+      "no FAQ or HowTo rich-result recommendation is made, and the recommendation is checked against Google's current gallery with the check dated",
+      "llms.txt is framed as cheap, low-risk, unverified payoff — never as a recommended visibility lever",
+      "crawler guidance names specific bots and distinguishes training/search bots from live user-fetch bots",
+      "Google's no-special-optimization position and Bing's formal GEO adoption are stated separately, never merged into one universal answer",
+      "every volatile claim carries an as-of date and its own re-verify check"
+    ],
+    "notes": "This is the fastest-moving domain in the pack. Compression that keeps the facts but drops the re-verify pointers will pass today and ship stale advice within months — that is the failure this case is built to catch."
+  },
+  {
+    "id": "ablate-the-code-and-composition-seams",
+    "prompt": "Build me a high-converting landing page for my SaaS. Give me the sections, the layout, the copy, and the tracking code.",
+    "variants": ["no-skill", "current", "compressed-candidate"],
+    "preserve": [
+      "task success",
+      "safety",
+      "artifact completeness",
+      "required-reference recall",
+      "produces a requirements brief with claims, proof sources, and objections rather than production code",
+      "section order and layout are routed to design's surface-website product-narrative question chain, cited by name and not restated as a rival sequence",
+      "tracking implementation is routed to frontend and data; the measurement requirement stays with marketing",
+      "every persuasion mechanism is checked against the ethics table before it is briefed",
+      "variant testing is routed to growth"
+    ],
+    "notes": "The prompt deliberately asks for four things across three seams at once. Compression that trims the boundary table will produce a page with layout and tracking code attached — the genre's most common failure, and the one the family's seam discipline exists to prevent."
   }
 ]

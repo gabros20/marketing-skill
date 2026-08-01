@@ -1,8 +1,64 @@
 [
   {
-    "id": "primary-route",
-    "prompt": "TODO: add a request that selects one reference.",
-    "expected_references": ["references/example.md"],
-    "forbidden_references": []
+    "id": "google-traffic-halved-routes-to-search-not-content-volume",
+    "prompt": "My Google traffic has halved this year and signups are down with it. What is going on and what should I do?",
+    "expected_references": [
+      "references/seo-strategy.md",
+      "references/surface-selfserve-saas.md"
+    ],
+    "forbidden_references": [
+      "references/app-store-optimization.md",
+      "references/lifecycle-and-email.md",
+      "references/partnerships-pr-and-affiliates.md",
+      "references/surface-b2b-sales-assisted.md"
+    ],
+    "notes": "Should reach ai-search.md and content-strategy.md as adjacent reads, but must not treat this as an ASO, email, or PR question, and must not silently switch base surface away from the default."
+  },
+  {
+    "id": "launch-plan-routes-to-gtm-not-release",
+    "prompt": "Write my launch plan. We ship version 2 in three weeks and I want to launch on Product Hunt.",
+    "expected_references": [
+      "references/go-to-market-and-launch.md",
+      "references/surface-selfserve-saas.md"
+    ],
+    "forbidden_references": [
+      "references/marketing-science.md",
+      "references/app-store-optimization.md",
+      "references/surface-b2b-sales-assisted.md",
+      "references/surface-agentic.md"
+    ],
+    "notes": "landing-pages-and-conversion.md is a legitimate adjacent read for the launch page brief. The agentic overlay must not be loaded — no model is deciding a spend or send here."
+  },
+  {
+    "id": "eu-email-legality-routes-to-lifecycle-and-segmentation",
+    "prompt": "Is my email list legal to send marketing to in the EU? Most addresses came from a free tool signup, and some are US and Canadian.",
+    "expected_references": [
+      "references/lifecycle-and-email.md",
+      "references/audience-and-segmentation.md"
+    ],
+    "forbidden_references": [
+      "references/paid-acquisition.md",
+      "references/seo-strategy.md",
+      "references/ai-search.md",
+      "references/organic-social-and-community.md",
+      "references/marketing-science.md"
+    ],
+    "notes": "Jurisdiction segmentation is the load-bearing pairing. Must not wander into channel references."
+  },
+  {
+    "id": "which-ad-channel-works-routes-to-flagship-first",
+    "prompt": "Which ad channel actually works for us? Meta reports 80% of our conversions and I do not believe it.",
+    "expected_references": [
+      "references/attribution-and-measurement.md",
+      "references/paid-acquisition.md",
+      "references/surface-selfserve-saas.md"
+    ],
+    "forbidden_references": [
+      "references/app-store-optimization.md",
+      "references/partnerships-pr-and-affiliates.md",
+      "references/surface-zero-audience.md",
+      "references/handoff.md"
+    ],
+    "notes": "The flagship must be read before or alongside paid-acquisition — the question is a measurement-trust question wearing a channel-choice costume. The zero-audience overlay must not load: the product has traffic and reported conversions."
   }
 ]

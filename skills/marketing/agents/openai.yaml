@@ -1,6 +1,6 @@
 interface:
   display_name: "Marketing"
   short_description: "Position the product and create, capture, and attribute demand"
-  default_prompt: "Use $marketing to TODO: provide one short, realistic starting request."
+  default_prompt: "Use $marketing to write the positioning and launch plan for my self-serve SaaS product."
 policy:
   allow_implicit_invocation: true

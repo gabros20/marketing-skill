@@ -94,8 +94,8 @@ method.
 empirical finding.** It belongs in this pack's vocabulary as a named heuristic — manually recruit
 early users, do the unscalable thing personally rather than automate it before there's anything to
 automate — but it carries no measurement behind it in anything this pack's research located. Cite it
-as craft, the same register [marketing-science.md](marketing-science.md) uses for Dunford's
-positioning method (R12): well-regarded, widely practiced, not evidence-backed.
+as craft, in the same register [positioning-and-messaging.md](positioning-and-messaging.md) uses for
+Dunford's positioning method: well-regarded, widely practiced, not evidence-backed.
 
 ## What is unknowable — and why that's stated, not hidden
 

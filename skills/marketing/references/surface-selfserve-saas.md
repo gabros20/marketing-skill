@@ -5,7 +5,7 @@ talking to a human — the **default** surface, because most of this pack's read
 
 Read when:
 - Anyone can sign up, start a trial, or start using a free tier without a sales conversation.
-- No surface has been chosen yet — this is where the router lands by default (R15).
+- No surface has been chosen yet — this is where the router lands by default.
 - A benchmark, a PLG statistic, or a "SaaS median" is about to be cited and needs a hygiene check
   before it ships.
 
@@ -62,7 +62,8 @@ citation via @tomxecom, 2025-03-31, citing @wes_bush/ProductLed). Use the direct
 correlates with profitability — as a legitimate business-case point. Do not repeat the two decimal
 numbers as settled fact: the underlying survey's sample size and methodology are not disclosed in
 any source this pack located, and a newer edition may already supersede the "2025" dataset. This is
-R10 in miniature — the stat is a specimen of the genre's best available evidence, not proof.
+specimen-versus-evidence in miniature — the stat is a specimen of the genre's best available
+evidence, not proof.
 
 ## Benchmark hygiene: the OpenView gap
 
@@ -102,8 +103,8 @@ matters most on commercial and transactional queries pointed at the site itself;
 [landing-pages-and-conversion](landing-pages-and-conversion.md)'s trust/proof requirements apply to
 the pricing page as much as any campaign landing page; and [content-strategy](content-strategy.md)'s
 comparison and alternative-to content is doing acquisition work a sales team would otherwise do by
-hand. Page composition itself stays design's — cite the eight-beat landing-page anatomy by name,
-never restate a rival sequence (R7).
+hand. Page composition itself stays design's — cite design's surface-website product-narrative question
+chain (the 8 beats) by name, never restate a rival sequence.
 
 ## Job-by-job reshape
 

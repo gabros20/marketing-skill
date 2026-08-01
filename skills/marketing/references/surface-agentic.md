@@ -90,7 +90,8 @@ does not re-derive that mechanism; it applies it to a marketing spend or send de
 
 ## The ethics table binds agents identically
 
-The pack's ethics and dark-patterns table (R6) is a marketing pack-level invariant, and it applies to
+The pack's ethics and dark-patterns table (in
+[landing-pages-and-conversion.md](landing-pages-and-conversion.md)) is a pack-level invariant, and it applies to
 agent-generated output exactly as it applies to human-drafted output — an agent is not an exemption
 from the disclosure, consent, and manipulation-pattern rules the rest of the pack teaches. A
 model-drafted email still needs the consent basis its jurisdiction requires; a model-drafted landing

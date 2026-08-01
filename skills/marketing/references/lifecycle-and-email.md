@@ -78,7 +78,7 @@ severity, as-of dates matter here — re-verify each at build time:
 | Provider | Spam-rate ceiling | Enforcement posture | As-of |
 |---|---|---|---|
 | Gmail | <0.3% (target <0.10%) | Hardest. November 2025: Google's own words, *"temporary and permanent rejections"* for non-compliant bulk mail — no longer just spam-foldering. | 2026-07/08, P |
-| Microsoft (Outlook.com) | — | Junk-routing first, may escalate to rejection later — softer by design. No date claim on when full rejection begins; a widely-repeated "May 5, 2025" date does not appear on Microsoft's own page. | Controller-verified, P, no date claim |
+| Microsoft (Outlook.com) | — | Junk-routing first, may escalate to rejection later — softer by design. **No enforcement date is claimed here**: the dates circulating in deliverability content do not appear on Microsoft's own sender-requirements page. Read that page directly before asserting one. | Controller-verified, P, no date claim |
 | Yahoo/AOL | <0.3% | No stated daily-volume threshold on Yahoo's own page — do not assume Gmail's 5,000/day parity by analogy. | 2026-08-01, P |
 
 Gmail's 48-hour unsubscribe-honoring window is a **recommendation**, not an SLA — the "2 days"

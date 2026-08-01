@@ -58,10 +58,10 @@ default posture.
 
 ## 2. Launch is not release is not deploy
 
-`operate` draws the line marketing must honor: deploy is code running somewhere (possibly dark,
-possibly at 0% traffic); release is users receiving new behavior, gated by `quality`; **launch is
-telling the market this exists, and that step belongs to marketing** (`operate`'s
-release-and-rollout reference, invariant I1). Collapsing launch into release means a rollback also
+`operate` draws the line marketing must honor, in its release-and-rollout reference's
+deploy-is-not-release-is-not-launch rule: deploy is code running somewhere (possibly dark, possibly
+at 0% traffic); release is users receiving new behavior, gated by `quality`; **launch is telling the
+market this exists, and that step belongs to marketing**. Collapsing launch into release means a rollback also
 retracts an announcement you already made; collapsing it into deploy means "shipped" and "announced"
 become the same irreversible act.
 
