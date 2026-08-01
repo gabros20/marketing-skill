@@ -6,7 +6,10 @@ Install the `marketing` runtime pack from the independently versioned
 ## Prerequisites
 
 - An Agent Skills-compatible client.
-- TODO: Add only real skill-specific tools, credentials, or runtime requirements.
+- No skill-specific credentials or tools are required. `marketing` is tool-agnostic; it names which
+  class of platform a job touches (a search console, an email service provider, an ad platform, an
+  app-store listing console) and recommends re-verifying current platform limits, thresholds, and
+  guidelines at analysis time (anti-staleness), but ships no keys and requires no fixed toolchain.
 
 ## Install with skills.sh
 
