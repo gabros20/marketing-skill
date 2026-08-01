@@ -10,6 +10,13 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ### Added
 - Queue unreleased changes here.
 
+## [0.1.1] — 2026-08-01
+
+- Fix: "Diagnose a decline" router row now names `content-strategy` in its read path — the
+  traffic-collapse convergence it advertises lives there, not in `seo-strategy`. Caught by the
+  installed smoke test (a cold agent following the table literally dead-ended on the promised
+  content).
+
 ## [0.1.0] — 2026-08-01
 
 ### Added
