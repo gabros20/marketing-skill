@@ -55,7 +55,7 @@
     "should_trigger": false
   },
   {
-    "id": "negative-success-onboarding",
+    "id": "negative-design-onboarding",
     "prompt": "Write the in-product onboarding checklist that teaches a new user how to set up their first workspace.",
     "should_trigger": false
   }
