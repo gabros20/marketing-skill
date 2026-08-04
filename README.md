@@ -1,5 +1,7 @@
 # marketing — Marketing
 
+**Family hub:** [digital-product-skill.vercel.app](https://digital-product-skill.vercel.app) — the 15-skill Digital Product family and its composer.
+
 Position the product, then create, capture, and attribute demand for it: what it is and who it's
 for, in words a buyer believes; the launch; being found in search and in AI answers; the page that
 converts the visit; the email that arrives; the ad budget, and whether it did anything.
