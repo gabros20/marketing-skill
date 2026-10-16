@@ -34,6 +34,7 @@ Produces:
 - Information gain vs. scaled-content abuse
 - The traffic-collapse convergence — teaching the pattern, not just the number
 - Repurposing
+- Free tools as content
 - The copy-fidelity seam (design owns the ladder; marketing owns what must survive)
 - Named counterpoints: production still matters
 - Validation
@@ -126,6 +127,21 @@ Repurposing is a distribution multiplier on content that already earned attentio
 a substitute for the information-gain bar above, and templating repurposed content past the point
 where each variant adds something for its specific channel collapses back into scaled-content
 territory.
+
+## Free tools as content
+
+A free tool the visitor runs (an audit, a calculator, a checker) has information gain built in: it
+computes something about the visitor's own situation that no article can. Weinberg & Mares'
+*Traction* names it "engineering as marketing", which is craft, not a measured finding. Solo
+builders who publish their funnels report it often, but that evidence is self-reported and
+survivorship-selected. Two checks before you brief one. First, **the result must be true for the
+visitor.** An audit whose answer is always "you need us" manufactures a decision, which fails the
+ethics table's governing test
+([landing-pages-and-conversion](landing-pages-and-conversion.md#9-the-ethics-table--a-pack-invariant)).
+Second, **an email collected to deliver the result is consent for that result, not automatically
+for marketing.** List membership follows the jurisdiction rule in
+[lifecycle-and-email](lifecycle-and-email.md). `frontend`/`backend` build it; marketing briefs what
+it computes and promises.
 
 ## The copy-fidelity seam (design owns the ladder; marketing owns what must survive)
 

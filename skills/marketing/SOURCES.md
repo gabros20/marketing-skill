@@ -78,12 +78,14 @@ row. Their facts are re-expressed in this pack's own words; nothing is lifted:
 `resend/email-best-practices`, `maizzle`, `postalsys/mailauth`, `firecrawl/llmstxt-generator`,
 `krish-adi/llmstxt-site`, and the remaining unlicensed curation repos surveyed during research.
 **Vendor and platform documentation** (Google Search Central, Apple Developer, Google Play, Slack,
-Product Hunt, Microsoft, Yahoo) is used for facts freely and quoted only within the caps above.
+Product Hunt, Microsoft, Yahoo, LinkedIn's newsroom, Plausible's docs) is used for facts freely
+and quoted only within the caps above.
 
 **(3) Thin licence on thick IP.** Several popular packs compile copyrighted books under the
 compiler's own MIT licence. **A permissive licence on a repository does not relicense the book it
 summarises.** Book frameworks in this pack — Dunford's positioning components, Ries & Trout on
-category, Sharp's *How Brands Grow*, Binet & Field's *The Long and the Short of It* — are sourced to
+category, Sharp's *How Brands Grow*, Binet & Field's *The Long and the Short of It*, Weinberg & Mares'
+*Traction* — are sourced to
 the **original books and their authors**, never to a compiler repo, and no compiler's phrasing is
 reused. X/Twitter posts are attributed by handle and date, quoted within caps, never reproduced as
 threads.

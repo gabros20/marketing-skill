@@ -30,6 +30,10 @@ be reported as the same fact.
 | `utm_content` | | Creative or placement variant |
 | `utm_term` | | Keyword, paid search only |
 
+**Never tag an internal link.** UTMs belong on links that arrive from outside. A tagged CTA,
+banner, or nav link on your own site overwrites the visitor's original source for the session.
+Track in-site clicks as events instead.
+
 Rather than inventing a channel taxonomy, start from one already implemented and documented —
 Plausible's acquisition module classifies every visit into 19 channels (as-of 2026-08-01 —
 re-verify against lib/plausible/ingestion/acquisition.ex before citing an exact count) via a

@@ -12,6 +12,7 @@ Source: [`references/landing-pages-and-conversion.md`](../references/landing-pag
 | Page URL / working name | |
 | Segment(s) this page must convert | |
 | **The one goal** — the single action this page exists to produce | |
+| **Who this page is not for** — the disqualifier from positioning's best-fit customer | |
 | Page mode | **Campaign** (Attention Ratio → 1:1, one action, nothing else clickable) / **Homepage** (1:many, exploration is the job) |
 | Inbound promise — the exact ad, email subject, or post claim that sent them here | |
 
@@ -50,9 +51,9 @@ FTC-actionable — never brief one.
 
 ## Objections
 
-| Objection | Where the doubt actually arises | Answer | Path back to the CTA |
-|---|---|---|---|
-| | | | |
+| Objection | Heard where (call, ticket, reply) | Where the doubt actually arises | Answer | Path back to the CTA |
+|---|---|---|---|---|
+| | | | | |
 
 Place each answer at the point the doubt arises, not below the decision point.
 

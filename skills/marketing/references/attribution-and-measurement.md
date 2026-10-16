@@ -159,7 +159,10 @@ remains, in order of cheapness:
 1. **UTM discipline.** Consistent, structured campaign tagging is what makes even directional
    self-reported and platform numbers legible at all — most of the ambiguity practitioners fight
    ("Direct" traffic that is really lost attribution, paid clicks under the wrong medium) is a
-   tagging-discipline failure, not a platform limitation.
+   tagging-discipline failure, not a platform limitation. Tag only links that arrive from outside
+   the site. A UTM on your own CTA or nav link replaces the visitor's real source with your own
+   site (*"UTMs on links within your own site overwrite the original referral source for that
+   session"*, Plausible's UTM-builder docs, fetched 2026-10-17). Measure in-site clicks as events.
 2. **Self-reported attribution.** A required "how did you hear about us" field is cheap and biased
    in a *known* direction — practitioners who instrument both report dramatically less paid/search
    share from self-reports than dashboards claim. Directional, not precise, worth having anyway.

@@ -53,7 +53,11 @@ earlier: write the brief design composes against. Per segment, the brief states:
 - **The claim each beat must make** — what the page asserts at Hook, at Proof, at Stakes.
 - **The proof each claim carries** — which device from §3 backs it, and where it lives.
 - **The objections to answer, and where** — placed at the point the doubt actually arises, each
-  followed by a path back to the CTA, not buried below the decision point.
+  followed by a path back to the CTA, not buried below the decision point. Source them from real
+  conversations (sales or discovery calls, support tickets, replies) rather than inventing them.
+  Objections nobody has heard yet are guesses.
+- **Who the page is not for** — the disqualifier that follows from positioning's best-fit
+  customer. Naming who should leave makes the claim believable to the reader who should stay.
 
 A brief without a stated proof source per claim is not finished — "trust us" is not a requirements
 line design can build against.
