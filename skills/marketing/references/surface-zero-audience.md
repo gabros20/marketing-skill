@@ -87,8 +87,8 @@ claim whose underlying fact is false:
 - an employer's or studio's client work shown as solo work
 - a course arranged to read as a degree
 - a generated headshot that no longer looks like the person
-The first real testimonials usually come from free pilots. That is a disclosable material
-connection, not a loophole:
+First testimonials often come from free pilots (craft, not a measured rate). That is a
+disclosable material connection, not a loophole:
 [partnerships-pr-and-affiliates.md](partnerships-pr-and-affiliates.md#4-ftc-disclosure).
 
 ## What is folklore

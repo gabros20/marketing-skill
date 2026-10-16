@@ -114,29 +114,29 @@ content itself carries the distribution:
 ## 6. The founder account: profile, gate, and what a reply measures
 
 **The profile is the account's landing page.** The bio or headline is the positioning statement
-compressed: who it's for and what it does, front-loaded before the platform truncates it. Where it
-cuts varies by device, so check the rendered preview. The pinned or featured slot is the page's
-one goal
+compressed: who it's for and what it does, front-loaded before truncation. Where the platform cuts
+varies by device, so check the rendered preview. The pinned slot is the one goal
 ([landing-pages-and-conversion](landing-pages-and-conversion.md#2-attention-ratio-and-the-one-goal-doctrine)).
-Cut any leftover identity or services you no longer sell. For one profile with several
-audiences, see positioning's one-surface rule
+Cut leftover identities and services you no longer sell. For one profile with several audiences,
+apply positioning's one-surface rule
 ([positioning-and-messaging](positioning-and-messaging.md#messaging-architecture-and-laddering)).
 
-**A comment gate measures engagement, not demand.** The pattern (post a result, ask for a keyword
-in the replies, DM the asset) produces large reply counts. A reply costs nothing to give, so the
-count is a platform-reported number of the vanity kind. An open "drop your product below" post
-draws replies with no buying intent behind them. The gate earns its keep only if the DM, which
-sits on a rented platform, moves the person onto an owned channel: an email address with a lawful
-consent basis ([lifecycle-and-email](lifecycle-and-email.md)). Gate a working slice of what you
-actually sell (§5's zine case: the free thing and the paid thing are the same craft). Then count
-what comes out of the gate: DMs sent → emails captured → people who used the thing. Log it by
-hand, per the n=1 answer in [attribution-and-measurement](attribution-and-measurement.md) ⭐.
+**A comment gate measures engagement, not demand.** The gate (post a result, ask for a keyword
+reply, DM the asset) draws big reply counts, but a reply costs nothing. A "drop your product
+below" post draws replies with no buying intent. A "must follow" condition inflates followers the
+same way: those followers measure the gate, not an audience. The DM sits on a rented platform, so the gate pays off only if it moves the person to
+an owned channel: an email with a lawful consent basis
+([lifecycle-and-email](lifecycle-and-email.md)). Gate a working slice of what you sell (§5: free
+and paid are the same craft). Count what comes out: DMs sent → emails captured → people who used
+it. Stars and forks on a free repo are interest, not use. Use shows in issues, replies, or a
+finished build. Log it by hand, per the n=1 answer in
+[attribution-and-measurement](attribution-and-measurement.md) ⭐.
 
-**Platforms treat the same mechanic differently. Check before you automate it.** LinkedIn's own
-feed announcement (2026-03-12, news.linkedin.com) names *"'comment to agree' prompts"* as
-engagement bait it is reducing, and says it acts against comment automation and engagement pods.
-X's automation rules (help.x.com) returned a bot challenge on a 2026-10-17 fetch and are
-unverified here. Read each platform's current policy before scripting DM delivery.
+**Platform policy on this mechanic varies and changes. Check before you automate it.** The nearest
+documented stance: LinkedIn's feed announcement (2026-03-12, news.linkedin.com/2026/ImprovingTheFeed)
+names *"'comment to agree' prompts"* as engagement bait it is reducing, and says it acts against
+comment automation and pods. It does not mention keyword gates. X's automation rules returned a bot
+challenge on a 2026-10-17 fetch and are unverified. Don't assume policies transfer.
 
 ## 7. What is still folklore here
 

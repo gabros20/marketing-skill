@@ -56,7 +56,7 @@
       "Treats the reply count as engagement, not demand or leads, and does not report it as the success metric",
       "Routes the DM onto an owned channel (an email address with a stated consent basis) rather than ending at the DM thread",
       "Names the count past replies that decides success (DMs sent, emails captured, people who used the asset) and writes it down before the post runs",
-      "States that platforms treat the mechanic differently and checks each platform's current automation and engagement-bait policy, carrying an as-of date, before scripting DM delivery",
+      "Checks each platform's current automation and engagement-bait policy, with an as-of date, before scripting DM delivery, and does not assume one platform's policy holds on another",
       "Does not cite a reply-count, follower-growth, or engagement-benchmark figure as a target"
     ]
   },

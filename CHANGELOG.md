@@ -24,6 +24,9 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 - Landing brief: a "who this page is not for" line, and objections sourced from real
   conversations. Positioning: the one-surface/several-audiences rule and scope-vs-belief taglines.
   Content strategy: free tools as content, with their truth and consent checks.
+- Follow-gated followers and repo stars/forks named as interest, not use (organic §6). Curated-list
+  submission treated as a gated channel (developer-tool surface). Tool/vendor logos are not
+  customer logos (landing §3). Two new adjudications recorded in SOURCES §4.
 - Router rows reach the founder-profile and free-tool folds; 2 output evals and 1 traversal eval
   added.
 

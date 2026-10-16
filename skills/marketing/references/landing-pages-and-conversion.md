@@ -84,7 +84,8 @@ under-specifies).
 Social-proof device taxonomy, with placement as the real lever:
 - **Testimonials** — real quote, full name, role, company, headshot. A named initial ("Alex H.")
   reads as fabricated; specificity is what converts.
-- **Logo wall** — recognizable customer logos outperform a generic "trusted by" bar.
+- **Logo wall** — recognizable customer logos outperform a generic "trusted by" bar. Logos of
+  tools or vendors you use are not customer logos, so never let them read as one.
 - **Numbers** — usage counts, review counts, outcome metrics. Specific beats superlative always
   ("500+ transactions" over "trusted by many").
 - **Case studies** — the strongest device for high-consideration buys. Anatomy: challenge → approach

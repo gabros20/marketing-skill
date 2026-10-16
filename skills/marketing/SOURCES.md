@@ -122,7 +122,8 @@ disagree with them:
 - **Positioning is craft.** Dunford's method has no empirical validation and she says so herself.
   This pack never dresses it as science.
 - **Platform-reported conversions answer "what fired," never "what was incremental."** This is the
-  load-bearing claim of the flagship, and everything in that reference is evidence for it.
+  load-bearing claim of the flagship, and everything in that reference is evidence for it. The same
+  holds a level down: a comment gate's replies and follows are engagement, not demand.
 - **A solo or small-spend builder can use none of the three rigorous measurement options** —
   platform attribution over-claims by construction, a valid lift test needs statistical power almost
   nobody has, and MMM is gated at years of weekly data by its own vendors' documentation. What
@@ -139,6 +140,9 @@ disagree with them:
 - **Zero-audience marketing has no evidence base**, in either direction. The thinness of
   [surface-zero-audience.md](references/surface-zero-audience.md) is its finding, not a gap left
   unfilled.
+- **With no customers, the only proof is the work itself.** Customer-proof devices are structurally
+  unavailable before customers exist. Target metrics, borrowed figures, and someone else's client
+  work in that slot are false claims, not placeholders.
 
 ## 5. What this pack did not do
 

@@ -73,6 +73,12 @@ or enterprise B2B channels. Both carry no license (all rights reserved) — thei
 as re-expressed fact, not verbatim, per the pack's licensing rulings. Together they corroborate the
 `developer-tool` surface as evidence-backed rather than an assumed category.
 
+Being listed *on* a curated list is a separate, gated channel. Curated lists publish their own
+contribution rules, and they commonly cover quality, maturity and self-promotion. Read the list's
+rules before submitting, the same way you confirm a marketplace's traction gate
+([partnerships-pr-and-affiliates.md](partnerships-pr-and-affiliates.md#2-marketplace-listings-as-acquisition--with-traction-gates)).
+Contribute when the project meets them, instead of forking a rival list.
+
 ## DevRel is not developer marketing
 
 The two disciplines are adjacent, not identical, and conflating them is a common failure this pack
