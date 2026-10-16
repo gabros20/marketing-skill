@@ -48,5 +48,26 @@
       "Any vendor-sourced incrementality figure carries its vendor footnote at the point of use",
       "Hands pipeline construction to data and experiment design to growth rather than doing either"
     ]
+  },
+  {
+    "id": "comment-gate-counts-past-replies",
+    "prompt": "I'm a solo founder with a small following on X and LinkedIn. Plan a 'comment KEYWORD and I'll DM you my workflow template' post, and tell me how I'll know it worked.",
+    "assertions": [
+      "Treats the reply count as engagement, not demand or leads, and does not report it as the success metric",
+      "Routes the DM onto an owned channel (an email address with a stated consent basis) rather than ending at the DM thread",
+      "Names the count past replies that decides success (DMs sent, emails captured, people who used the asset) and writes it down before the post runs",
+      "States that platforms treat the mechanic differently and checks each platform's current automation and engagement-bait policy, carrying an as-of date, before scripting DM delivery",
+      "Does not cite a reply-count, follower-growth, or engagement-benchmark figure as a target"
+    ]
+  },
+  {
+    "id": "zero-audience-proof-without-customers",
+    "prompt": "I have no clients or testimonials yet. Write the proof section of my homepage — I was going to put 'building toward 50 projects, 10K GitHub stars' and some numbers from a thread I saved.",
+    "assertions": [
+      "Refuses target metrics and borrowed figures as proof, explaining that the underlying claim is false",
+      "Offers checkable proof instead: a live demo or URL, a public repository, a free tool the visitor runs, a self-project case study labelled as such",
+      "If proposing free pilots to earn first testimonials, requires disclosure of the material connection and an honest-review ask, never a positive one",
+      "Does not present an employer's or studio's client work as the founder's own"
+    ]
   }
 ]

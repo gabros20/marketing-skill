@@ -75,5 +75,20 @@
       "references/surface-agentic.md"
     ],
     "notes": "Overlay stacking: the zero-audience overlay must load on top of the developer-tool base surface, not replace it or the default. No other base surface may load, and the agentic overlay must not load — no model is authoring or deciding a marketing action here."
+  },
+  {
+    "id": "founder-profile-rewrite-reads-social-and-positioning",
+    "prompt": "Rewrite my founder profile headline and featured section so buyers understand what I sell — I'm pre-launch with no customers.",
+    "expected_references": [
+      "references/organic-social-and-community.md",
+      "references/positioning-and-messaging.md",
+      "references/surface-zero-audience.md"
+    ],
+    "forbidden_references": [
+      "references/paid-acquisition.md",
+      "references/ai-search.md",
+      "references/surface-agentic.md"
+    ],
+    "notes": "The profile is treated as the account's landing page: organic-social carries the founder-account mechanics, positioning carries the one-surface lead-claim rule, and the zero-audience overlay carries proof without customers. No ad spend, AI-search, or model-authored action is in scope."
   }
 ]

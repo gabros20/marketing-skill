@@ -8,7 +8,24 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- Practitioner fold for founder-led and solo distribution:
+  [organic-social-and-community](skills/marketing/references/organic-social-and-community.md) §6
+  treats the founder profile as the account's landing page. It also covers what a comment gate's
+  replies do and don't measure, and LinkedIn's dated engagement-bait stance (2026-03-12) beside an
+  unverified X policy. The folklore list now names engagement-benchmark tables and
+  connection-count thresholds.
+- [surface-zero-audience](skills/marketing/references/surface-zero-audience.md): proof without
+  customers is the work itself. Adds the checkable artifacts and five false-proof patterns.
+- [partnerships-pr-and-affiliates](skills/marketing/references/partnerships-pr-and-affiliates.md)
+  §4: the free-pilot testimonial as a §255.5 material connection, and §465.4's sentiment rule
+  scoped to consumer reviews (eCFR, 2026-10-17).
+- Never tag an internal link with UTMs, added to the flagship's n=1 answer and the attribution
+  spec asset (Plausible docs, 2026-10-17).
+- Landing brief: a "who this page is not for" line, and objections sourced from real
+  conversations. Positioning: the one-surface/several-audiences rule and scope-vs-belief taglines.
+  Content strategy: free tools as content, with their truth and consent checks.
+- Router rows reach the founder-profile and free-tool folds; 2 output evals and 1 traversal eval
+  added.
 
 ## [0.1.1] — 2026-08-01
 
