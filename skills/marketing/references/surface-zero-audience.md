@@ -22,7 +22,8 @@ Skip when:
 Inputs: confirmation that no measurable audience exists yet, and which base surface this overlay
 stacks on.
 
-Produces: a small set of checkable actions (marketplace gates, platform launch rules) separated
+Produces: a small set of checkable actions (marketplace gates, platform launch rules, proof a
+visitor can verify without a customer base) separated
 explicitly from unfalsifiable folklore, and honest acknowledgment of what could not be verified at
 this scale.
 
@@ -73,6 +74,23 @@ existing baseline to compare against). What remains at this scale is smaller sti
 brought each of the first handful of users in a plain log, and self-reported answers from the people
 who do show up — not a dashboard.
 
+**With no customers, the only proof you have is the work itself.** Testimonials, logo walls, and
+named-client case studies (the devices in
+[landing-pages-and-conversion.md](landing-pages-and-conversion.md#3-trust-and-proof-devices))
+can't exist yet. That is structural, not a gap in effort. What a visitor can still check is a live
+URL or demo, a public repository, a free tool they run themselves, a case study of your own
+project labelled as your own, and a dated build log. The pack's ethics invariant applies hardest
+here, because the temptation to fill the empty proof slot is strongest. Each of the following is a
+claim whose underlying fact is false:
+- a credibility bar of target numbers ("building toward…")
+- someone else's thread figures presented as yours
+- an employer's or studio's client work shown as solo work
+- a course arranged to read as a degree
+- a generated headshot that no longer looks like the person
+The first real testimonials usually come from free pilots. That is a disclosable material
+connection, not a loophole:
+[partnerships-pr-and-affiliates.md](partnerships-pr-and-affiliates.md#4-ftc-disclosure).
+
 ## What is folklore
 
 **First-100-users playbooks, as a genre, are the pack's clearest specimen-not-evidence case.** A
@@ -111,5 +129,7 @@ Hunt's actual policy) plus judgment, not as a choice backed by evidence this pac
   gate that makes it unavailable until later.
 - Citing a headline growth number (any "$0 to $X" or "N users in a week" claim) without checking
   whether a disclosed mechanism exists behind it, per the b0rk-vs-jurree contrast above.
+- Filling the empty proof slot with target metrics, borrowed figures, or someone else's client work
+  instead of the checkable artifacts above.
 - Padding this file with restated general marketing advice to make the zero-audience surface look
   as substantial as the others — the thinness is the finding; do not disguise it.

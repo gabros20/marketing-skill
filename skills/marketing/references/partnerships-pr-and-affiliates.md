@@ -106,6 +106,15 @@ circulates widely in practitioner content but could not be confirmed against ftc
 the rule's existence and its effective date; do not repeat any penalty figure, including to
 disclaim it — look the current amount up at ftc.gov if a client needs one.
 
+**The free-pilot testimonial.** The usual first testimonial, a free pilot or audit given in return
+for a quote, is a material connection. §255.5 counts *"free or discounted products"* as one
+*"regardless of whether the advertiser requires an endorsement in return"*, so the page discloses
+it. Part 465 draws a second line. §465.4 bans incentives *"conditioned expressly or by
+implication on"* a review expressing a particular sentiment. Ask for an honest review, never a
+positive one. Note that §465.1 defines a *consumer review* as one posted to a review platform,
+separately from a *consumer testimonial* in your own advertising. Check which one you are asking
+for. (eCFR text, fetched 2026-10-17; re-verify.)
+
 ## 5. Journalist-query services — liveness warning
 
 This category of service (query-and-response platforms connecting journalists to sources) churns
