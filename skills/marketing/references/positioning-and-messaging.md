@@ -107,6 +107,16 @@ way B2B copy fails that test.
 Specificity beats superlatives: a named client, an exact number, a real outcome outperforms "leading"
 or "best-in-class" every time — vague claims are also the ones a buyer discounts fastest.
 
+**One surface, several audiences.** Some surfaces get read by buyers, partners, and hires at once:
+a founder profile, a homepage, an about page. They can't each carry a separate core claim. Lead
+with one claim and put each audience's proof where that audience looks for it. Leading with two
+offers at once reads as a generalist, and a generalist converts none of those audiences. The same
+choice comes up for a tagline. A **scope line** (what you do, in words a buyer uses) fixes "nobody
+can tell what this is." A **belief line** (the conviction behind the work) fixes "this looks like
+everyone else." Decide which failure you actually have before writing either. Insider vocabulary
+reads as depth to the few readers who share it and as noise to everyone else, so match it to the
+channel's audience mix, not to the founder's.
+
 ## Copywriting frameworks, named and taught
 
 These are stable, decades-old mnemonics for structuring a piece of copy — general craft, not a graded

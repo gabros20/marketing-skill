@@ -9,6 +9,8 @@ Read when:
   community (Slack, Discord, forum).
 - Planning developer-audience distribution and the request conflates DevRel with marketing.
 - Evaluating a community-building framework or deciding owned vs. rented channel investment.
+- Rewriting a founder's profile (bio, headline, pinned or featured slot), or planning a
+  "comment KEYWORD and I'll DM you the asset" gate.
 
 Skip when:
 - The question is short-video production or a repurposing pipeline →
@@ -26,6 +28,8 @@ Inputs:
 Produces:
 - A channel decision (owned vs. rented; brand account vs. founder-led) with the evidence tier stated.
 - A DevRel/developer-marketing split, if the audience is developers.
+- A founder-profile brief and, if a comment gate is planned, the count that will show whether it
+  produced anything beyond replies.
 - An explicit list of what remains folklore in this area, not dressed as a finding.
 
 ## Contents
@@ -34,7 +38,8 @@ Produces:
 - [3. DevRel is not developer marketing](#3-devrel-is-not-developer-marketing)
 - [4. Company handbooks as primary sources](#4-company-handbooks-as-primary-sources)
 - [5. Two counterpoints worth naming](#5-two-counterpoints-worth-naming)
-- [6. What is still folklore here](#6-what-is-still-folklore-here)
+- [6. The founder account: profile, gate, and what a reply measures](#6-the-founder-account-profile-gate-and-what-a-reply-measures)
+- [7. What is still folklore here](#7-what-is-still-folklore-here)
 - [Validation](#validation)
 - [Failure modes and handoff](#failure-modes-and-handoff)
 
@@ -106,14 +111,43 @@ content itself carries the distribution:
   is the strongest available case for docs/tutorials-as-channel converging with DevRel (§3): the
   content that teaches is the same content that sells.
 
-## 6. What is still folklore here
+## 6. The founder account: profile, gate, and what a reply measures
+
+**The profile is the account's landing page.** The bio or headline is the positioning statement
+compressed: who it's for and what it does, front-loaded before the platform truncates it. Where it
+cuts varies by device, so check the rendered preview. The pinned or featured slot is the page's
+one goal
+([landing-pages-and-conversion](landing-pages-and-conversion.md#2-attention-ratio-and-the-one-goal-doctrine)).
+Cut any leftover identity or services you no longer sell. For one profile with several
+audiences, see positioning's one-surface rule
+([positioning-and-messaging](positioning-and-messaging.md#messaging-architecture-and-laddering)).
+
+**A comment gate measures engagement, not demand.** The pattern (post a result, ask for a keyword
+in the replies, DM the asset) produces large reply counts. A reply costs nothing to give, so the
+count is a platform-reported number of the vanity kind. An open "drop your product below" post
+draws replies with no buying intent behind them. The gate earns its keep only if the DM, which
+sits on a rented platform, moves the person onto an owned channel: an email address with a lawful
+consent basis ([lifecycle-and-email](lifecycle-and-email.md)). Gate a working slice of what you
+actually sell (§5's zine case: the free thing and the paid thing are the same craft). Then count
+what comes out of the gate: DMs sent → emails captured → people who used the thing. Log it by
+hand, per the n=1 answer in [attribution-and-measurement](attribution-and-measurement.md) ⭐.
+
+**Platforms treat the same mechanic differently. Check before you automate it.** LinkedIn's own
+feed announcement (2026-03-12, news.linkedin.com) names *"'comment to agree' prompts"* as
+engagement bait it is reducing, and says it acts against comment automation and engagement pods.
+X's automation rules (help.x.com) returned a bot challenge on a 2026-10-17 fetch and are
+unverified here. Read each platform's current policy before scripting DM delivery.
+
+## 7. What is still folklore here
 
 This area was the thinnest slice of the research this pack drew on — general queries collided with
 unrelated AI-tooling promotional volume more than in any other channel. Name the gaps rather than
 paper over them: short-video repurposing workflows, owned-vs-rented community sizing rules, and any
 DevRel-impact-measurement claim with real numbers behind it were thin-to-absent in this pass. Where a
 number circulates confidently in practitioner content with no traceable primary source behind it
-(subscriber-growth claims, "ideal community size" heuristics, DevRel ROI figures), treat it as
+(subscriber-growth and "followers in N days" claims, "ideal community size" heuristics, DevRel ROI
+figures, good/great/exceptional engagement-benchmark tables for a follower band, connection-count
+visibility thresholds), treat it as
 folklore worth testing at your own scale, not as an established benchmark to cite.
 
 ## Validation
@@ -124,12 +158,16 @@ folklore worth testing at your own scale, not as an established benchmark to cit
 - Any framework cited (Orbit) carries its maintenance status, not just its structure.
 - No folklore number (reach-decline %, "ideal" community size, DevRel ROI) ships without being
   flagged as folklore.
+- A comment-gate plan names the owned channel the DM hands off to and the count past replies that
+  decides whether it worked, and has checked the platform's current automation/engagement policy.
 
 ## Failure modes and handoff
 - **The request wants a brand-account content calendar as the primary organic channel** → flag §1
   first; a founder/personal account or an owned community is the better-evidenced bet.
 - **The audience is developers and the plan reads as a sales pitch** → redirect to docs/tutorials/
   open-source per §3; DevRel corrects a sales-first instinct, it doesn't relabel it.
+- **A gate's reply count is being reported as leads** → §6; replies are engagement, and the number
+  that matters is what reached an owned channel.
 - **The request is for short-video or content-repurposing workflow detail** →
   [content-strategy](content-strategy.md).
 - **The question is measuring an existing community's engagement or retention** → `growth` or
