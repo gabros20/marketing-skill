@@ -173,9 +173,10 @@ not legal advice: get legal review before any outbound AI-calling campaign. Prim
 **The consent record is the evidence:** per number, who consented, when, the exact disclosure
 wording, the seller named, the revocation channels offered, and every revocation with channel and
 timestamp. The call itself — opening, opt-out, transfer to a human — is `sales` practice
-(`references/outbound-and-prospecting.md`); agent mechanics are `ai`'s
-`references/surface-voice.md`. Inbound AI support lines → `success`
-`references/ai-support-policy.md`.
+(`references/outbound-and-prospecting.md`, "The AI-outbound disclosure rule"); agent mechanics are
+`ai`'s (`references/surface-voice.md`, "Guardrails on a call"). Inbound AI support lines →
+`success` `references/ai-support-policy.md`, "AI voice support lines: disclose first, keep a person
+reachable".
 
 ## 5. Transactional/marketing stream separation
 
