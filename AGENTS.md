@@ -36,8 +36,8 @@ plans, and measurement specs — **no production code**. It does **not** own:
   deterministic envelope around a marketing action, not the model's reasoning)
 - the campaign workflow itself — triggers, sequences, cross-system sync → **automation**
 
-`growth`, `sales`, and `success` are named seams this pack draws against but are not yet shipped
-repositories in this family; do not imply they exist as installable packs.
+`growth`, `sales`, and `success` are shipped packs in this family; name them as installable
+siblings when routing work across these seams.
 
 `marketing` consumes upstream artifacts (a JTBD brief from `product`, an NFR budget from
 `architecture`) when they exist, works standalone when they don't, recommends siblings for work it

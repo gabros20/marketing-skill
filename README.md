@@ -148,8 +148,8 @@ Copy is delivered as copy, requirements as requirements — never as production 
 what got shaped, built, verified, and shipped into market demand. It does not own the site's code
 or the tracking pixel (`frontend`/`backend`), page composition or in-product voice (`design`),
 pricing tiers or JTBD discovery (`product`), the analytics pipeline or the warehouse (`data`),
-running an experiment and reading its result (`growth`, not yet shipped), pipeline and cold outbound
-(`sales`, not yet shipped), onboarding and retention (`success`, not yet shipped), a model's
+running an experiment and reading its result (`growth`), pipeline and cold outbound (`sales`),
+onboarding and retention (`success`), a model's
 prompts or evals (`ai`), the campaign workflow's triggers and sync mechanics (`automation`),
 auditing a live site (`quality`), or deploying anything (`operate`). It consumes upstream artifacts
 — a JTBD brief from `product`, an NFR budget from `architecture` — when they're supplied, works

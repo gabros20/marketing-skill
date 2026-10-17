@@ -7,8 +7,9 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 
 ## [Unreleased]
 
-### Added
-- Queue unreleased changes here.
+### Fixed
+- `AGENTS.md`, `README.md`, and the site's family strip no longer call `growth`, `sales`, and
+  `success` unshipped; the site links all three packs.
 
 ## [0.3.0] — 2026-10-17
 
