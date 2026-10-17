@@ -124,50 +124,55 @@ list by recipient jurisdiction before deciding whether an address may be emailed
 ### Outbound AI-voice calls are automated calls
 
 A synthetic voice on an outbound call is an artificial-voice call in the US by ruling and, on the
-conservative reading, an automated call elsewhere — never a live one. Decide the consent basis per
-called party's jurisdiction before dialling, as for a send list.
-Engineering guidance, not legal advice: get legal review before any outbound AI-calling campaign.
-Primary texts re-read 2026-10-17; re-verify each before launch.
+conservative reading, an automated call elsewhere — never assume a live one. Decide the consent
+basis per called party's jurisdiction before dialling, as for a send list. Engineering guidance,
+not legal advice: get legal review before any outbound AI-calling campaign. Primary texts re-read
+2026-10-17; re-verify each before launch.
 
 - **US → prior express consent; written for telemarketing.** FCC Declaratory Ruling 24-17
-  (released 2024-02-08, docs.fcc.gov/public/attachments/FCC-24-17A1.pdf ¶5 and n.13): the TCPA's
-  "artificial or prerecorded voice" covers AI-generated and cloned voices, so every such call needs
-  prior express consent, and prior express *written* consent when it carries an advertisement or
-  telemarketing (47 CFR 64.1200(a)(2)–(3); definition at (a)(9)). Per 64.1200(b) (eCFR, current to
-  2026-10-15) the call states the registered business identity at the beginning and gives a
-  callback number; for telemarketing it offers an automated voice or key-press opt-out within two
-  seconds of that identification, which records the do-not-call request and ends the call.
-  Revocation "by using any reasonable method" — the on-call opt-out is reasonable per se — is
-  honored within ten business days, and the caller "may not designate an exclusive means"
-  ((a)(10)). Solicitation stays inside 8 a.m.–9 p.m. at the called party's location and off the
-  National Do-Not-Call Registry ((c)).
+  (released 2024-02-08, docs.fcc.gov/public/attachments/FCC-24-17A1.pdf ¶5, n.13, ¶9): the TCPA's
+  "artificial or prerecorded voice" covers AI-generated and cloned voices, so such a call needs
+  prior express consent, absent an emergency purpose or a 64.1200(a)(3) exemption, and prior
+  express *written* consent when it carries an advertisement or telemarketing (47 CFR
+  64.1200(a)(2)–(3); definition at (a)(9)). An AI that greets and then transfers to a human is
+  still such a call; whether an AI can be the "live sales representative" of the abandonment rule
+  is open → counsel. Per 64.1200(b) (eCFR, current to 2026-10-15) the call states the registered
+  business identity at the beginning and gives a callback number; for telemarketing it offers an
+  automated voice or key-press opt-out within two seconds of that identification, which records
+  the do-not-call request and ends the call, and a message left on voicemail carries a toll-free
+  number reaching the same opt-out. Revocation "by using any reasonable method" — the on-call
+  opt-out is reasonable per se — is honored within ten business days, and the caller "may not
+  designate an exclusive means" ((a)(10)). Solicitation stays inside 8 a.m.–9 p.m. at the called
+  party's location and off the National Do-Not-Call Registry ((c)).
 - **US states add disclosure on top.** California Pub. Util. Code §2874, as amended by AB 2905 (in
   effect 2025-01-01), requires an unrecorded, natural-voice announcement before an automatic
   dialing-announcing device plays, which must "Inform the person called if the prerecorded message
-  uses an artificial voice" (read via the california.public.law mirror; leginfo blocked the fetch). More state AI-disclosure
-  statutes arrive through 2027 — check the called party's state at launch, not a vendor's map.
-- **EU/EEA → opt-in.** ePrivacy Art. 13(1) allows "automated calling and communication systems
-  without human intervention (automatic calling machines)" for direct marketing "only in respect of
-  subscribers or users who have given their prior consent"; the member-state transposition note
-  above applies.
+  uses an artificial voice" (california.public.law mirror; leginfo blocked the fetch). More state
+  AI-disclosure statutes arrive through 2027 — check the called party's state at launch, not a
+  vendor's map.
+- **EU/EEA → opt-in.** ePrivacy Art. 13(1) (eur-lex.europa.eu, CELEX 02002L0058-20091219) allows
+  "automatic calling machines" for direct marketing "only in respect of subscribers or users who
+  have given their prior consent"; the member-state transposition note above applies.
 - **UK → opt-in, consent specific to automated calls.** PECR reg. 19 bars recorded-matter direct
   marketing by an automated calling system — one transmitting "sounds which are not live speech" —
-  without prior notified consent. The ICO's telephone-marketing guidance adds that general or
-  live-call consent "is not enough – it must specifically cover automated calls," and that every
-  automated call carries the caller's name and a contact address or freephone number; the ICO marks
-  that page under review after the Data (Use and Access) Act. Whether a generated voice is "recorded
-  matter" is not settled in the texts read here, so the live-call route (opt-out plus TPS screening) is not available to an AI
-  agent unless counsel says so.
-- **Hungary → opt-in.** Grt. 6. § (1) (njt.hu): advertising by direct contact with a natural person,
-  "in particular" by email or an equivalent individual communication tool, needs prior,
-  unambiguous and express consent ("előzetesen egyértelműen és kifejezetten"); under (3) it is
-  revocable at any time, free and without reasons, and the person's data is deleted at once. Whether
-  a phone call is such a tool, and how the electronic-communications act's automated-calling rule
-  interacts (not re-read here), is a question for Hungarian counsel.
+  without prior notified consent, and requires the calling line's identity or a contactable line to
+  be presented (19(2)(b)). The ICO adds that general or live-call consent "is not enough – it must
+  specifically cover automated calls," and that every automated call gives the caller's name and a
+  contact address or freephone number (ICO telephone-marketing guidance, under review post-DUAA).
+  Whether a generated voice is "recorded matter" is not settled in the texts read here, so the
+  live-call route (opt-out plus TPS screening) is not available to an AI agent unless counsel says
+  so.
+- **Hungary → opt-in.** Grt. (2008. évi XLVIII. tv.) 6. § (1) (njt.hu): advertising by direct
+  contact with a natural person, "in particular" by email or an equivalent individual
+  communication tool, needs prior, unambiguous and express consent ("előzetesen egyértelműen és
+  kifejezetten"); under (3) it is revocable at any time, free and without reasons, and the
+  person's data is deleted at once; under (6) revocation must be possible by post and by email.
+  Whether a phone call is such a tool, and how the electronic-communications act's automated-calling
+  rule interacts (not re-read here), is a question for Hungarian counsel.
 
 **The consent record is the evidence:** per number, who consented, when, the exact disclosure
-wording, the seller named, and every revocation with channel and timestamp. The call itself —
-opening, opt-out, transfer to a human — is `sales` practice
+wording, the seller named, the revocation channels offered, and every revocation with channel and
+timestamp. The call itself — opening, opt-out, transfer to a human — is `sales` practice
 (`references/outbound-and-prospecting.md`); agent mechanics are `ai`'s
 `references/surface-voice.md`. Inbound AI support lines → `success`
 `references/ai-support-policy.md`.

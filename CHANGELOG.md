@@ -14,7 +14,10 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   automated opt-out, ten-business-day revocation, calling hours; California §2874's artificial-voice
   disclosure), EU/EEA (ePrivacy Art. 13 opt-in), UK (PECR reg. 19 opt-in with automated-call-specific
   consent) and Hungary (Grt. 6. § opt-in). Primary texts re-read 2026-10-17; legal review required
-  before any campaign; per-number consent record as the evidence.
+  before any campaign; per-number consent record (including revocation channels offered) as the
+  evidence. Covers the emergency/exemption qualifier, greet-then-transfer as still an artificial-voice
+  call, the voicemail toll-free opt-out, PECR 19(2)(b) caller-line identity, and Grt. 6. § (6)
+  post-and-email revocation; ePrivacy cited to EUR-Lex.
 - Router row, `sales` handoff row, SOURCES row, and one traversal eval reach the AI-voice consent rule.
 
 ## [0.2.0] — 2026-10-17
