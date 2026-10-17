@@ -8,6 +8,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
+- Queue unreleased changes here.
+
+## [0.3.0] — 2026-10-17
+
+### Added
 - [lifecycle-and-email](skills/marketing/references/lifecycle-and-email.md) §4 gains "Outbound
   AI-voice calls are automated calls": the consent basis for an AI voice agent's outbound calls by
   jurisdiction — US (FCC 24-17 artificial voice; 47 CFR 64.1200 consent tiers, identification,
@@ -69,5 +74,6 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   volatile platform fact (store limits, spam thresholds, penalty amounts) ships with an as-of date
   and a re-verify pointer instead of being presented as permanent.
 
+[0.3.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.3.0
 [0.2.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.2.0
 [0.1.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.1.0
