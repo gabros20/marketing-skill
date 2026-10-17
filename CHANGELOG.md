@@ -7,6 +7,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 
 ## [Unreleased]
 
+### Added
+- Queue unreleased changes here.
+
+## [0.3.1] — 2026-10-17
+
 ### Fixed
 - `AGENTS.md`, `README.md`, and the site's family strip no longer call `growth`, `sales`, and
   `success` unshipped; the site links all three packs.
@@ -75,6 +80,7 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   volatile platform fact (store limits, spam thresholds, penalty amounts) ships with an as-of date
   and a re-verify pointer instead of being presented as permanent.
 
+[0.3.1]: https://github.com/gabros20/marketing-skill/releases/tag/v0.3.1
 [0.3.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.3.0
 [0.2.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.2.0
 [0.1.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.1.0
