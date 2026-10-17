@@ -90,5 +90,19 @@
       "references/surface-agentic.md"
     ],
     "notes": "The profile is treated as the account's landing page: organic-social carries the founder-account mechanics, positioning carries the one-surface lead-claim rule, and the zero-audience overlay carries proof without customers. No ad spend, AI-search, or model-authored action is in scope."
+  },
+  {
+    "id": "ai-voice-call-consent-reads-lifecycle",
+    "prompt": "We want an AI voice agent to call our trial signups in the US, UK and Hungary to book demos. What consent do we need before it dials?",
+    "expected_references": [
+      "references/lifecycle-and-email.md",
+      "references/audience-and-segmentation.md"
+    ],
+    "forbidden_references": [
+      "references/paid-acquisition.md",
+      "references/seo-strategy.md",
+      "references/ai-search.md"
+    ],
+    "notes": "The consent basis for outbound AI-voice calls lives in lifecycle-and-email §4's AI-voice rule (artificial voice under the TCPA, PECR reg. 19, Grt. 6. §), segmented by jurisdiction per audience-and-segmentation. The answer names legal review and routes call craft to `sales` and agent mechanics to `ai`."
   }
 ]

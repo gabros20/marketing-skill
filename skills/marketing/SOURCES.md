@@ -70,6 +70,7 @@ use:
 | `aaron-marketing-skills` | Apache-2.0 | The citability-vs-surfacing distinction |
 | IETF RFCs (8058, 9989/9990/9991) | IETF Trust, freely quotable | Sender-authentication and one-click-unsubscribe mechanics |
 | EU/UK/US/Canada legal texts (ePrivacy Art. 13, PECR reg. 22, CAN-SPAM, CASL, 16 CFR §255.5, Part 465) | Public legal texts | The four consent regimes and disclosure requirements |
+| AI-voice calling texts (FCC 24-17, 47 CFR 64.1200, Cal. Pub. Util. Code §2874, PECR reg. 19 and ICO telephone-marketing guidance, Hungarian Grt. 6. §) | Public legal texts and regulator guidance | Outbound AI-voice calls as automated calls, re-read 2026-10-17 |
 | schema.org vocabulary | Apache-2.0 | Structured-data type existence |
 
 **(2) Facts-only, no verbatim** — sources with no licence, an ambiguous licence, or a `NOASSERTION`

@@ -8,7 +8,14 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- [lifecycle-and-email](skills/marketing/references/lifecycle-and-email.md) §4 gains "Outbound
+  AI-voice calls are automated calls": the consent basis for an AI voice agent's outbound calls by
+  jurisdiction — US (FCC 24-17 artificial voice; 47 CFR 64.1200 consent tiers, identification,
+  automated opt-out, ten-business-day revocation, calling hours; California §2874's artificial-voice
+  disclosure), EU/EEA (ePrivacy Art. 13 opt-in), UK (PECR reg. 19 opt-in with automated-call-specific
+  consent) and Hungary (Grt. 6. § opt-in). Primary texts re-read 2026-10-17; legal review required
+  before any campaign; per-number consent record as the evidence.
+- Router row, `sales` handoff row, SOURCES row, and one traversal eval reach the AI-voice consent rule.
 
 ## [0.2.0] — 2026-10-17
 
