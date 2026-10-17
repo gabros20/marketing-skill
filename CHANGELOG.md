@@ -8,6 +8,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
+- Queue unreleased changes here.
+
+## [0.2.0] — 2026-10-17
+
+### Added
 - Practitioner fold for founder-led and solo distribution:
   [organic-social-and-community](skills/marketing/references/organic-social-and-community.md) §6
   treats the founder profile as the account's landing page. It also covers what a comment gate's
@@ -54,4 +59,5 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   volatile platform fact (store limits, spam thresholds, penalty amounts) ships with an as-of date
   and a re-verify pointer instead of being presented as permanent.
 
+[0.2.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.2.0
 [0.1.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.1.0
