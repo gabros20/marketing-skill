@@ -8,6 +8,11 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
+- Queue unreleased changes here.
+
+## [0.4.0] — 2026-11-19
+
+### Added
 - SKILL.md **Standalone context check** (before routing): the family's common core (look first,
   size it, ask at most four owner-only questions with recommended answers, decide as the expert,
   never block, record in the LEDGER) and four marketing questions (who buys and what they use
@@ -90,6 +95,7 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
   volatile platform fact (store limits, spam thresholds, penalty amounts) ships with an as-of date
   and a re-verify pointer instead of being presented as permanent.
 
+[0.4.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.4.0
 [0.3.1]: https://github.com/gabros20/marketing-skill/releases/tag/v0.3.1
 [0.3.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.3.0
 [0.2.0]: https://github.com/gabros20/marketing-skill/releases/tag/v0.2.0
