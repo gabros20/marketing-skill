@@ -19,50 +19,63 @@ and who it's for, in words a buyer believes. The launch. Being found — in sear
 app store, someone else's newsletter. The page that converts the visit. The email that arrives. The
 ad budget, and whether it did anything.
 
-The scope is the full external-demand surface — positioning, audience, launch, SEO, AI search,
-content, landing pages, email and lifecycle, paid, social and community, partnerships and PR, app
-store optimization, and measurement — across every place demand actually happens: search and AI
-answer engines, inboxes, ad platforms, app stores, launch platforms, integration marketplaces.
-Those platforms are the terrain, never the subject — the techniques are the same; the surfaces say
-how each one reshapes.
-
-**What makes this pack different: it grades its own evidence.** Marketing's canon mixes
-decades-replicated empirical law with heuristics repeated until they sounded measured. So every
-claim here carries its tier and the point where it stops applying, every
-volatile platform fact carries an as-of date and the check that re-verifies it, and the flagship
+**What makes this pack different: it grades its own evidence.** Every
+claim here carries its tier and the point where it stops applying, and the flagship
 job — [attribution-and-measurement](references/attribution-and-measurement.md) ⭐ — answers the
 question the rest of the field avoids: *what actually happened, and what can you honestly know at
 your scale?* Often it's "less than the dashboard claims" — and saying so is the job.
 
 **The default reader is one person building a digital product**, with a small budget and no
-analytics team — not a simplification of enterprise practice, but a change in the answers: platform
-attribution over-claims by construction, a valid lift test needs scale almost nobody has, and
+analytics team — not a simplification of enterprise practice, but a change in the answers: a valid lift test needs scale almost nobody has, and
 marketing-mix modelling needs years of weekly data. What remains at that scale is real, and this
 pack teaches it instead of pretending the enterprise toolkit scales down.
 
 `marketing` writes copy, requirements, briefs, plans, and measurement specs — **no production
 code**; see "Not this skill" below.
 
-Operate independently when invoked alone. When compatible upstream artifacts are provided, use them
-without silently overriding established decisions. Recommend adjacent skills when useful; do not
-invoke them automatically unless the user explicitly requested a composition workflow.
+Operate independently when invoked alone; use compatible upstream artifacts without silently
+overriding their decisions. Recommend adjacent skills; never invoke them unless the user asked for a
+composition workflow.
+
+## Standalone context check
+
+Before producing anything the user will have to live with:
+1. **Look first.** Read `digital-product/LEDGER.md` (Context), `digital-product/<pack>/`, upstream
+   artifacts, the repo and this conversation. A fact found is never asked; a fact recorded is never
+   re-asked.
+2. **Size it.** Reversible and small → proceed, stating assumptions. New, costly or hard to undo →
+   check.
+3. **Ask only what the owner alone knows**, in their words: one round, at most four, highest
+   leverage first, each with a recommended answer ("ok" accepts all). Two rounds at most.
+4. **No or thin answers → decide as the expert.** Record each assumption with its basis and cost to
+   reverse; prefer the reversible option; show the cheapest proof early.
+5. **No way to ask → never block.** Proceed, and open the artifact with the assumptions and the
+   answers that would change it most.
+6. **Write it down.** Answers and assumptions go to the LEDGER's Context block.
+
+This pack's questions:
+1. Who buys, and what do they use instead today? (This feeds
+   [Positioning and messaging](references/positioning-and-messaging.md) "Dunford's five components
+   (craft, not science)".)
+2. What proof do you have — customers, numbers, quotes, a demo? (Recommended: claim only what you
+   can show.)
+3. What can you spend and use: money, time, an email list, a following? (Recommended: start where
+   an audience already exists.)
+4. In which countries are the people you will email or message? (Recommended: settle consent per
+   country before any send.)
 
 ## Route before acting
 
-1. Identify the **one primary job** and the **one base surface**. Read one of each. **If the request
-   names no business model, do not stall** — assume the default surface (self-serve SaaS) and say
-   which you assumed. Many questions (what to claim, which consent regime applies) are
-   surface-independent.
+1. Identify the **one primary job** and the **one base surface**. Read one of each. **No business
+   model named → do not stall:** assume self-serve SaaS and say so.
 2. Add **additive overlays on top of** a base surface, never instead of one:
    [surface-zero-audience](references/surface-zero-audience.md) when there is no list, following,
    or customer base yet, and [surface-agentic](references/surface-agentic.md) when a model authors
    or decides a marketing action at scale.
 3. Read [marketing-science](references/marketing-science.md) whenever a claim invokes "brand
-   science" or a named statistic — it grades the claim so the other references need not re-derive it.
-4. **Re-verify anything volatile before using it.** Store limits, spam thresholds, crawler policies,
-   rich-result support, platform guidelines and penalty amounts all move with no notice to you.
-5. Read every selected reference completely before producing the affected artifact.
-6. Do not load unrelated references.
+   science" or a named statistic — it grades the claim.
+4. Read every selected reference completely before producing the affected artifact; load nothing
+   unrelated.
 
 ### Jobs
 
@@ -112,11 +125,9 @@ Emitting for downstream work → [handoff](references/handoff.md).
 | A model's prompts, retrieval, or output evaluation | `ai`. The agentic overlay owns only the deterministic envelope around a marketing action |
 | Building the campaign workflow itself — triggers, sequences, cross-system sync | `automation` |
 
-**The AARRR note.** A practitioner who knows acquisition → activation → retention → referral →
-revenue will notice this pack covers acquisition and stops — a deliberate seam, not a gap.
-**AARRR spans three packs**: `marketing` owns acquisition, `growth` owns the experiments that
-improve conversion across the funnel, `success` owns retention. Read the boundaries as where
-responsibility for each letter moved, not as territory this pack failed to claim.
+**The AARRR note.** This pack covers acquisition and stops — a seam, not a gap. **AARRR spans
+three packs**: `marketing` owns acquisition, `growth` the experiments that improve conversion across
+the funnel, `success` retention.
 
 ## Universal invariants
 
@@ -130,8 +141,8 @@ responsibility for each letter moved, not as territory this pack failed to claim
 - **Platform-reported is not incremental.** A dashboard number answers "what fired last," never
   "would this have happened anyway." Never let the two be reported as the same fact.
 - **Date-stamp every volatile fact and ship the check that re-verifies it** — teach the check, not
-  the list. Store limits, spam thresholds, crawler policies, supported rich results and platform
-  guidelines change with no deploy on your side.
+  the list. Store limits, spam thresholds, crawler policies, supported rich results, platform
+  guidelines and penalty amounts change with no deploy on your side; re-verify before use.
 - **Specimen vs. evidence.** Name the interest of anyone selling what they measure, including when
   it makes their claim stronger. A vendor aggregate is evidence about a pattern and simultaneously a
   specimen of the genre that sells the service.
@@ -166,19 +177,14 @@ boundary of any law or statistic it cites · an as-of date and re-verify pointer
 platform fact · the consent basis, if anything gets sent · the measurement method and what that
 method **cannot** answer · and the sibling packs it hands to or depends on.
 
-Copy is delivered as copy. Requirements are delivered as requirements. Neither is delivered as
-production code.
-
 ## Completion and handoff
 
 Before completion:
 
 - Confirm every requested artifact exists and every claim in it has a proof source — "trust us" is
   not a finished line.
-- Confirm no volatile fact travels without its date and its re-verify check.
 - Distinguish what was verified against a live primary source from what is assumed, folklore, or one
   practitioner's self-reported result.
-- State plainly what this work will and will not be able to prove.
 - When downstream work is expected, provide artifact paths, owners, residual risk, and a recommended
   next skill — typically `design` and `frontend` to build the page, `data` to instrument the
   measurement, or `growth` to test a hypothesis marketing proposed.

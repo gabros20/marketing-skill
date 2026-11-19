@@ -8,7 +8,17 @@ The release procedure synchronizes `.codex-plugin/plugin.json`, this changelog, 
 ## [Unreleased]
 
 ### Added
-- Queue unreleased changes here.
+- SKILL.md **Standalone context check** (before routing): the family's common core (look first,
+  size it, ask at most four owner-only questions with recommended answers, decide as the expert,
+  never block, record in the LEDGER) and four marketing questions (who buys and what they use
+  instead, proof on hand, what can be spent and used, which countries recipients are in); the first
+  feeds `positioning-and-messaging.md` "Dunford's five components (craft, not science)". Offset so
+  SKILL.md does not grow (3708 → 3708): cut the mission's scope list (the Jobs and Surfaces tables)
+  and its two sentences restating invariants, route step 4 (folded into the date-stamp invariant,
+  which now also names penalty amounts and "re-verify before use"), the surface-independence aside,
+  the artifact contract's no-code sentence and two completion bullets restating the invariants; the
+  AARRR note, standalone sentence, route steps 1, 3 and 5–6 tightened. Output eval
+  `standalone-context-check`.
 
 ## [0.3.1] — 2026-10-17
 

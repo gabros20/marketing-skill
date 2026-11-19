@@ -69,5 +69,15 @@
       "If proposing free pilots to earn first testimonials, requires disclosure of the material connection and an honest-review ask, never a positive one",
       "Does not present an employer's or studio's client work as the founder's own"
     ]
+  },
+  {
+    "id": "standalone-context-check",
+    "prompt": "Write a marketing plan for the launch of my time-tracking app.",
+    "assertions": [
+      "Before planning it reads any digital-product/LEDGER.md Context, upstream positioning or product artifacts and the conversation, and asks nothing already answered there.",
+      "It asks at most four questions in one round (for example who buys and what they use instead, what proof exists, what can be spent and used, which countries recipients are in), each with a recommended answer — or, if it cannot ask, proceeds on the self-serve SaaS default and opens the plan with the assumptions that would change it most.",
+      "It makes no claim the stated or assumed proof cannot back, and settles the consent basis per country before any email or message is planned.",
+      "Answers and assumptions are recorded in the LEDGER's Context block, each assumption with its basis and cost to reverse."
+    ]
   }
 ]
