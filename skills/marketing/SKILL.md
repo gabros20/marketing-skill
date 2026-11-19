@@ -53,16 +53,16 @@ Before producing anything the user will have to live with:
    answers that would change it most.
 6. **Write it down.** Answers and assumptions go to the LEDGER's Context block.
 
-This pack's questions:
-1. Who buys, and what do they use instead today? (This feeds
+This pack's questions (a pool — ask the top four that step 1 left open):
+1. Who buys, and what do they use instead today? (Feeds
    [Positioning and messaging](references/positioning-and-messaging.md) "Dunford's five components
    (craft, not science)".)
-2. What proof do you have — customers, numbers, quotes, a demo? (Recommended: claim only what you
-   can show.)
-3. What can you spend and use: money, time, an email list, a following? (Recommended: start where
-   an audience already exists.)
-4. In which countries are the people you will email or message? (Recommended: settle consent per
-   country before any send.)
+2. What proof exists — customers, numbers, quotes, a demo? (Recommended: claim only what you can
+   show.)
+3. What can you spend: money, time, an email list, a following? (Recommended: start where
+   an audience exists.)
+4. Which countries will your emails and messages reach? (Recommended: settle consent per country
+   first.)
 
 ## Route before acting
 
